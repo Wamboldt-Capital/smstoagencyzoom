@@ -7,40 +7,31 @@ jobs:
   dump:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout repo
+        uses: actions/checkout@v4
 
-      - uses: actions/setup-python@v5
+      - name: Setup Python
+        uses: actions/setup-python@v5
         with:
           python-version: "3.11"
 
-      - name: Install deps
+      - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: "Preflight: verify secrets exist"
+      - name: Preflight check for secrets
         shell: bash
         env:
           AGENCY_ZOOM_USERNAME: ${{ secrets.AGENCY_ZOOM_USERNAME }}
           AGENCY_ZOOM_PASSWORD: ${{ secrets.AGENCY_ZOOM_PASSWORD }}
         run: |
-          if [[ -z "${AGENCY_ZOOM_USERNAME}" || -z "${AGENCY_ZOOM_PASSWORD}" ]]; then
+          if [[ -z "$AGENCY_ZOOM_USERNAME" || -z "$AGENCY_ZOOM_PASSWORD" ]]; then
             echo "::error:: Missing AGENCY_ZOOM_USERNAME or AGENCY_ZOOM_PASSWORD secrets."
             exit 1
           fi
-          echo "Secrets present"
+          echo "✅ Secrets verified"
 
-      - name: "Run debug dump (~50 newest)"
+      - name: Run debug dump (~50 newest)
         shell: bash
         env:
           AGENCY_ZOOM_USERNAME: ${{ secrets.AGENCY_ZOOM_USERNAME }}
           AGENCY_ZOOM_PASSWORD: ${{ secrets.AGENCY_ZOOM_PASSWORD }}
-          # Optional if you switch to mine-mode:
-          # AGENCY_ZOOM_USER_ID: ${{ secrets.AGENCY_ZOOM_USER_ID }}
-
-          # Debug-friendly defaults
-          TOTAL_LIMIT: "50"               # newest messages cap
-          TEXT_FILTER_MODE: "all"         # pull everyone’s threads for debugging
-          FORCE_BACKFILL_MINUTES: "10080" # 7-day lookback if no cursor
-          SAVE_RAW_PER_PAGE: "0"          # set to "1" to also save raw API pages
-        run: python az_sms_debug_dump.py
-
-      - name: U
