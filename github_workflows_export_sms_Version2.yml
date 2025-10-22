@@ -1,0 +1,38 @@
+name: Export AgencyZoom SMS
+
+on:
+  schedule:
+    - cron: "0 * * * *" # runs hourly; change to your needs
+  workflow_dispatch: # manual trigger
+
+jobs:
+  export-sms:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests
+
+      - name: Run export script
+        env:
+          AGENCYZOOM_USERNAME: ${{ secrets.AGENCYZOOM_USERNAME }}
+          AGENCYZOOM_PASSWORD: ${{ secrets.AGENCYZOOM_PASSWORD }}
+        run: |
+          python agencyzoom_sms_export.py
+
+      - name: Commit SMS export file
+        run: |
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "github-actions[bot]"
+          git add agencyzoom_sms_export.txt
+          git commit -m "Update SMS export [skip ci]" || echo "No changes to commit"
+          git push
