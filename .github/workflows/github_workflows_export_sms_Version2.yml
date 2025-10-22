@@ -24,8 +24,8 @@ jobs:
 
       - name: Run export script
         env:
-          AGENCYZOOM_USERNAME: ${{ secrets.AGENCYZOOM_USERNAME }}
-          AGENCYZOOM_PASSWORD: ${{ secrets.AGENCYZOOM_PASSWORD }}
+          AGENCY_ZOOM_USERNAME: ${{ secrets.AGENCY_ZOOM_USERNAME }}
+          AGENCY_ZOOM_PASSWORD: ${{ secrets.AGENCY_ZOOM_PASSWORD }}
         run: |
           python agencyzoom_sms_export.py
 
