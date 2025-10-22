@@ -16,18 +16,28 @@ jobs:
       - name: Install deps
         run: pip install -r requirements.txt
 
+      - name: Preflight: verify secrets exist
+        env:
+          AGENCY_ZOOM_USERNAME: ${{ secrets.AGENCY_ZOOM_USERNAME }}
+          AGENCY_ZOOM_PASSWORD: ${{ secrets.AGENCY_ZOOM_PASSWORD }}
+        run: |
+          if [ -z "${AGENCY_ZOOM_USERNAME}" ] || [ -z "${AGENCY_ZOOM_PASSWORD}" ]; then
+            echo "::error:: Missing AGENCY_ZOOM_USERNAME or AGENCY_ZOOM_PASSWORD secrets."
+            exit 1
+          fi
+
       - name: Run debug dump (~50 newest)
         env:
           AGENCY_ZOOM_USERNAME: ${{ secrets.AGENCY_ZOOM_USERNAME }}
           AGENCY_ZOOM_PASSWORD: ${{ secrets.AGENCY_ZOOM_PASSWORD }}
-          # Optional if you ever switch TEXT_FILTER_MODE to "mine":
+          # Optional if you switch TEXT_FILTER_MODE to "mine":
           # AGENCY_ZOOM_USER_ID: ${{ secrets.AGENCY_ZOOM_USER_ID }}
 
-          # Debug-friendly defaults (safe to leave as-is)
-          TOTAL_LIMIT: "50"              # global cap of newest messages
-          TEXT_FILTER_MODE: "all"        # pull everyone’s threads for debugging
-          FORCE_BACKFILL_MINUTES: "10080" # 7-day lookback if no cursor exists
-          SAVE_RAW_PER_PAGE: "0"         # flip to 1 to save raw API pages
+          # Debug-friendly defaults
+          TOTAL_LIMIT: "50"               # global cap of newest messages
+          TEXT_FILTER_MODE: "all"         # pull everyone’s threads for debugging
+          FORCE_BACKFILL_MINUTES: "10080" # 7-day lookback if no cursor
+          SAVE_RAW_PER_PAGE: "0"          # flip to 1 to save raw API pages
         run: python az_sms_debug_dump.py
 
       - name: Upload artifacts
