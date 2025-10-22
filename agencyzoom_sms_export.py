@@ -1,13 +1,14 @@
 import requests
 import os
 
-AGENCYZOOM_USERNAME = os.environ["AGENCYZOOM_USERNAME"]
-AGENCYZOOM_PASSWORD = os.environ["AGENCYZOOM_PASSWORD"]
+AGENCYZOOM_USERNAME = os.environ["AGENCY_ZOOM_USERNAME"]
+AGENCYZOOM_PASSWORD = os.environ["AGENCY_ZOOM_PASSWORD"]
 
 def login_agencyzoom(username, password):
     url = "https://api.agencyzoom.com/v1/api/auth/login"
     data = {"username": username, "password": password}
     resp = requests.post(url, json=data)
+    print(resp.text)  # Debug output for login errors
     resp.raise_for_status()
     return resp.json()["jwt"]
 
