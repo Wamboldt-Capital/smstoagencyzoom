@@ -1,173 +1,10 @@
 ================================================================================
 SMS MESSAGES EXPORT
-Generated: 2025-10-24 06:49:18 UTC
-Total Messages: 20
+Generated: 2025-10-24 06:51:00 UTC
+Total Messages: 15
 ================================================================================
 
 MESSAGE #1
---------------------------------------------------------------------------------
-Date:    2025-10-19 17:27:37
-From:    Unknown
-Contact: Zhuroan "Jim" Yang
-ID:      154800562
-
-Message:
-Hi Noah, this is Jim. I wonder if my car has free roadside assistance? I have a flat tire
-
-================================================================================
-
-MESSAGE #2
---------------------------------------------------------------------------------
-Date:    2025-09-02 15:51:18
-From:    Unknown
-Contact: Zhuroan "Jim" Yang
-ID:      113892187
-
-Message:
-Thank you for choosing Ullrich Insurance! We hope you had a great experience with us. Would you mind taking a moment to leave us a quick Google review? Your feedback helps others find quality service they can trust.
-
-👉 http://bit.ly/reviewullrichongoogle
-We really appreciate your support!
-
-— The Ullrich Insurance Team
-
-================================================================================
-
-MESSAGE #3
---------------------------------------------------------------------------------
-Date:    2025-09-02 15:51:11
-From:    Unknown
-Contact: Zhuroan "Jim" Yang
-ID:      113892177
-
-Message:
-Hey, Jim! This is Noah with Ullrich Insurance. I just sent a detailed email to your email regarding your new insurance. Please read that email carefully and follow all instructions.
-
-================================================================================
-
-MESSAGE #4
---------------------------------------------------------------------------------
-Date:    2025-10-16 20:55:11
-From:    Unknown
-Contact: Ingrid &amp; Elvin Vachier
-ID:      154547416
-
-Message:
-Yes
-
-================================================================================
-
-MESSAGE #5
---------------------------------------------------------------------------------
-Date:    2025-10-16 18:17:35
-From:    Unknown
-Contact: Ingrid &amp; Elvin Vachier
-ID:      154544248
-
-Message:
-Hey Ingrid! Does Edrik have his own car and insurance in Arizona?
-
-================================================================================
-
-MESSAGE #6
---------------------------------------------------------------------------------
-Date:    2025-10-07 10:29:54
-From:    Unknown
-Contact: Ingrid &amp; Elvin Vachier
-ID:      152941443
-
-Message:
-Hey Ingrid & Elvin! We are so close to having this insurance review finished for you.  We are gathering the best insurances option from many companies, and we will have it done soon.  We will be in touch!  Jared Ullrich, Ullrich Insurance
-
-================================================================================
-
-MESSAGE #7
---------------------------------------------------------------------------------
-Date:    2025-10-02 10:48:44
-From:    Unknown
-Contact: Ingrid &amp; Elvin Vachier
-ID:      152256151
-
-Message:
-Hi Ingrid!  I noticed you still haven't scheduled a time to discuss your insurance. I'm more than happy to take some time to review your current situation and make sure you're in the best spot possible. When is a good time for us to chat? This process is VERY EASY.  Would you prefer to talk over the phone or do you want to fill out a form?
-
-================================================================================
-
-MESSAGE #8
---------------------------------------------------------------------------------
-Date:    2025-09-25 08:17:22
-From:    Unknown
-Contact: Ingrid &amp; Elvin Vachier
-ID:      151086300
-
-Message:
-Hi Ingrid! Thanks for checking out Dave Ramsey's Endorsed Local Provider program. This is Jared Ullrich from Ullrich Insurance Agency. I’m Dave’s ELP for home and auto insurance. I just wanted to send you a quick text to introduce myself. We will go to all our insurance companies to find your best option. We just need some information. Can you call our office or fill out this form? https://www.ullrichinsurance.com/full-insurance-review/ Thank you!
-
-================================================================================
-
-MESSAGE #9
---------------------------------------------------------------------------------
-Date:    2025-10-16 17:33:15
-From:    Unknown
-Contact: Sarath Dhulipalla & Kranthi Malasani
-ID:      154541516
-
-Message:
-Hi Noah, 
-
-Apologies for the delay. I will get back to you this weekend.
-
-================================================================================
-
-MESSAGE #10
---------------------------------------------------------------------------------
-Date:    2025-10-10 14:16:10
-From:    Unknown
-Contact: Sarath Dhulipalla & Kranthi Malasani
-ID:      153598617
-
-Message:
-Sounds good, thanks Sarath!
-
-================================================================================
-
-MESSAGE #11
---------------------------------------------------------------------------------
-Date:    2025-10-10 14:15:15
-From:    Unknown
-Contact: Sarath Dhulipalla & Kranthi Malasani
-ID:      153598446
-
-Message:
-Thanks Nova. Just received the quote. I will review it later today and will get back to you.
-
-================================================================================
-
-MESSAGE #12
---------------------------------------------------------------------------------
-Date:    2025-10-10 14:10:52
-From:    Unknown
-Contact: Sarath Dhulipalla & Kranthi Malasani
-ID:      153597598
-
-Message:
-Hey Sarath, this is Noah from Ullrich Insurance. I finished reviewing your insurance options and sent you an email with an update. Could you check to see if you received it?
-
-================================================================================
-
-MESSAGE #13
---------------------------------------------------------------------------------
-Date:    2025-10-09 17:24:22
-From:    Unknown
-Contact: Sarath Dhulipalla & Kranthi Malasani
-ID:      153430341
-
-Message:
-Hey Sarath and Kranthi! I got your options back today. I will go over them tomorrow and I will send you an update with the best option. Thanks! - Noah Wamboldt
-
-================================================================================
-
-MESSAGE #14
 --------------------------------------------------------------------------------
 Date:    2025-10-23 12:11:48
 From:    Unknown
@@ -179,7 +16,7 @@ My current auto insurance is due today.  I was wondering how it is coming.
 
 ================================================================================
 
-MESSAGE #15
+MESSAGE #2
 --------------------------------------------------------------------------------
 Date:    2025-10-22 10:30:17
 From:    Unknown
@@ -191,7 +28,7 @@ Thank you
 
 ================================================================================
 
-MESSAGE #16
+MESSAGE #3
 --------------------------------------------------------------------------------
 Date:    2025-10-22 10:25:33
 From:    Unknown
@@ -203,7 +40,7 @@ Hey Christine! We are so close to having this insurance review finished for you.
 
 ================================================================================
 
-MESSAGE #17
+MESSAGE #4
 --------------------------------------------------------------------------------
 Date:    2025-10-21 10:48:32
 From:    Unknown
@@ -215,7 +52,7 @@ I will go update the Camper info right away for my senior agent so that we can g
 
 ================================================================================
 
-MESSAGE #18
+MESSAGE #5
 --------------------------------------------------------------------------------
 Date:    2025-10-20 22:13:45
 From:    Unknown
@@ -228,7 +65,7 @@ Here is the VIN
 
 ================================================================================
 
-MESSAGE #19
+MESSAGE #6
 --------------------------------------------------------------------------------
 Date:    2025-10-23 10:29:34
 From:    Unknown
@@ -240,7 +77,7 @@ Hi Noah!  I noticed you still haven't scheduled a time to discuss your insurance
 
 ================================================================================
 
-MESSAGE #20
+MESSAGE #7
 --------------------------------------------------------------------------------
 Date:    2025-10-21 22:38:06
 From:    Unknown
@@ -249,6 +86,102 @@ ID:      155265176
 
 Message:
 test
+
+================================================================================
+
+MESSAGE #8
+--------------------------------------------------------------------------------
+Date:    2025-10-23 10:29:34
+From:    Unknown
+Contact: Clark Herlihy
+ID:      155568883
+
+Message:
+Hey Clark! We are so close to having this insurance review finished for you.  We are gathering the best insurances option from many companies, and we will have it done soon.  We will be in touch!  Jared Ullrich, Ullrich Insurance
+
+================================================================================
+
+MESSAGE #9
+--------------------------------------------------------------------------------
+Date:    2025-10-23 10:29:31
+From:    Unknown
+Contact: Jane Redd
+ID:      155568850
+
+Message:
+Hi Jane ! I'm just following up to make sure you saw the email and text that I sent you yesterday regarding next steps with your insurance. Did you see it? - Jared
+
+================================================================================
+
+MESSAGE #10
+--------------------------------------------------------------------------------
+Date:    2025-10-22 15:09:13
+From:    Unknown
+Contact: Jane Redd
+ID:      155443561
+
+Message:
+Hi Jane! Thanks for checking out Dave Ramsey's Endorsed Local Provider program. This is Jared Ullrich from Ullrich Insurance Agency. I’m Dave’s ELP for home and auto insurance. I just wanted to send you a quick text to introduce myself. We will go to all our insurance companies to find your best option. We just need some information. Can you call our office or fill out this form? https://www.ullrichinsurance.com/full-insurance-review/ Thank you!
+
+================================================================================
+
+MESSAGE #11
+--------------------------------------------------------------------------------
+Date:    2025-10-23 10:16:25
+From:    Unknown
+Contact: Lauren Forman
+ID:      155560884
+
+Message:
+Thank you!
+
+================================================================================
+
+MESSAGE #12
+--------------------------------------------------------------------------------
+Date:    2025-10-23 10:16:11
+From:    Unknown
+Contact: Lauren Forman
+ID:      155560764
+
+Message:
+Hi Carl, Justin's license number is 08-189-0630
+
+================================================================================
+
+MESSAGE #13
+--------------------------------------------------------------------------------
+Date:    2025-10-23 09:36:45
+From:    Unknown
+Contact: Lauren Forman
+ID:      155543745
+
+Message:
+Our office number is 303-425-7568. One of our service team members will most likely answer, and you can ask to speak with Carl.
+
+================================================================================
+
+MESSAGE #14
+--------------------------------------------------------------------------------
+Date:    2025-10-23 09:36:00
+From:    Unknown
+Contact: Lauren Forman
+ID:      155543489
+
+Message:
+Hi Carl, what is the best number to call you back on?
+
+================================================================================
+
+MESSAGE #15
+--------------------------------------------------------------------------------
+Date:    2025-10-23 09:34:18
+From:    Unknown
+Contact: Lauren Forman
+ID:      155542755
+
+Message:
+Hi Lauren! I tried calling for our appointment, and it went to voicemail. I've looked over the form that you sent in (Thank you for sending that, it was very helpful!) and I have a few additional questions to get the info we need to help find your best insurance option. Do you have time later today to answer those?
 
 ================================================================================
 
