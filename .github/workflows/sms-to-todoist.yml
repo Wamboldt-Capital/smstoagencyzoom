@@ -3,7 +3,7 @@ name: SMS → Todoist
 on:
   workflow_dispatch: {}          # manual run
   schedule:
-    - cron: "*/30 * * * *"       # every 30 minutes (adjust as you like)
+    - cron: "*/5 * * * *"        # every 5 minutes
 
 permissions:
   contents: write                # needed to commit the cache file
@@ -60,6 +60,7 @@ jobs:
           AZ_THREADS_PAGE_SIZE:  ${{ secrets.AZ_THREADS_PAGE_SIZE }}
           AZ_MSGS_PAGE_SIZE:     ${{ secrets.AZ_MSGS_PAGE_SIZE }}
           AZ_INBOUND_ONLY:       ${{ secrets.AZ_INBOUND_ONLY }}        # "1" to only process inbound messages
+          AZ_OUTBOUND_PHONE_NUMBER: ${{ secrets.AZ_OUTBOUND_PHONE_NUMBER }}  # your phone number for filtering
           AZ_SINCE_ISO:          ${{ secrets.AZ_SINCE_ISO }}          # e.g. 2025-10-01T00:00:00Z
           REQUEST_TIMEOUT_SECONDS: ${{ secrets.REQUEST_TIMEOUT_SECONDS }}
           DRY_RUN:               ${{ secrets.DRY_RUN }}                # "1" to test without creating tasks

@@ -4,6 +4,7 @@ from __future__ import annotations
 import json
 import os
 import time
+import uuid
 from datetime import datetime, timezone
 from typing import Any, Iterable, Optional
 
@@ -15,6 +16,7 @@ from requests.exceptions import HTTPError
 AZ_BASE = (os.getenv("AZ_BASE") or "https://api.agencyzoom.com").rstrip("/")
 AZ_API_BASE = f"{AZ_BASE}/v1"
 CACHE_FILE = ".sms_to_todoist_cache.json"
+DATA_CACHE_FILE = ".sms_data_cache.json"
 OUTPUT_FILE = os.getenv("SMS_OUTPUT_FILE", "sms_messages.txt")
 JSON_OUTPUT_FILE = os.getenv("SMS_JSON_OUTPUT_FILE", "sms_messages.json")
 REQUEST_TIMEOUT = int(os.getenv("REQUEST_TIMEOUT_SECONDS") or "30")
@@ -96,6 +98,26 @@ def save_cache(ids: Iterable[str]) -> None:
             json.dump({"seen_message_ids": sorted({str(i) for i in ids})}, fh, indent=2)
     except Exception as exc:  # pragma: no cover - best effort logging
         print(f"[warn] failed to write cache: {exc}")
+
+
+def load_data_cache() -> dict[str, Any]:
+    """Load cached thread and message data to avoid re-fetching."""
+    try:
+        with open(DATA_CACHE_FILE, "r", encoding="utf-8") as fh:
+            return json.load(fh)
+    except FileNotFoundError:
+        return {"threads": {}, "messages": {}}
+    except Exception:
+        return {"threads": {}, "messages": {}}
+
+
+def save_data_cache(data: dict[str, Any]) -> None:
+    """Save thread and message data for future runs."""
+    try:
+        with open(DATA_CACHE_FILE, "w", encoding="utf-8") as fh:
+            json.dump(data, fh, indent=2)
+    except Exception as exc:  # pragma: no cover - best effort logging
+        print(f"[warn] failed to write data cache: {exc}")
 
 
 def parse_iso(value: str) -> Optional[datetime]:
@@ -256,6 +278,74 @@ def todoist_create_task(token: str, content: str, project_id: Optional[str] = No
         return {}
 
 
+def todoist_batch_create_tasks(
+    token: str,
+    tasks: list[dict[str, str]],
+    project_id: Optional[str] = None,
+    section_id: Optional[str] = None
+) -> int:
+    """Create multiple Todoist tasks in a single API call using Sync API.
+
+    Args:
+        token: Todoist API token
+        tasks: List of task dicts, each with a "content" key
+        project_id: Optional Todoist project ID
+        section_id: Optional Todoist section ID
+
+    Returns:
+        Number of tasks successfully created
+    """
+    if not tasks:
+        return 0
+
+    # Build commands array for Sync API
+    commands = []
+    for task in tasks:
+        task_uuid = str(uuid.uuid4())
+        temp_id = str(uuid.uuid4())
+
+        args: dict[str, Any] = {"content": task["content"]}
+        if project_id:
+            args["project_id"] = project_id
+        if section_id:
+            args["section_id"] = section_id
+
+        commands.append({
+            "type": "item_add",
+            "uuid": task_uuid,
+            "temp_id": temp_id,
+            "args": args
+        })
+
+    url = "https://api.todoist.com/sync/v9/sync"
+    headers = {"Authorization": f"Bearer {token}", "Content-Type": "application/json"}
+    payload = {"commands": commands}
+
+    print(f"[todoist] batch creating {len(tasks)} tasks …")
+    response = _post_json(url, payload=payload, headers=headers)
+    print(f"[todoist] batch create status={response.status_code}")
+
+    if response.status_code in {429, 500, 502, 503, 504}:
+        wait_seconds = int(response.headers.get("Retry-After", "2"))
+        print(f"[todoist] retrying after {wait_seconds}s …")
+        time.sleep(wait_seconds)
+        response = _post_json(url, payload=payload, headers=headers)
+        print(f"[todoist] retry status={response.status_code}")
+
+    _raise_for_status(response, "Todoist batch create tasks")
+
+    try:
+        result = response.json()
+        # Sync API returns sync_status with command results
+        sync_status = result.get("sync_status", {})
+        successful = sum(1 for status in sync_status.values() if status == "ok")
+        print(f"[todoist] batch created {successful}/{len(tasks)} tasks")
+        return successful
+    except (ValueError, KeyError):
+        print(f"[todoist] batch created {len(tasks)} tasks (assuming success)")
+        return len(tasks)
+
+
 # -------- main flow --------
 
 def main() -> None:
@@ -286,27 +376,57 @@ def main() -> None:
     msgs_page = _int_env("AZ_MSGS_PAGE_SIZE", 5)
     dry_run = _bool_env("DRY_RUN", False)
     inbound_only = _bool_env("AZ_INBOUND_ONLY", False)
+    outbound_phone = os.getenv("AZ_OUTBOUND_PHONE_NUMBER", "").strip()
     since_iso = os.getenv("AZ_SINCE_ISO", "").strip()
     since_dt = parse_iso(since_iso) if since_iso else None
 
     token = az_login(username, password)
+
+    # Load cached data to avoid re-fetching
+    data_cache = load_data_cache()
+    cached_threads = data_cache.get("threads", {})
+    cached_messages = data_cache.get("messages", {})
+
     threads = az_get_threads(token, threads_page)
     print(f"[az] threads fetched: {len(threads)}")
     if inbound_only:
         print("[filter] inbound messages only (skipping outbound)")
+
+    # Normalize outbound phone number for comparison
+    outbound_phone_normalized = ""
+    if outbound_phone:
+        outbound_phone_normalized = "".join(c for c in outbound_phone if c.isdigit())
+        print(f"[filter] filtering messages from {outbound_phone}")
 
     seen_ids = load_cache()
     new_seen = set(seen_ids)
     created_count = 0
     skipped_count = 0
     all_messages = []  # Collect messages for text file export
+    tasks_to_create = []  # Collect tasks for batch creation
 
     for thread in threads:
         thread_id = str(thread.get("id") or thread.get("threadId") or "")
         if not thread_id:
             continue
+
+        # Cache thread contact info for future runs
         contact_name = thread.get("contactName") or thread.get("leadName") or "Unknown"
-        for message in az_get_messages(token, thread_id, msgs_page):
+        cached_threads[thread_id] = {
+            "contact_name": contact_name,
+            "last_updated": datetime.now(timezone.utc).isoformat()
+        }
+
+        # Check if we have cached messages for this thread
+        if thread_id in cached_messages:
+            print(f"[cache] using cached messages for thread {thread_id}")
+            messages = cached_messages[thread_id]
+        else:
+            print(f"[api] fetching messages for thread {thread_id}")
+            messages = az_get_messages(token, thread_id, msgs_page)
+            cached_messages[thread_id] = messages
+
+        for message in messages:
             message_id = str(message.get("id") or message.get("messageId") or "")
             if not message_id:
                 continue
@@ -320,9 +440,9 @@ def main() -> None:
                 skipped_count += 1
                 continue
 
-            # Format date as "Monday, 10-22, 3:01 PM"
+            # Format date as "10-22, Monday, 3:01 PM"
             if message_dt:
-                date_label = message_dt.strftime("%A, %m-%d, %-I:%M %p")
+                date_label = message_dt.strftime("%m-%d, %A, %-I:%M %p")
             else:
                 date_label = message_date_raw or "unknown date"
 
@@ -335,49 +455,24 @@ def main() -> None:
                 msg_type = message.get("type", "").lower()
                 is_inbound = message.get("inbound") or message.get("incoming") or message.get("fromCustomer")
 
-                # Heuristic detection based on message content patterns
-                body_lower = body.lower()
-
-                # Common agent signatures in outbound messages
-                agent_signatures = [
-                    "jared ullrich", "noah", "luke murdoch", "luke", "carl",
-                    "ullrich insurance", "- jared", "- noah", "- luke", "- carl"
-                ]
-                has_agent_signature = any(sig in body_lower for sig in agent_signatures)
-
-                # Common outbound phrases (business speaking to customer)
-                outbound_phrases = [
-                    "our office", "our service team", "our team", "our insurance",
-                    "dave ramsey", "endorsed local provider", "elp",
-                    "call our office", "contact our office",
-                    "ullrichinsurance.com", "www.ullrich"
-                ]
-                has_outbound_phrase = any(phrase in body_lower for phrase in outbound_phrases)
-
-                # Common outbound greeting patterns
-                first_name = contact_name.split()[0].lower() if contact_name != "Unknown" and contact_name else None
-                outbound_greetings = []
-                if first_name:
-                    outbound_greetings = [
-                        f"hey {first_name}", f"hi {first_name}",
-                        f"hello {first_name}", f"hey {first_name}!"
-                    ]
-                has_outbound_greeting = any(body_lower.startswith(greeting) for greeting in outbound_greetings)
+                # Check if message is from the outbound phone number
+                from_phone_match = False
+                if outbound_phone_normalized:
+                    from_phone = message.get("from") or message.get("fromNumber") or message.get("phoneNumber") or ""
+                    from_phone_normalized = "".join(c for c in str(from_phone) if c.isdigit())
+                    from_phone_match = outbound_phone_normalized in from_phone_normalized or from_phone_normalized in outbound_phone_normalized
 
                 # Debug: show what fields we're checking
                 if DEBUG_MODE:
                     debug(f"Message {message_id}: direction={direction!r}, type={msg_type!r}, inbound={is_inbound!r}")
-                    debug(f"  body preview: {body[:100]!r}")
-                    debug(f"  has_agent_signature={has_agent_signature}, has_outbound_greeting={has_outbound_greeting}, has_outbound_phrase={has_outbound_phrase}")
+                    debug(f"  from_phone={from_phone!r}, from_phone_match={from_phone_match}")
 
-                # Check multiple possible field formats
+                # Check if message is outbound
                 is_outbound = (
-                    direction in {"outbound", "out", "sent", "send"}
+                    from_phone_match  # Most reliable: message is from your phone number
+                    or direction in {"outbound", "out", "sent", "send"}
                     or msg_type in {"outbound", "out", "sent", "send"}
                     or is_inbound is False
-                    or has_agent_signature  # Fallback: detect by agent signature
-                    or has_outbound_greeting  # Fallback: detect by greeting pattern
-                    or has_outbound_phrase  # Fallback: detect by business phrases
                 )
 
                 if is_outbound:
@@ -394,13 +489,11 @@ def main() -> None:
             # Determine direction for export
             direction_value = message.get("direction", "").title()
             if not direction_value:
-                # Detect direction using same logic as filter
-                body_lower = body.lower()
-                agent_signatures = ["jared ullrich", "noah", "luke murdoch", "luke", "carl", "ullrich insurance"]
-                has_agent_signature = any(sig in body_lower for sig in agent_signatures)
-                outbound_phrases = ["our office", "our service team", "dave ramsey", "elp", "ullrichinsurance.com"]
-                has_outbound_phrase = any(phrase in body_lower for phrase in outbound_phrases)
-                direction_value = "Outbound" if (has_agent_signature or has_outbound_phrase) else "Inbound"
+                # Detect direction by phone number
+                from_phone = message.get("from") or message.get("fromNumber") or message.get("phoneNumber") or ""
+                from_phone_normalized = "".join(c for c in str(from_phone) if c.isdigit())
+                is_from_my_number = outbound_phone_normalized and (outbound_phone_normalized in from_phone_normalized or from_phone_normalized in outbound_phone_normalized)
+                direction_value = "Outbound" if is_from_my_number else "Inbound"
 
             # Collect message details for text and JSON export
             all_messages.append({
@@ -414,13 +507,20 @@ def main() -> None:
                 "to_field": message.get("to") or message.get("toNumber") or "agent@ullrichinsurance.com"
             })
 
+            # Collect task for batch creation
             if not dry_run:
-                todoist_create_task(todoist_token, content, project_id, section_id)
-                created_count += 1
+                tasks_to_create.append({"content": content})
 
             new_seen.add(message_id)
 
+    # Batch create all collected tasks in a single API call
+    if tasks_to_create:
+        created_count = todoist_batch_create_tasks(todoist_token, tasks_to_create, project_id, section_id)
+
     save_cache(new_seen)
+
+    # Save cached thread and message data for future runs
+    save_data_cache({"threads": cached_threads, "messages": cached_messages})
 
     # Write messages to text file for easy reading
     if all_messages:

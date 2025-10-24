@@ -30,6 +30,7 @@ TODOIST_SECTION_ID=123456789    # send tasks to a specific section within the pr
 AZ_THREADS_PAGE_SIZE=5          # number of SMS threads to fetch on each run
 AZ_MSGS_PAGE_SIZE=5             # number of messages pulled per thread
 AZ_INBOUND_ONLY=true            # only process inbound messages (messages you received), skip outbound
+AZ_OUTBOUND_PHONE_NUMBER=+1 (720) 706-3128  # your phone number - messages from this number are outbound
 AZ_SINCE_ISO=                   # ISO-8601 timestamp to only sync messages after this datetime
 SMS_OUTPUT_FILE=sms_messages.txt # text file to export all messages in readable format
 SMS_JSON_OUTPUT_FILE=sms_messages.json # JSON file for machine-readable export
