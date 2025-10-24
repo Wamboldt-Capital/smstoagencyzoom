@@ -1,28 +1,20 @@
 {
   "messages": [
     {
-      "messageId": 155836693,
+      "messageId": 155852455,
       "direction": "Outbound",
       "from": "Unknown",
       "to": "agent@ullrichinsurance.com",
-      "messageBody": "Can I call you now?",
-      "timestamp": "10-24, Friday, 1:33 PM"
+      "messageBody": "Hi Noah,\nReally sorry for the delay! This week and next are so hectic with work. I think I need to shop around a bit more when I have more time to think about this. Thanks for all your help, I appreciate it!",
+      "timestamp": "10-24, Friday, 3:01 PM"
     },
     {
-      "messageId": 155835897,
+      "messageId": 154748124,
       "direction": "Outbound",
       "from": "Unknown",
       "to": "agent@ullrichinsurance.com",
-      "messageBody": "Hi Darius, sorry to hear you weren't feeling well, hope you're on the mend. I'm free now until this evening, just let me know when works for you.",
-      "timestamp": "10-24, Friday, 1:28 PM"
-    },
-    {
-      "messageId": 155609649,
-      "direction": "Outbound",
-      "from": "Unknown",
-      "to": "agent@ullrichinsurance.com",
-      "messageBody": "Thank you, Darius! Looking forward to it.",
-      "timestamp": "10-23, Thursday, 11:46 AM"
+      "messageBody": "Thanks, Noah!\nI will review your email and get back to you early next week.",
+      "timestamp": "10-17, Friday, 6:37 PM"
     }
   ]
 }

@@ -1,42 +1,32 @@
 ================================================================================
 SMS MESSAGES EXPORT
-Generated: 2025-10-24 20:38:33 UTC
-Total Messages: 3
+Generated: 2025-10-24 21:28:09 UTC
+Total Messages: 2
 ================================================================================
 
 MESSAGE #1
 --------------------------------------------------------------------------------
-Date:    10-24, Friday, 1:33 PM
+Date:    10-24, Friday, 3:01 PM
 From:    Unknown
-Contact: Cheyenne Morin
-ID:      155836693
+Contact: Tess Labbe
+ID:      155852455
 
 Message:
-Can I call you now?
+Hi Noah,
+Really sorry for the delay! This week and next are so hectic with work. I think I need to shop around a bit more when I have more time to think about this. Thanks for all your help, I appreciate it!
 
 ================================================================================
 
 MESSAGE #2
 --------------------------------------------------------------------------------
-Date:    10-24, Friday, 1:28 PM
+Date:    10-17, Friday, 6:37 PM
 From:    Unknown
-Contact: Cheyenne Morin
-ID:      155835897
+Contact: Tess Labbe
+ID:      154748124
 
 Message:
-Hi Darius, sorry to hear you weren't feeling well, hope you're on the mend. I'm free now until this evening, just let me know when works for you.
-
-================================================================================
-
-MESSAGE #3
---------------------------------------------------------------------------------
-Date:    10-23, Thursday, 11:46 AM
-From:    Unknown
-Contact: Cheyenne Morin
-ID:      155609649
-
-Message:
-Thank you, Darius! Looking forward to it.
+Thanks, Noah!
+I will review your email and get back to you early next week.
 
 ================================================================================
 
