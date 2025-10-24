@@ -227,12 +227,14 @@ def az_get_messages(token: str, thread_id: str, page_size: int) -> list[dict[str
 
 # -------- Todoist --------
 
-def todoist_create_task(token: str, content: str, project_id: Optional[str] = None) -> dict[str, Any]:
+def todoist_create_task(token: str, content: str, project_id: Optional[str] = None, section_id: Optional[str] = None) -> dict[str, Any]:
     url = "https://api.todoist.com/rest/v2/tasks"
     headers = {"Authorization": f"Bearer {token}", "Content-Type": "application/json"}
     payload: dict[str, Any] = {"content": content}
     if project_id:
         payload["project_id"] = project_id
+    if section_id:
+        payload["section_id"] = section_id
 
     response = _post_json(url, payload=payload, headers=headers)
     print(f"[todoist] create status={response.status_code}")
@@ -263,6 +265,7 @@ def main() -> None:
     password = os.getenv("AGENCY_ZOOM_PASSWORD")
     todoist_token = os.getenv("TODOIST_API_TOKEN")
     project_id = os.getenv("TODOIST_PROJECT_ID")
+    section_id = os.getenv("TODOIST_SECTION_ID")
 
     missing = []
     if not username:
@@ -407,7 +410,7 @@ def main() -> None:
             })
 
             if not dry_run:
-                todoist_create_task(todoist_token, content, project_id)
+                todoist_create_task(todoist_token, content, project_id, section_id)
                 created_count += 1
 
             new_seen.add(message_id)

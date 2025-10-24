@@ -55,6 +55,7 @@ jobs:
           TODOIST_API_TOKEN:    ${{ secrets.TODOIST_API_TOKEN }}
           # Optional (override defaults)
           TODOIST_PROJECT_ID:   ${{ secrets.TODOIST_PROJECT_ID }}
+          TODOIST_SECTION_ID:   ${{ secrets.TODOIST_SECTION_ID }}
           AZ_BASE:               ${{ secrets.AZ_BASE }}
           AZ_THREADS_PAGE_SIZE:  ${{ secrets.AZ_THREADS_PAGE_SIZE }}
           AZ_MSGS_PAGE_SIZE:     ${{ secrets.AZ_MSGS_PAGE_SIZE }}
