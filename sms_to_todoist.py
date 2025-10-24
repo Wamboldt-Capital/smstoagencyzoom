@@ -426,6 +426,9 @@ def main() -> None:
 
             # Filter for inbound messages only if requested
             if inbound_only:
+                # Check API's outbound field first (most reliable)
+                is_outbound_api = message.get("outbound")
+
                 direction = message.get("direction", "").lower()
                 msg_type = message.get("type", "").lower()
                 is_inbound = message.get("inbound") or message.get("incoming") or message.get("fromCustomer")
@@ -435,16 +438,22 @@ def main() -> None:
                 if outbound_phone_normalized:
                     from_phone = message.get("from") or message.get("fromNumber") or message.get("phoneNumber") or ""
                     from_phone_normalized = "".join(c for c in str(from_phone) if c.isdigit())
-                    from_phone_match = outbound_phone_normalized in from_phone_normalized or from_phone_normalized in outbound_phone_normalized
+                    # Only match if both numbers are non-empty
+                    if from_phone_normalized:
+                        from_phone_match = (
+                            outbound_phone_normalized in from_phone_normalized
+                            or from_phone_normalized in outbound_phone_normalized
+                        )
 
                 # Debug: show what fields we're checking
                 if DEBUG_MODE:
-                    debug(f"Message {message_id}: direction={direction!r}, type={msg_type!r}, inbound={is_inbound!r}")
+                    debug(f"Message {message_id}: outbound={is_outbound_api}, direction={direction!r}, type={msg_type!r}, inbound={is_inbound!r}")
                     debug(f"  from_phone={from_phone!r}, from_phone_match={from_phone_match}")
 
-                # Check if message is outbound
+                # Check if message is outbound - use API field first
                 is_outbound = (
-                    from_phone_match  # Most reliable: message is from your phone number
+                    is_outbound_api is True  # API's outbound field (most reliable)
+                    or from_phone_match  # Message is from your phone number
                     or direction in {"outbound", "out", "sent", "send"}
                     or msg_type in {"outbound", "out", "sent", "send"}
                     or is_inbound is False
