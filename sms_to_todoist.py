@@ -320,6 +320,12 @@ def main() -> None:
                 skipped_count += 1
                 continue
 
+            # Format date as "Monday, 10-22, 3:01 PM"
+            if message_dt:
+                date_label = message_dt.strftime("%A, %m-%d, %-I:%M %p")
+            else:
+                date_label = message_date_raw or "unknown date"
+
             body = (message.get("body") or message.get("message") or "").strip()
             sender = message.get("senderName") or message.get("fromName") or "Unknown"
 
@@ -381,8 +387,7 @@ def main() -> None:
                 else:
                     debug(f"Including inbound message {message_id}")
 
-            date_label = message_date_raw or "unknown date"
-            content = f"SMS on {date_label} from {sender} ({contact_name}): {body}"
+            content = f"{date_label} | {contact_name} | {body}"
             content = content[:990]  # keep under Todoist 1k char limit buffer
             print(f"[task] {content}")
 
