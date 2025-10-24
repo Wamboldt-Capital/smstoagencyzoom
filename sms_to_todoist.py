@@ -16,6 +16,7 @@ AZ_BASE = (os.getenv("AZ_BASE") or "https://api.agencyzoom.com").rstrip("/")
 AZ_API_BASE = f"{AZ_BASE}/v1"
 CACHE_FILE = ".sms_to_todoist_cache.json"
 OUTPUT_FILE = os.getenv("SMS_OUTPUT_FILE", "sms_messages.txt")
+JSON_OUTPUT_FILE = os.getenv("SMS_JSON_OUTPUT_FILE", "sms_messages.json")
 REQUEST_TIMEOUT = int(os.getenv("REQUEST_TIMEOUT_SECONDS") or "30")
 DEFAULT_ENV_FILE = ".env"
 
@@ -310,23 +311,6 @@ def main() -> None:
                 skipped_count += 1
                 continue
 
-            # Filter for inbound messages only if requested
-            if inbound_only:
-                direction = message.get("direction", "").lower()
-                msg_type = message.get("type", "").lower()
-                is_inbound = message.get("inbound") or message.get("incoming") or message.get("fromCustomer")
-
-                # Check multiple possible field formats
-                is_outbound = (
-                    direction in {"outbound", "out", "sent", "send"}
-                    or msg_type in {"outbound", "out", "sent", "send"}
-                    or is_inbound is False
-                )
-
-                if is_outbound:
-                    skipped_count += 1
-                    continue
-
             message_date_raw = message.get("messageDate") or message.get("sentDate") or ""
             message_dt = parse_iso(message_date_raw)
             if since_dt and message_dt and message_dt < since_dt:
@@ -336,18 +320,90 @@ def main() -> None:
             body = (message.get("body") or message.get("message") or "").strip()
             sender = message.get("senderName") or message.get("fromName") or "Unknown"
 
+            # Filter for inbound messages only if requested
+            if inbound_only:
+                direction = message.get("direction", "").lower()
+                msg_type = message.get("type", "").lower()
+                is_inbound = message.get("inbound") or message.get("incoming") or message.get("fromCustomer")
+
+                # Heuristic detection based on message content patterns
+                body_lower = body.lower()
+
+                # Common agent signatures in outbound messages
+                agent_signatures = [
+                    "jared ullrich", "noah", "luke murdoch", "luke", "carl",
+                    "ullrich insurance", "- jared", "- noah", "- luke", "- carl"
+                ]
+                has_agent_signature = any(sig in body_lower for sig in agent_signatures)
+
+                # Common outbound phrases (business speaking to customer)
+                outbound_phrases = [
+                    "our office", "our service team", "our team", "our insurance",
+                    "dave ramsey", "endorsed local provider", "elp",
+                    "call our office", "contact our office",
+                    "ullrichinsurance.com", "www.ullrich"
+                ]
+                has_outbound_phrase = any(phrase in body_lower for phrase in outbound_phrases)
+
+                # Common outbound greeting patterns
+                first_name = contact_name.split()[0].lower() if contact_name != "Unknown" and contact_name else None
+                outbound_greetings = []
+                if first_name:
+                    outbound_greetings = [
+                        f"hey {first_name}", f"hi {first_name}",
+                        f"hello {first_name}", f"hey {first_name}!"
+                    ]
+                has_outbound_greeting = any(body_lower.startswith(greeting) for greeting in outbound_greetings)
+
+                # Debug: show what fields we're checking
+                if DEBUG_MODE:
+                    debug(f"Message {message_id}: direction={direction!r}, type={msg_type!r}, inbound={is_inbound!r}")
+                    debug(f"  body preview: {body[:100]!r}")
+                    debug(f"  has_agent_signature={has_agent_signature}, has_outbound_greeting={has_outbound_greeting}, has_outbound_phrase={has_outbound_phrase}")
+
+                # Check multiple possible field formats
+                is_outbound = (
+                    direction in {"outbound", "out", "sent", "send"}
+                    or msg_type in {"outbound", "out", "sent", "send"}
+                    or is_inbound is False
+                    or has_agent_signature  # Fallback: detect by agent signature
+                    or has_outbound_greeting  # Fallback: detect by greeting pattern
+                    or has_outbound_phrase  # Fallback: detect by business phrases
+                )
+
+                if is_outbound:
+                    debug(f"Skipping outbound message {message_id}")
+                    skipped_count += 1
+                    continue
+                else:
+                    debug(f"Including inbound message {message_id}")
+
             date_label = message_date_raw or "unknown date"
             content = f"SMS on {date_label} from {sender} ({contact_name}): {body}"
             content = content[:990]  # keep under Todoist 1k char limit buffer
             print(f"[task] {content}")
 
-            # Collect message details for text file export
+            # Determine direction for export
+            direction_value = message.get("direction", "").title()
+            if not direction_value:
+                # Detect direction using same logic as filter
+                body_lower = body.lower()
+                agent_signatures = ["jared ullrich", "noah", "luke murdoch", "luke", "carl", "ullrich insurance"]
+                has_agent_signature = any(sig in body_lower for sig in agent_signatures)
+                outbound_phrases = ["our office", "our service team", "dave ramsey", "elp", "ullrichinsurance.com"]
+                has_outbound_phrase = any(phrase in body_lower for phrase in outbound_phrases)
+                direction_value = "Outbound" if (has_agent_signature or has_outbound_phrase) else "Inbound"
+
+            # Collect message details for text and JSON export
             all_messages.append({
                 "date": date_label,
                 "sender": sender,
                 "contact": contact_name,
                 "body": body,
-                "message_id": message_id
+                "message_id": message_id,
+                "direction": direction_value,
+                "from_field": message.get("from") or message.get("fromNumber") or sender,
+                "to_field": message.get("to") or message.get("toNumber") or "agent@ullrichinsurance.com"
             })
 
             if not dry_run:
@@ -381,6 +437,27 @@ def main() -> None:
             print(f"[file] exported {len(all_messages)} messages to {OUTPUT_FILE}")
         except Exception as exc:
             print(f"[warn] failed to write output file: {exc}")
+
+        # Write messages to JSON file in specified format
+        try:
+            json_messages = []
+            for msg in all_messages:
+                json_messages.append({
+                    "messageId": int(msg["message_id"]) if msg["message_id"].isdigit() else msg["message_id"],
+                    "direction": msg["direction"],
+                    "from": msg["from_field"],
+                    "to": msg["to_field"],
+                    "messageBody": msg["body"],
+                    "timestamp": msg["date"]
+                })
+
+            json_output = {"messages": json_messages}
+            with open(JSON_OUTPUT_FILE, "w", encoding="utf-8") as f:
+                json.dump(json_output, f, indent=2, ensure_ascii=False)
+
+            print(f"[file] exported {len(all_messages)} messages to {JSON_OUTPUT_FILE}")
+        except Exception as exc:
+            print(f"[warn] failed to write JSON output file: {exc}")
 
     print(
         f"[done] tasks created={created_count}, "

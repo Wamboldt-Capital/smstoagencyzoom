@@ -31,6 +31,7 @@ AZ_MSGS_PAGE_SIZE=5             # number of messages pulled per thread
 AZ_INBOUND_ONLY=true            # only process inbound messages (messages you received), skip outbound
 AZ_SINCE_ISO=                   # ISO-8601 timestamp to only sync messages after this datetime
 SMS_OUTPUT_FILE=sms_messages.txt # text file to export all messages in readable format
+SMS_JSON_OUTPUT_FILE=sms_messages.json # JSON file for machine-readable export
 DRY_RUN=false                   # set to true to preview without creating Todoist tasks
 DEBUG=false                     # set to true to print redacted request/response info
 ```
@@ -59,17 +60,36 @@ DEBUG=true python sms_to_todoist.py
 
 When you are satisfied with the automation you can schedule the command (for example with cron or a task runner) to keep Todoist in sync automatically.
 
-## Text File Export
+## Export Formats
 
-The script automatically exports all fetched SMS messages to a readable text file (`sms_messages.txt` by default). This file is formatted for easy reading and includes:
+The script automatically exports all fetched SMS messages in two formats:
 
+### Text File (`sms_messages.txt`)
+Human-readable format with:
 - Message date and timestamp
 - Sender name
 - Contact/lead name
 - Full message content
 - Message ID for reference
 
-The file is overwritten on each run with the latest messages. When using GitHub Actions, this file is automatically committed to the repository so you can easily view it without checking Todoist.
+### JSON File (`sms_messages.json`)
+Machine-readable format for integration with other tools:
+```json
+{
+  "messages": [
+    {
+      "messageId": 123,
+      "direction": "Inbound",
+      "from": "customer@example.com",
+      "to": "agent@example.com",
+      "messageBody": "Hi, can you help me with my policy?",
+      "timestamp": "2024-10-10T12:34:00Z"
+    }
+  ]
+}
+```
+
+Both files are overwritten on each run with the latest messages. When using GitHub Actions, these files are automatically committed to the repository so you can easily access them.
 
 ## GitHub Actions Automation
 
