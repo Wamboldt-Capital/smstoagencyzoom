@@ -1,0 +1,52 @@
+{
+  "messages": [
+    {
+      "messageId": 155616775,
+      "direction": "Inbound",
+      "from": "Unknown",
+      "to": "agent@ullrichinsurance.com",
+      "messageBody": "My current auto insurance is due today.  I was wondering how it is coming.",
+      "timestamp": "2025-10-23 12:11:48"
+    },
+    {
+      "messageId": 155371306,
+      "direction": "Inbound",
+      "from": "Unknown",
+      "to": "agent@ullrichinsurance.com",
+      "messageBody": "Thank you",
+      "timestamp": "2025-10-22 10:30:17"
+    },
+    {
+      "messageId": 155159418,
+      "direction": "Inbound",
+      "from": "Unknown",
+      "to": "agent@ullrichinsurance.com",
+      "messageBody": "I will go update the Camper info right away for my senior agent so that we can get everything finished for you asap. I will double check that I got the email right correct. Thank you for sending this over Christine",
+      "timestamp": "2025-10-21 10:48:32"
+    },
+    {
+      "messageId": 155045715,
+      "direction": "Inbound",
+      "from": "Unknown",
+      "to": "agent@ullrichinsurance.com",
+      "messageBody": "I did not see it in my email crazelt@yahoo.com \r\nHere is the VIN",
+      "timestamp": "2025-10-20 22:13:45"
+    },
+    {
+      "messageId": 155265176,
+      "direction": "Inbound",
+      "from": "Unknown",
+      "to": "agent@ullrichinsurance.com",
+      "messageBody": "test",
+      "timestamp": "2025-10-21 22:38:06"
+    },
+    {
+      "messageId": 155560884,
+      "direction": "Inbound",
+      "from": "Unknown",
+      "to": "agent@ullrichinsurance.com",
+      "messageBody": "Thank you!",
+      "timestamp": "2025-10-23 10:16:25"
+    }
+  ]
+}

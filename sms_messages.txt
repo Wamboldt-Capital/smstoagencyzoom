@@ -1,7 +1,7 @@
 ================================================================================
 SMS MESSAGES EXPORT
-Generated: 2025-10-24 07:31:08 UTC
-Total Messages: 15
+Generated: 2025-10-24 07:35:13 UTC
+Total Messages: 6
 ================================================================================
 
 MESSAGE #1
@@ -30,18 +30,6 @@ Thank you
 
 MESSAGE #3
 --------------------------------------------------------------------------------
-Date:    2025-10-22 10:25:33
-From:    Unknown
-Contact: Christine Taylor
-ID:      155369431
-
-Message:
-Hey Christine! We are so close to having this insurance review finished for you.  We are gathering the best insurances option from many companies, and we will have it done soon.  We will be in touch!  Jared Ullrich, Ullrich Insurance
-
-================================================================================
-
-MESSAGE #4
---------------------------------------------------------------------------------
 Date:    2025-10-21 10:48:32
 From:    Unknown
 Contact: Christine Taylor
@@ -52,7 +40,7 @@ I will go update the Camper info right away for my senior agent so that we can g
 
 ================================================================================
 
-MESSAGE #5
+MESSAGE #4
 --------------------------------------------------------------------------------
 Date:    2025-10-20 22:13:45
 From:    Unknown
@@ -65,19 +53,7 @@ Here is the VIN
 
 ================================================================================
 
-MESSAGE #6
---------------------------------------------------------------------------------
-Date:    2025-10-23 10:29:34
-From:    Unknown
-Contact: Noah Wamboldt
-ID:      155568880
-
-Message:
-Hi Noah!  I noticed you still haven't scheduled a time to discuss your insurance. I'm more than happy to take some time to review your current situation and make sure you're in the best spot possible. When is a good time for us to chat? This process is VERY EASY.  Would you prefer to talk over the phone or do you want to fill out a form?
-
-================================================================================
-
-MESSAGE #7
+MESSAGE #5
 --------------------------------------------------------------------------------
 Date:    2025-10-21 22:38:06
 From:    Unknown
@@ -89,43 +65,7 @@ test
 
 ================================================================================
 
-MESSAGE #8
---------------------------------------------------------------------------------
-Date:    2025-10-23 10:29:34
-From:    Unknown
-Contact: Clark Herlihy
-ID:      155568883
-
-Message:
-Hey Clark! We are so close to having this insurance review finished for you.  We are gathering the best insurances option from many companies, and we will have it done soon.  We will be in touch!  Jared Ullrich, Ullrich Insurance
-
-================================================================================
-
-MESSAGE #9
---------------------------------------------------------------------------------
-Date:    2025-10-23 10:29:31
-From:    Unknown
-Contact: Jane Redd
-ID:      155568850
-
-Message:
-Hi Jane ! I'm just following up to make sure you saw the email and text that I sent you yesterday regarding next steps with your insurance. Did you see it? - Jared
-
-================================================================================
-
-MESSAGE #10
---------------------------------------------------------------------------------
-Date:    2025-10-22 15:09:13
-From:    Unknown
-Contact: Jane Redd
-ID:      155443561
-
-Message:
-Hi Jane! Thanks for checking out Dave Ramsey's Endorsed Local Provider program. This is Jared Ullrich from Ullrich Insurance Agency. I’m Dave’s ELP for home and auto insurance. I just wanted to send you a quick text to introduce myself. We will go to all our insurance companies to find your best option. We just need some information. Can you call our office or fill out this form? https://www.ullrichinsurance.com/full-insurance-review/ Thank you!
-
-================================================================================
-
-MESSAGE #11
+MESSAGE #6
 --------------------------------------------------------------------------------
 Date:    2025-10-23 10:16:25
 From:    Unknown
@@ -134,54 +74,6 @@ ID:      155560884
 
 Message:
 Thank you!
-
-================================================================================
-
-MESSAGE #12
---------------------------------------------------------------------------------
-Date:    2025-10-23 10:16:11
-From:    Unknown
-Contact: Lauren Forman
-ID:      155560764
-
-Message:
-Hi Carl, Justin's license number is 08-189-0630
-
-================================================================================
-
-MESSAGE #13
---------------------------------------------------------------------------------
-Date:    2025-10-23 09:36:45
-From:    Unknown
-Contact: Lauren Forman
-ID:      155543745
-
-Message:
-Our office number is 303-425-7568. One of our service team members will most likely answer, and you can ask to speak with Carl.
-
-================================================================================
-
-MESSAGE #14
---------------------------------------------------------------------------------
-Date:    2025-10-23 09:36:00
-From:    Unknown
-Contact: Lauren Forman
-ID:      155543489
-
-Message:
-Hi Carl, what is the best number to call you back on?
-
-================================================================================
-
-MESSAGE #15
---------------------------------------------------------------------------------
-Date:    2025-10-23 09:34:18
-From:    Unknown
-Contact: Lauren Forman
-ID:      155542755
-
-Message:
-Hi Lauren! I tried calling for our appointment, and it went to voicemail. I've looked over the form that you sent in (Thank you for sending that, it was very helpful!) and I have a few additional questions to get the info we need to help find your best insurance option. Do you have time later today to answer those?
 
 ================================================================================
 
