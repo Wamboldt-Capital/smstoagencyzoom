@@ -1,39 +1,39 @@
 ================================================================================
 SMS MESSAGES EXPORT
-Generated: 2025-10-24 16:51:07 UTC
+Generated: 2025-10-24 18:21:05 UTC
 Total Messages: 9
 ================================================================================
 
 MESSAGE #1
 --------------------------------------------------------------------------------
-Date:    Friday, 10-24, 10:35 AM
+Date:    10-24, Friday, 11:53 AM
 From:    Unknown
-Contact: Todd Dwaine Haman
-ID:      155781283
+Contact: Christine Taylor
+ID:      155808869
 
 Message:
-I never got a new email with the options
+I have not heard anything for a day or so. I am past my auto insurance due date now. I would rather buy something new, but I can pay them for another month. I will not get a refund, so I will have to wait a whole month. Maybe that is best right now. We REALLY needed the auto ASAP.
 
 ================================================================================
 
 MESSAGE #2
 --------------------------------------------------------------------------------
-Date:    Tuesday, 10-21, 8:24 PM
+Date:    10-23, Thursday, 12:11 PM
 From:    Unknown
-Contact: Todd Dwaine Haman
-ID:      155264829
+Contact: Christine Taylor
+ID:      155616775
 
 Message:
-Yes, we received the email. Thank you
+My current auto insurance is due today.  I was wondering how it is coming.
 
 ================================================================================
 
 MESSAGE #3
 --------------------------------------------------------------------------------
-Date:    Friday, 10-24, 10:06 AM
+Date:    10-22, Wednesday, 10:30 AM
 From:    Unknown
-Contact: Tobias Lopez
-ID:      155764216
+Contact: Christine Taylor
+ID:      155371306
 
 Message:
 Thank you
@@ -42,31 +42,43 @@ Thank you
 
 MESSAGE #4
 --------------------------------------------------------------------------------
-Date:    Tuesday, 10-21, 12:57 PM
+Date:    10-24, Friday, 11:32 AM
 From:    Unknown
-Contact: Tobias Lopez
-ID:      155205511
+Contact: Amanda Sheehan
+ID:      155805244
 
 Message:
-Yes, that's fine
+Hi Jared! Any updates on when we will be receiving our insurance review?
 
 ================================================================================
 
 MESSAGE #5
 --------------------------------------------------------------------------------
-Date:    Tuesday, 10-21, 8:11 AM
+Date:    10-22, Wednesday, 10:51 AM
 From:    Unknown
-Contact: Tobias Lopez
-ID:      155075510
+Contact: Amanda Sheehan
+ID:      155379493
 
 Message:
-Can you please call after 3pm.
+Hey Jared! That sounds good, thank you!
 
 ================================================================================
 
 MESSAGE #6
 --------------------------------------------------------------------------------
-Date:    Friday, 10-24, 10:47 AM
+Date:    10-24, Friday, 11:07 AM
+From:    Unknown
+Contact: (434) 806-0991
+ID:      155796428
+
+Message:
+We filed with Safeco. Thanks
+
+================================================================================
+
+MESSAGE #7
+--------------------------------------------------------------------------------
+Date:    10-24, Friday, 10:47 AM
 From:    Unknown
 Contact: Brandie Sutton
 ID:      155787821
@@ -76,9 +88,9 @@ Thanks
 
 ================================================================================
 
-MESSAGE #7
+MESSAGE #8
 --------------------------------------------------------------------------------
-Date:    Wednesday, 10-22, 11:24 AM
+Date:    10-22, Wednesday, 11:24 AM
 From:    Unknown
 Contact: Brandie Sutton
 ID:      155392335
@@ -88,21 +100,9 @@ Liked “I will update this right away for my senior agent. Thank you for sendin
 
 ================================================================================
 
-MESSAGE #8
---------------------------------------------------------------------------------
-Date:    Wednesday, 10-22, 10:52 AM
-From:    Unknown
-Contact: Brandie Sutton
-ID:      155379792
-
-Message:
-I will update this right away for my senior agent. Thank you for sending this over Brandie
-
-================================================================================
-
 MESSAGE #9
 --------------------------------------------------------------------------------
-Date:    Wednesday, 10-22, 6:37 AM
+Date:    10-22, Wednesday, 6:37 AM
 From:    Unknown
 Contact: Brandie Sutton
 ID:      155266941
