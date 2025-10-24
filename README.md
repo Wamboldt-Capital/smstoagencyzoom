@@ -25,7 +25,8 @@ AGENCY_ZOOM_PASSWORD=your_password
 TODOIST_API_TOKEN=your_token
 
 # Optional tweaks
-TODOIST_PROJECT_ID=1234567890   # send tasks to a specific project instead of the inbox
+TODOIST_PROJECT_ID=inbound-messages-6f7xhQPJr6vFXFhc   # send tasks to a specific project
+TODOIST_SECTION_ID=123456789    # send tasks to a specific section within the project
 AZ_THREADS_PAGE_SIZE=5          # number of SMS threads to fetch on each run
 AZ_MSGS_PAGE_SIZE=5             # number of messages pulled per thread
 AZ_INBOUND_ONLY=true            # only process inbound messages (messages you received), skip outbound
