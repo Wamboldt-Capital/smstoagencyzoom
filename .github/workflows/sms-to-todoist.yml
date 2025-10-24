@@ -25,7 +25,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          ref: claude/sms-to-todoist-sync-011CURPwPL2y6jFiBqgFVUVa
           fetch-depth: 0
 
       - name: Set up Python
