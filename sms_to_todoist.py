@@ -337,6 +337,7 @@ def main() -> None:
 
                 # Heuristic detection based on message content patterns
                 body_lower = body.lower()
+                first_name = contact_name.split()[0].lower() if contact_name != "Unknown" and contact_name else None
 
                 # Common agent signatures in outbound messages
                 agent_signatures = [
@@ -350,12 +351,23 @@ def main() -> None:
                     "our office", "our service team", "our team", "our insurance",
                     "dave ramsey", "endorsed local provider", "elp",
                     "call our office", "contact our office",
-                    "ullrichinsurance.com", "www.ullrich"
+                    "ullrichinsurance.com", "www.ullrich",
+                    "for you", "for you.", "for you asap", "for you soon",
+                    "my agent", "my senior agent", "my team",
+                    "thank you for sending", "thank you for this", "thank you for the",
+                    "i will go", "i will update", "i will double check", "i will check",
+                    "we can get", "we will get", "let me know if you"
                 ]
                 has_outbound_phrase = any(phrase in body_lower for phrase in outbound_phrases)
 
+                # Check if message ends with customer's first name (common acknowledgement pattern)
+                ends_with_name = False
+                if first_name and len(body) > len(first_name):
+                    # Check last 50 chars for the name
+                    last_part = body[-50:].lower()
+                    ends_with_name = last_part.strip().endswith(first_name)
+
                 # Common outbound greeting patterns
-                first_name = contact_name.split()[0].lower() if contact_name != "Unknown" and contact_name else None
                 outbound_greetings = []
                 if first_name:
                     outbound_greetings = [
@@ -368,7 +380,7 @@ def main() -> None:
                 if DEBUG_MODE:
                     debug(f"Message {message_id}: direction={direction!r}, type={msg_type!r}, inbound={is_inbound!r}")
                     debug(f"  body preview: {body[:100]!r}")
-                    debug(f"  has_agent_signature={has_agent_signature}, has_outbound_greeting={has_outbound_greeting}, has_outbound_phrase={has_outbound_phrase}")
+                    debug(f"  has_agent_signature={has_agent_signature}, has_outbound_greeting={has_outbound_greeting}, has_outbound_phrase={has_outbound_phrase}, ends_with_name={ends_with_name}")
 
                 # Check multiple possible field formats
                 is_outbound = (
@@ -378,6 +390,7 @@ def main() -> None:
                     or has_agent_signature  # Fallback: detect by agent signature
                     or has_outbound_greeting  # Fallback: detect by greeting pattern
                     or has_outbound_phrase  # Fallback: detect by business phrases
+                    or ends_with_name  # Fallback: message ends with customer's name
                 )
 
                 if is_outbound:
