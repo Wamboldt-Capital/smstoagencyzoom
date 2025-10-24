@@ -16,7 +16,6 @@ from requests.exceptions import HTTPError
 AZ_BASE = (os.getenv("AZ_BASE") or "https://api.agencyzoom.com").rstrip("/")
 AZ_API_BASE = f"{AZ_BASE}/v1"
 CACHE_FILE = ".sms_to_todoist_cache.json"
-DATA_CACHE_FILE = ".sms_data_cache.json"
 OUTPUT_FILE = os.getenv("SMS_OUTPUT_FILE", "sms_messages.txt")
 JSON_OUTPUT_FILE = os.getenv("SMS_JSON_OUTPUT_FILE", "sms_messages.json")
 REQUEST_TIMEOUT = int(os.getenv("REQUEST_TIMEOUT_SECONDS") or "30")
@@ -98,26 +97,6 @@ def save_cache(ids: Iterable[str]) -> None:
             json.dump({"seen_message_ids": sorted({str(i) for i in ids})}, fh, indent=2)
     except Exception as exc:  # pragma: no cover - best effort logging
         print(f"[warn] failed to write cache: {exc}")
-
-
-def load_data_cache() -> dict[str, Any]:
-    """Load cached thread and message data to avoid re-fetching."""
-    try:
-        with open(DATA_CACHE_FILE, "r", encoding="utf-8") as fh:
-            return json.load(fh)
-    except FileNotFoundError:
-        return {"threads": {}, "messages": {}}
-    except Exception:
-        return {"threads": {}, "messages": {}}
-
-
-def save_data_cache(data: dict[str, Any]) -> None:
-    """Save thread and message data for future runs."""
-    try:
-        with open(DATA_CACHE_FILE, "w", encoding="utf-8") as fh:
-            json.dump(data, fh, indent=2)
-    except Exception as exc:  # pragma: no cover - best effort logging
-        print(f"[warn] failed to write data cache: {exc}")
 
 
 def parse_iso(value: str) -> Optional[datetime]:
@@ -382,11 +361,6 @@ def main() -> None:
 
     token = az_login(username, password)
 
-    # Load cached data to avoid re-fetching
-    data_cache = load_data_cache()
-    cached_threads = data_cache.get("threads", {})
-    cached_messages = data_cache.get("messages", {})
-
     threads = az_get_threads(token, threads_page)
     print(f"[az] threads fetched: {len(threads)}")
     if inbound_only:
@@ -410,21 +384,8 @@ def main() -> None:
         if not thread_id:
             continue
 
-        # Cache thread contact info for future runs
         contact_name = thread.get("contactName") or thread.get("leadName") or "Unknown"
-        cached_threads[thread_id] = {
-            "contact_name": contact_name,
-            "last_updated": datetime.now(timezone.utc).isoformat()
-        }
-
-        # Check if we have cached messages for this thread
-        if thread_id in cached_messages:
-            print(f"[cache] using cached messages for thread {thread_id}")
-            messages = cached_messages[thread_id]
-        else:
-            print(f"[api] fetching messages for thread {thread_id}")
-            messages = az_get_messages(token, thread_id, msgs_page)
-            cached_messages[thread_id] = messages
+        messages = az_get_messages(token, thread_id, msgs_page)
 
         for message in messages:
             message_id = str(message.get("id") or message.get("messageId") or "")
@@ -518,9 +479,6 @@ def main() -> None:
         created_count = todoist_batch_create_tasks(todoist_token, tasks_to_create, project_id, section_id)
 
     save_cache(new_seen)
-
-    # Save cached thread and message data for future runs
-    save_data_cache({"threads": cached_threads, "messages": cached_messages})
 
     # Write messages to text file for easy reading
     if all_messages:

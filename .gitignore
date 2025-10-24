@@ -31,7 +31,6 @@ env/
 
 # Cache files
 .sms_to_todoist_cache.json
-.sms_data_cache.json
 
 # IDE
 .vscode/
