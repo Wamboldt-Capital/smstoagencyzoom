@@ -1,20 +1,12 @@
 {
   "messages": [
     {
-      "messageId": 155300008,
+      "messageId": 155859537,
       "direction": "Outbound",
       "from": "Unknown",
       "to": "agent@ullrichinsurance.com",
-      "messageBody": "You're welcome!",
-      "timestamp": "10-22, Wednesday, 8:24 AM"
-    },
-    {
-      "messageId": 155287291,
-      "direction": "Outbound",
-      "from": "Unknown",
-      "to": "agent@ullrichinsurance.com",
-      "messageBody": "Valley Sunset RV Ranch\n1675 co-92\nDelta Co. 81416",
-      "timestamp": "10-22, Wednesday, 8:00 AM"
+      "messageBody": "I will check",
+      "timestamp": "10-24, Friday, 3:55 PM"
     }
   ]
 }

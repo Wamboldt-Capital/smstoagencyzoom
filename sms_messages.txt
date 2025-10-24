@@ -1,32 +1,18 @@
 ================================================================================
 SMS MESSAGES EXPORT
-Generated: 2025-10-24 21:54:51 UTC
-Total Messages: 2
+Generated: 2025-10-24 22:35:01 UTC
+Total Messages: 1
 ================================================================================
 
 MESSAGE #1
 --------------------------------------------------------------------------------
-Date:    10-22, Wednesday, 8:24 AM
+Date:    10-24, Friday, 3:55 PM
 From:    Unknown
-Contact: Dean & Julie McVicker
-ID:      155300008
+Contact: Christine Taylor
+ID:      155859537
 
 Message:
-You're welcome!
-
-================================================================================
-
-MESSAGE #2
---------------------------------------------------------------------------------
-Date:    10-22, Wednesday, 8:00 AM
-From:    Unknown
-Contact: Dean & Julie McVicker
-ID:      155287291
-
-Message:
-Valley Sunset RV Ranch
-1675 co-92
-Delta Co. 81416
+I will check
 
 ================================================================================
 
