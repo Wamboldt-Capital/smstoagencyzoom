@@ -285,9 +285,9 @@ def todoist_batch_create_tasks(
 
         args: dict[str, Any] = {"content": task["content"]}
         if project_id:
-            args["project_id"] = project_id
+            args["project_id"] = str(project_id)
         if section_id:
-            args["section_id"] = section_id
+            args["section_id"] = str(section_id)
 
         commands.append({
             "type": "item_add",
@@ -298,9 +298,13 @@ def todoist_batch_create_tasks(
 
     url = "https://api.todoist.com/sync/v9/sync"
     headers = {"Authorization": f"Bearer {token}", "Content-Type": "application/json"}
-    payload = {"commands": commands}
+    payload = {
+        "sync_token": "*",
+        "commands": commands
+    }
 
     print(f"[todoist] batch creating {len(tasks)} tasks …")
+    debug(f"Batch payload: {len(commands)} commands")
     response = _post_json(url, payload=payload, headers=headers)
     print(f"[todoist] batch create status={response.status_code}")
 
@@ -315,12 +319,22 @@ def todoist_batch_create_tasks(
 
     try:
         result = response.json()
+        debug(f"Sync API response: {result}")
+
         # Sync API returns sync_status with command results
         sync_status = result.get("sync_status", {})
+
+        # Check for any errors
+        if sync_status:
+            errors = {k: v for k, v in sync_status.items() if v != "ok"}
+            if errors:
+                print(f"[todoist] errors in batch: {errors}")
+
         successful = sum(1 for status in sync_status.values() if status == "ok")
         print(f"[todoist] batch created {successful}/{len(tasks)} tasks")
         return successful
-    except (ValueError, KeyError):
+    except (ValueError, KeyError) as exc:
+        print(f"[warn] failed to parse sync response: {exc}")
         print(f"[todoist] batch created {len(tasks)} tasks (assuming success)")
         return len(tasks)
 
