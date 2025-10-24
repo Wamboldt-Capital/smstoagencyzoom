@@ -285,9 +285,9 @@ def todoist_batch_create_tasks(
 
         args: dict[str, Any] = {"content": task["content"]}
         if project_id:
-            args["project_id"] = project_id
+            args["project_id"] = str(project_id)
         if section_id:
-            args["section_id"] = section_id
+            args["section_id"] = str(section_id)
 
         commands.append({
             "type": "item_add",
@@ -298,9 +298,13 @@ def todoist_batch_create_tasks(
 
     url = "https://api.todoist.com/sync/v9/sync"
     headers = {"Authorization": f"Bearer {token}", "Content-Type": "application/json"}
-    payload = {"commands": commands}
+    payload = {
+        "sync_token": "*",
+        "commands": commands
+    }
 
     print(f"[todoist] batch creating {len(tasks)} tasks …")
+    debug(f"Batch payload: {len(commands)} commands")
     response = _post_json(url, payload=payload, headers=headers)
     print(f"[todoist] batch create status={response.status_code}")
 
@@ -315,12 +319,22 @@ def todoist_batch_create_tasks(
 
     try:
         result = response.json()
+        debug(f"Sync API response: {result}")
+
         # Sync API returns sync_status with command results
         sync_status = result.get("sync_status", {})
+
+        # Check for any errors
+        if sync_status:
+            errors = {k: v for k, v in sync_status.items() if v != "ok"}
+            if errors:
+                print(f"[todoist] errors in batch: {errors}")
+
         successful = sum(1 for status in sync_status.values() if status == "ok")
         print(f"[todoist] batch created {successful}/{len(tasks)} tasks")
         return successful
-    except (ValueError, KeyError):
+    except (ValueError, KeyError) as exc:
+        print(f"[warn] failed to parse sync response: {exc}")
         print(f"[todoist] batch created {len(tasks)} tasks (assuming success)")
         return len(tasks)
 
@@ -412,6 +426,9 @@ def main() -> None:
 
             # Filter for inbound messages only if requested
             if inbound_only:
+                # Check API's outbound field first (most reliable)
+                is_outbound_api = message.get("outbound")
+
                 direction = message.get("direction", "").lower()
                 msg_type = message.get("type", "").lower()
                 is_inbound = message.get("inbound") or message.get("incoming") or message.get("fromCustomer")
@@ -421,16 +438,22 @@ def main() -> None:
                 if outbound_phone_normalized:
                     from_phone = message.get("from") or message.get("fromNumber") or message.get("phoneNumber") or ""
                     from_phone_normalized = "".join(c for c in str(from_phone) if c.isdigit())
-                    from_phone_match = outbound_phone_normalized in from_phone_normalized or from_phone_normalized in outbound_phone_normalized
+                    # Only match if both numbers are non-empty
+                    if from_phone_normalized:
+                        from_phone_match = (
+                            outbound_phone_normalized in from_phone_normalized
+                            or from_phone_normalized in outbound_phone_normalized
+                        )
 
                 # Debug: show what fields we're checking
                 if DEBUG_MODE:
-                    debug(f"Message {message_id}: direction={direction!r}, type={msg_type!r}, inbound={is_inbound!r}")
+                    debug(f"Message {message_id}: outbound={is_outbound_api}, direction={direction!r}, type={msg_type!r}, inbound={is_inbound!r}")
                     debug(f"  from_phone={from_phone!r}, from_phone_match={from_phone_match}")
 
-                # Check if message is outbound
+                # Check if message is outbound - use API field first
                 is_outbound = (
-                    from_phone_match  # Most reliable: message is from your phone number
+                    is_outbound_api is True  # API's outbound field (most reliable)
+                    or from_phone_match  # Message is from your phone number
                     or direction in {"outbound", "out", "sent", "send"}
                     or msg_type in {"outbound", "out", "sent", "send"}
                     or is_inbound is False
