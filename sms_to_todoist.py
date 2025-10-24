@@ -16,6 +16,7 @@ AZ_BASE = (os.getenv("AZ_BASE") or "https://api.agencyzoom.com").rstrip("/")
 AZ_API_BASE = f"{AZ_BASE}/v1"
 CACHE_FILE = ".sms_to_todoist_cache.json"
 OUTPUT_FILE = os.getenv("SMS_OUTPUT_FILE", "sms_messages.txt")
+JSON_OUTPUT_FILE = os.getenv("SMS_JSON_OUTPUT_FILE", "sms_messages.json")
 REQUEST_TIMEOUT = int(os.getenv("REQUEST_TIMEOUT_SECONDS") or "30")
 DEFAULT_ENV_FILE = ".env"
 
@@ -382,13 +383,27 @@ def main() -> None:
             content = content[:990]  # keep under Todoist 1k char limit buffer
             print(f"[task] {content}")
 
-            # Collect message details for text file export
+            # Determine direction for export
+            direction_value = message.get("direction", "").title()
+            if not direction_value:
+                # Detect direction using same logic as filter
+                body_lower = body.lower()
+                agent_signatures = ["jared ullrich", "noah", "luke murdoch", "luke", "carl", "ullrich insurance"]
+                has_agent_signature = any(sig in body_lower for sig in agent_signatures)
+                outbound_phrases = ["our office", "our service team", "dave ramsey", "elp", "ullrichinsurance.com"]
+                has_outbound_phrase = any(phrase in body_lower for phrase in outbound_phrases)
+                direction_value = "Outbound" if (has_agent_signature or has_outbound_phrase) else "Inbound"
+
+            # Collect message details for text and JSON export
             all_messages.append({
                 "date": date_label,
                 "sender": sender,
                 "contact": contact_name,
                 "body": body,
-                "message_id": message_id
+                "message_id": message_id,
+                "direction": direction_value,
+                "from_field": message.get("from") or message.get("fromNumber") or sender,
+                "to_field": message.get("to") or message.get("toNumber") or "agent@ullrichinsurance.com"
             })
 
             if not dry_run:
@@ -422,6 +437,27 @@ def main() -> None:
             print(f"[file] exported {len(all_messages)} messages to {OUTPUT_FILE}")
         except Exception as exc:
             print(f"[warn] failed to write output file: {exc}")
+
+        # Write messages to JSON file in specified format
+        try:
+            json_messages = []
+            for msg in all_messages:
+                json_messages.append({
+                    "messageId": int(msg["message_id"]) if msg["message_id"].isdigit() else msg["message_id"],
+                    "direction": msg["direction"],
+                    "from": msg["from_field"],
+                    "to": msg["to_field"],
+                    "messageBody": msg["body"],
+                    "timestamp": msg["date"]
+                })
+
+            json_output = {"messages": json_messages}
+            with open(JSON_OUTPUT_FILE, "w", encoding="utf-8") as f:
+                json.dump(json_output, f, indent=2, ensure_ascii=False)
+
+            print(f"[file] exported {len(all_messages)} messages to {JSON_OUTPUT_FILE}")
+        except Exception as exc:
+            print(f"[warn] failed to write JSON output file: {exc}")
 
     print(
         f"[done] tasks created={created_count}, "
