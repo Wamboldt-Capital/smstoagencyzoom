@@ -440,9 +440,9 @@ def main() -> None:
                 skipped_count += 1
                 continue
 
-            # Format date as "Monday, 10-22, 3:01 PM"
+            # Format date as "10-22, Monday, 3:01 PM"
             if message_dt:
-                date_label = message_dt.strftime("%A, %m-%d, %-I:%M %p")
+                date_label = message_dt.strftime("%m-%d, %A, %-I:%M %p")
             else:
                 date_label = message_date_raw or "unknown date"
 

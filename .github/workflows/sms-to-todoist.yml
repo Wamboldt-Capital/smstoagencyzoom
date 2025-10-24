@@ -3,7 +3,7 @@ name: SMS → Todoist
 on:
   workflow_dispatch: {}          # manual run
   schedule:
-    - cron: "*/30 * * * *"       # every 30 minutes (adjust as you like)
+    - cron: "*/8 * * * *"        # every 8 minutes
 
 permissions:
   contents: write                # needed to commit the cache file
