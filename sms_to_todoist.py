@@ -286,6 +286,7 @@ def main() -> None:
     msgs_page = _int_env("AZ_MSGS_PAGE_SIZE", 5)
     dry_run = _bool_env("DRY_RUN", False)
     inbound_only = _bool_env("AZ_INBOUND_ONLY", False)
+    outbound_phone = os.getenv("AZ_OUTBOUND_PHONE_NUMBER", "").strip()
     since_iso = os.getenv("AZ_SINCE_ISO", "").strip()
     since_dt = parse_iso(since_iso) if since_iso else None
 
@@ -294,6 +295,12 @@ def main() -> None:
     print(f"[az] threads fetched: {len(threads)}")
     if inbound_only:
         print("[filter] inbound messages only (skipping outbound)")
+
+    # Normalize outbound phone number for comparison
+    outbound_phone_normalized = ""
+    if outbound_phone:
+        outbound_phone_normalized = "".join(c for c in outbound_phone if c.isdigit())
+        print(f"[filter] filtering messages from {outbound_phone}")
 
     seen_ids = load_cache()
     new_seen = set(seen_ids)
@@ -334,6 +341,15 @@ def main() -> None:
                 direction = message.get("direction", "").lower()
                 msg_type = message.get("type", "").lower()
                 is_inbound = message.get("inbound") or message.get("incoming") or message.get("fromCustomer")
+
+                # Check if message is from the outbound phone number
+                from_phone_match = False
+                if outbound_phone_normalized:
+                    from_phone = message.get("from") or message.get("fromNumber") or message.get("phoneNumber") or ""
+                    from_phone_normalized = "".join(c for c in str(from_phone) if c.isdigit())
+                    from_phone_match = outbound_phone_normalized in from_phone_normalized or from_phone_normalized in outbound_phone_normalized
+                    if DEBUG_MODE:
+                        debug(f"Phone check: from={from_phone!r}, normalized={from_phone_normalized}, match={from_phone_match}")
 
                 # Heuristic detection based on message content patterns
                 body_lower = body.lower()
@@ -384,7 +400,8 @@ def main() -> None:
 
                 # Check multiple possible field formats
                 is_outbound = (
-                    direction in {"outbound", "out", "sent", "send"}
+                    from_phone_match  # Most reliable: message is from your phone number
+                    or direction in {"outbound", "out", "sent", "send"}
                     or msg_type in {"outbound", "out", "sent", "send"}
                     or is_inbound is False
                     or has_agent_signature  # Fallback: detect by agent signature
