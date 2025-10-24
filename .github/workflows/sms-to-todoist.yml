@@ -1,7 +1,13 @@
 name: SMS → Todoist
 
 on:
-  workflow_dispatch: {}          # manual run
+  workflow_dispatch:
+    inputs:
+      since_date:
+        description: 'Fetch messages since this date (ISO format: 2025-10-17T00:00:00Z). Leave empty for default behavior.'
+        required: false
+        type: string
+        default: ''
   schedule:
     - cron: "*/5 * * * *"        # every 5 minutes
 
@@ -61,7 +67,7 @@ jobs:
           AZ_MSGS_PAGE_SIZE:     ${{ secrets.AZ_MSGS_PAGE_SIZE }}
           AZ_INBOUND_ONLY:       ${{ secrets.AZ_INBOUND_ONLY }}        # "1" to only process inbound messages
           AZ_OUTBOUND_PHONE_NUMBER: ${{ secrets.AZ_OUTBOUND_PHONE_NUMBER }}  # your phone number for filtering
-          AZ_SINCE_ISO:          ${{ secrets.AZ_SINCE_ISO }}          # e.g. 2025-10-01T00:00:00Z
+          AZ_SINCE_ISO:          ${{ inputs.since_date || secrets.AZ_SINCE_ISO }}  # manual input or secret
           REQUEST_TIMEOUT_SECONDS: ${{ secrets.REQUEST_TIMEOUT_SECONDS }}
           DRY_RUN:               ${{ secrets.DRY_RUN }}                # "1" to test without creating tasks
           DEBUG:                 ${{ secrets.DEBUG }}                  # "1" to print debug
