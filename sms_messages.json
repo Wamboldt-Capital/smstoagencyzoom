@@ -1,52 +1,76 @@
 {
   "messages": [
     {
-      "messageId": 155616775,
+      "messageId": 155781283,
       "direction": "Inbound",
       "from": "Unknown",
       "to": "agent@ullrichinsurance.com",
-      "messageBody": "My current auto insurance is due today.  I was wondering how it is coming.",
-      "timestamp": "Thursday, 10-23, 12:11 PM"
+      "messageBody": "I never got a new email with the options",
+      "timestamp": "Friday, 10-24, 10:35 AM"
     },
     {
-      "messageId": 155371306,
+      "messageId": 155264829,
+      "direction": "Inbound",
+      "from": "Unknown",
+      "to": "agent@ullrichinsurance.com",
+      "messageBody": "Yes, we received the email. Thank you",
+      "timestamp": "Tuesday, 10-21, 8:24 PM"
+    },
+    {
+      "messageId": 155764216,
       "direction": "Inbound",
       "from": "Unknown",
       "to": "agent@ullrichinsurance.com",
       "messageBody": "Thank you",
-      "timestamp": "Wednesday, 10-22, 10:30 AM"
+      "timestamp": "Friday, 10-24, 10:06 AM"
     },
     {
-      "messageId": 155159418,
+      "messageId": 155205511,
       "direction": "Inbound",
       "from": "Unknown",
       "to": "agent@ullrichinsurance.com",
-      "messageBody": "I will go update the Camper info right away for my senior agent so that we can get everything finished for you asap. I will double check that I got the email right correct. Thank you for sending this over Christine",
-      "timestamp": "Tuesday, 10-21, 10:48 AM"
+      "messageBody": "Yes, that's fine",
+      "timestamp": "Tuesday, 10-21, 12:57 PM"
     },
     {
-      "messageId": 155045715,
+      "messageId": 155075510,
       "direction": "Inbound",
       "from": "Unknown",
       "to": "agent@ullrichinsurance.com",
-      "messageBody": "I did not see it in my email crazelt@yahoo.com \r\nHere is the VIN",
-      "timestamp": "Monday, 10-20, 10:13 PM"
+      "messageBody": "Can you please call after 3pm.",
+      "timestamp": "Tuesday, 10-21, 8:11 AM"
     },
     {
-      "messageId": 155265176,
+      "messageId": 155787821,
       "direction": "Inbound",
       "from": "Unknown",
       "to": "agent@ullrichinsurance.com",
-      "messageBody": "test",
-      "timestamp": "Tuesday, 10-21, 10:38 PM"
+      "messageBody": "Thanks",
+      "timestamp": "Friday, 10-24, 10:47 AM"
     },
     {
-      "messageId": 155560884,
+      "messageId": 155392335,
       "direction": "Inbound",
       "from": "Unknown",
       "to": "agent@ullrichinsurance.com",
-      "messageBody": "Thank you!",
-      "timestamp": "Thursday, 10-23, 10:16 AM"
+      "messageBody": "Liked “I will update this right away for my senior agent. Thank you for sending this over Brandie”",
+      "timestamp": "Wednesday, 10-22, 11:24 AM"
+    },
+    {
+      "messageId": 155379792,
+      "direction": "Inbound",
+      "from": "Unknown",
+      "to": "agent@ullrichinsurance.com",
+      "messageBody": "I will update this right away for my senior agent. Thank you for sending this over Brandie",
+      "timestamp": "Wednesday, 10-22, 10:52 AM"
+    },
+    {
+      "messageId": 155266941,
+      "direction": "Inbound",
+      "from": "Unknown",
+      "to": "agent@ullrichinsurance.com",
+      "messageBody": "",
+      "timestamp": "Wednesday, 10-22, 6:37 AM"
     }
   ]
 }

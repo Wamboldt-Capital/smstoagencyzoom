@@ -1,79 +1,114 @@
 ================================================================================
 SMS MESSAGES EXPORT
-Generated: 2025-10-24 15:38:38 UTC
-Total Messages: 6
+Generated: 2025-10-24 16:51:07 UTC
+Total Messages: 9
 ================================================================================
 
 MESSAGE #1
 --------------------------------------------------------------------------------
-Date:    Thursday, 10-23, 12:11 PM
+Date:    Friday, 10-24, 10:35 AM
 From:    Unknown
-Contact: Christine Taylor
-ID:      155616775
+Contact: Todd Dwaine Haman
+ID:      155781283
 
 Message:
-My current auto insurance is due today.  I was wondering how it is coming.
+I never got a new email with the options
 
 ================================================================================
 
 MESSAGE #2
 --------------------------------------------------------------------------------
-Date:    Wednesday, 10-22, 10:30 AM
+Date:    Tuesday, 10-21, 8:24 PM
 From:    Unknown
-Contact: Christine Taylor
-ID:      155371306
+Contact: Todd Dwaine Haman
+ID:      155264829
+
+Message:
+Yes, we received the email. Thank you
+
+================================================================================
+
+MESSAGE #3
+--------------------------------------------------------------------------------
+Date:    Friday, 10-24, 10:06 AM
+From:    Unknown
+Contact: Tobias Lopez
+ID:      155764216
 
 Message:
 Thank you
 
 ================================================================================
 
-MESSAGE #3
---------------------------------------------------------------------------------
-Date:    Tuesday, 10-21, 10:48 AM
-From:    Unknown
-Contact: Christine Taylor
-ID:      155159418
-
-Message:
-I will go update the Camper info right away for my senior agent so that we can get everything finished for you asap. I will double check that I got the email right correct. Thank you for sending this over Christine
-
-================================================================================
-
 MESSAGE #4
 --------------------------------------------------------------------------------
-Date:    Monday, 10-20, 10:13 PM
+Date:    Tuesday, 10-21, 12:57 PM
 From:    Unknown
-Contact: Christine Taylor
-ID:      155045715
+Contact: Tobias Lopez
+ID:      155205511
 
 Message:
-I did not see it in my email crazelt@yahoo.com 
-Here is the VIN
+Yes, that's fine
 
 ================================================================================
 
 MESSAGE #5
 --------------------------------------------------------------------------------
-Date:    Tuesday, 10-21, 10:38 PM
+Date:    Tuesday, 10-21, 8:11 AM
 From:    Unknown
-Contact: Noah Wamboldt
-ID:      155265176
+Contact: Tobias Lopez
+ID:      155075510
 
 Message:
-test
+Can you please call after 3pm.
 
 ================================================================================
 
 MESSAGE #6
 --------------------------------------------------------------------------------
-Date:    Thursday, 10-23, 10:16 AM
+Date:    Friday, 10-24, 10:47 AM
 From:    Unknown
-Contact: Lauren Forman
-ID:      155560884
+Contact: Brandie Sutton
+ID:      155787821
 
 Message:
-Thank you!
+Thanks
+
+================================================================================
+
+MESSAGE #7
+--------------------------------------------------------------------------------
+Date:    Wednesday, 10-22, 11:24 AM
+From:    Unknown
+Contact: Brandie Sutton
+ID:      155392335
+
+Message:
+Liked “I will update this right away for my senior agent. Thank you for sending this over Brandie”
+
+================================================================================
+
+MESSAGE #8
+--------------------------------------------------------------------------------
+Date:    Wednesday, 10-22, 10:52 AM
+From:    Unknown
+Contact: Brandie Sutton
+ID:      155379792
+
+Message:
+I will update this right away for my senior agent. Thank you for sending this over Brandie
+
+================================================================================
+
+MESSAGE #9
+--------------------------------------------------------------------------------
+Date:    Wednesday, 10-22, 6:37 AM
+From:    Unknown
+Contact: Brandie Sutton
+ID:      155266941
+
+Message:
+
 
 ================================================================================
 
