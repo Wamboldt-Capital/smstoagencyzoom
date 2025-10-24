@@ -244,7 +244,10 @@ def todoist_create_task(token: str, content: str, project_id: Optional[str] = No
     if not response.text:
         return {}
     try:
-        return response.json()
+        result = response.json()
+        if result.get("id"):
+            print(f"[todoist] task created: {result['id']}")
+        return result
     except ValueError:
         return {}
 
@@ -324,7 +327,7 @@ def main() -> None:
 
     save_cache(new_seen)
     print(
-        "[done] tasks created={created_count}, "
+        f"[done] tasks created={created_count}, "
         f"skipped={skipped_count}, cached_ids={len(new_seen)}"
     )
 
