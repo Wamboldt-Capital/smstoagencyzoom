@@ -348,66 +348,18 @@ def main() -> None:
                     from_phone = message.get("from") or message.get("fromNumber") or message.get("phoneNumber") or ""
                     from_phone_normalized = "".join(c for c in str(from_phone) if c.isdigit())
                     from_phone_match = outbound_phone_normalized in from_phone_normalized or from_phone_normalized in outbound_phone_normalized
-                    if DEBUG_MODE:
-                        debug(f"Phone check: from={from_phone!r}, normalized={from_phone_normalized}, match={from_phone_match}")
-
-                # Heuristic detection based on message content patterns
-                body_lower = body.lower()
-                first_name = contact_name.split()[0].lower() if contact_name != "Unknown" and contact_name else None
-
-                # Common agent signatures in outbound messages
-                agent_signatures = [
-                    "jared ullrich", "noah", "luke murdoch", "luke", "carl",
-                    "ullrich insurance", "- jared", "- noah", "- luke", "- carl"
-                ]
-                has_agent_signature = any(sig in body_lower for sig in agent_signatures)
-
-                # Common outbound phrases (business speaking to customer)
-                outbound_phrases = [
-                    "our office", "our service team", "our team", "our insurance",
-                    "dave ramsey", "endorsed local provider", "elp",
-                    "call our office", "contact our office",
-                    "ullrichinsurance.com", "www.ullrich",
-                    "for you", "for you.", "for you asap", "for you soon",
-                    "my agent", "my senior agent", "my team",
-                    "thank you for sending", "thank you for this", "thank you for the",
-                    "i will go", "i will update", "i will double check", "i will check",
-                    "we can get", "we will get", "let me know if you"
-                ]
-                has_outbound_phrase = any(phrase in body_lower for phrase in outbound_phrases)
-
-                # Check if message ends with customer's first name (common acknowledgement pattern)
-                ends_with_name = False
-                if first_name and len(body) > len(first_name):
-                    # Check last 50 chars for the name
-                    last_part = body[-50:].lower()
-                    ends_with_name = last_part.strip().endswith(first_name)
-
-                # Common outbound greeting patterns
-                outbound_greetings = []
-                if first_name:
-                    outbound_greetings = [
-                        f"hey {first_name}", f"hi {first_name}",
-                        f"hello {first_name}", f"hey {first_name}!"
-                    ]
-                has_outbound_greeting = any(body_lower.startswith(greeting) for greeting in outbound_greetings)
 
                 # Debug: show what fields we're checking
                 if DEBUG_MODE:
                     debug(f"Message {message_id}: direction={direction!r}, type={msg_type!r}, inbound={is_inbound!r}")
-                    debug(f"  body preview: {body[:100]!r}")
-                    debug(f"  has_agent_signature={has_agent_signature}, has_outbound_greeting={has_outbound_greeting}, has_outbound_phrase={has_outbound_phrase}, ends_with_name={ends_with_name}")
+                    debug(f"  from_phone={from_phone!r}, from_phone_match={from_phone_match}")
 
-                # Check multiple possible field formats
+                # Check if message is outbound
                 is_outbound = (
                     from_phone_match  # Most reliable: message is from your phone number
                     or direction in {"outbound", "out", "sent", "send"}
                     or msg_type in {"outbound", "out", "sent", "send"}
                     or is_inbound is False
-                    or has_agent_signature  # Fallback: detect by agent signature
-                    or has_outbound_greeting  # Fallback: detect by greeting pattern
-                    or has_outbound_phrase  # Fallback: detect by business phrases
-                    or ends_with_name  # Fallback: message ends with customer's name
                 )
 
                 if is_outbound:
@@ -424,13 +376,11 @@ def main() -> None:
             # Determine direction for export
             direction_value = message.get("direction", "").title()
             if not direction_value:
-                # Detect direction using same logic as filter
-                body_lower = body.lower()
-                agent_signatures = ["jared ullrich", "noah", "luke murdoch", "luke", "carl", "ullrich insurance"]
-                has_agent_signature = any(sig in body_lower for sig in agent_signatures)
-                outbound_phrases = ["our office", "our service team", "dave ramsey", "elp", "ullrichinsurance.com"]
-                has_outbound_phrase = any(phrase in body_lower for phrase in outbound_phrases)
-                direction_value = "Outbound" if (has_agent_signature or has_outbound_phrase) else "Inbound"
+                # Detect direction by phone number
+                from_phone = message.get("from") or message.get("fromNumber") or message.get("phoneNumber") or ""
+                from_phone_normalized = "".join(c for c in str(from_phone) if c.isdigit())
+                is_from_my_number = outbound_phone_normalized and (outbound_phone_normalized in from_phone_normalized or from_phone_normalized in outbound_phone_normalized)
+                direction_value = "Outbound" if is_from_my_number else "Inbound"
 
             # Collect message details for text and JSON export
             all_messages.append({
