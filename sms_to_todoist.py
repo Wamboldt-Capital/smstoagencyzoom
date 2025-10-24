@@ -12,10 +12,10 @@ from requests import RequestException
 from requests import Response
 from requests.exceptions import HTTPError
 
-AZ_BASE = os.getenv("AZ_BASE", "https://api.agencyzoom.com").rstrip("/")
+AZ_BASE = (os.getenv("AZ_BASE") or "https://api.agencyzoom.com").rstrip("/")
 AZ_API_BASE = f"{AZ_BASE}/v1"
 CACHE_FILE = ".sms_to_todoist_cache.json"
-REQUEST_TIMEOUT = int(os.getenv("REQUEST_TIMEOUT_SECONDS", "30"))
+REQUEST_TIMEOUT = int(os.getenv("REQUEST_TIMEOUT_SECONDS") or "30")
 DEFAULT_ENV_FILE = ".env"
 
 
