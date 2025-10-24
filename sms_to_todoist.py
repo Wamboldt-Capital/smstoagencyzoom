@@ -316,6 +316,11 @@ def main() -> None:
                 msg_type = message.get("type", "").lower()
                 is_inbound = message.get("inbound") or message.get("incoming") or message.get("fromCustomer")
 
+                # Debug: show what fields we're checking
+                if DEBUG_MODE:
+                    debug(f"Message {message_id}: direction={direction!r}, type={msg_type!r}, inbound={is_inbound!r}")
+                    debug(f"Message fields: {list(message.keys())}")
+
                 # Check multiple possible field formats
                 is_outbound = (
                     direction in {"outbound", "out", "sent", "send"}
@@ -324,8 +329,11 @@ def main() -> None:
                 )
 
                 if is_outbound:
+                    debug(f"Skipping outbound message {message_id}")
                     skipped_count += 1
                     continue
+                else:
+                    debug(f"Including inbound message {message_id}")
 
             message_date_raw = message.get("messageDate") or message.get("sentDate") or ""
             message_dt = parse_iso(message_date_raw)
