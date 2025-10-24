@@ -326,34 +326,48 @@ def main() -> None:
                 is_inbound = message.get("inbound") or message.get("incoming") or message.get("fromCustomer")
 
                 # Heuristic detection based on message content patterns
+                body_lower = body.lower()
+
                 # Common agent signatures in outbound messages
                 agent_signatures = [
-                    "jared ullrich", "noah", "luke murdoch", "luke",
-                    "ullrich insurance", "- jared", "- noah", "- luke"
+                    "jared ullrich", "noah", "luke murdoch", "luke", "carl",
+                    "ullrich insurance", "- jared", "- noah", "- luke", "- carl"
                 ]
-                body_lower = body.lower()
                 has_agent_signature = any(sig in body_lower for sig in agent_signatures)
 
-                # Common outbound greeting patterns
-                outbound_patterns = [
-                    "hey " + contact_name.split()[0].lower() if contact_name != "Unknown" else None,
-                    "hi " + contact_name.split()[0].lower() if contact_name != "Unknown" else None,
+                # Common outbound phrases (business speaking to customer)
+                outbound_phrases = [
+                    "our office", "our service team", "our team", "our insurance",
+                    "dave ramsey", "endorsed local provider", "elp",
+                    "call our office", "contact our office",
+                    "ullrichinsurance.com", "www.ullrich"
                 ]
-                has_outbound_greeting = any(pattern and body_lower.startswith(pattern) for pattern in outbound_patterns if pattern)
+                has_outbound_phrase = any(phrase in body_lower for phrase in outbound_phrases)
+
+                # Common outbound greeting patterns
+                first_name = contact_name.split()[0].lower() if contact_name != "Unknown" and contact_name else None
+                outbound_greetings = []
+                if first_name:
+                    outbound_greetings = [
+                        f"hey {first_name}", f"hi {first_name}",
+                        f"hello {first_name}", f"hey {first_name}!"
+                    ]
+                has_outbound_greeting = any(body_lower.startswith(greeting) for greeting in outbound_greetings)
 
                 # Debug: show what fields we're checking
                 if DEBUG_MODE:
                     debug(f"Message {message_id}: direction={direction!r}, type={msg_type!r}, inbound={is_inbound!r}")
                     debug(f"  body preview: {body[:100]!r}")
-                    debug(f"  has_agent_signature={has_agent_signature}, has_outbound_greeting={has_outbound_greeting}")
+                    debug(f"  has_agent_signature={has_agent_signature}, has_outbound_greeting={has_outbound_greeting}, has_outbound_phrase={has_outbound_phrase}")
 
                 # Check multiple possible field formats
                 is_outbound = (
                     direction in {"outbound", "out", "sent", "send"}
                     or msg_type in {"outbound", "out", "sent", "send"}
                     or is_inbound is False
-                    or has_agent_signature  # Fallback: detect by content
+                    or has_agent_signature  # Fallback: detect by agent signature
                     or has_outbound_greeting  # Fallback: detect by greeting pattern
+                    or has_outbound_phrase  # Fallback: detect by business phrases
                 )
 
                 if is_outbound:
