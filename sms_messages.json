@@ -1,108 +1,28 @@
 {
   "messages": [
     {
-      "messageId": 155837800,
+      "messageId": 155836693,
       "direction": "Outbound",
       "from": "Unknown",
       "to": "agent@ullrichinsurance.com",
-      "messageBody": "Let's do quarterly",
-      "timestamp": "10-24, Friday, 1:39 PM"
+      "messageBody": "Can I call you now?",
+      "timestamp": "10-24, Friday, 1:33 PM"
     },
     {
-      "messageId": 155836937,
+      "messageId": 155835897,
       "direction": "Outbound",
       "from": "Unknown",
       "to": "agent@ullrichinsurance.com",
-      "messageBody": "And semi annually",
-      "timestamp": "10-24, Friday, 1:34 PM"
+      "messageBody": "Hi Darius, sorry to hear you weren't feeling well, hope you're on the mend. I'm free now until this evening, just let me know when works for you.",
+      "timestamp": "10-24, Friday, 1:28 PM"
     },
     {
-      "messageId": 155836833,
+      "messageId": 155609649,
       "direction": "Outbound",
       "from": "Unknown",
       "to": "agent@ullrichinsurance.com",
-      "messageBody": "How much is the ring insurance quarterly yearly",
-      "timestamp": "10-24, Friday, 1:34 PM"
-    },
-    {
-      "messageId": 155043491,
-      "direction": "Outbound",
-      "from": "Unknown",
-      "to": "agent@ullrichinsurance.com",
-      "messageBody": "Sorry took so long Jayson was out of town and I had to review with him. Have some questions. Can we set up. Call to review.",
-      "timestamp": "10-20, Monday, 6:46 PM"
-    },
-    {
-      "messageId": 155837800,
-      "direction": "Outbound",
-      "from": "Unknown",
-      "to": "agent@ullrichinsurance.com",
-      "messageBody": "Let's do quarterly",
-      "timestamp": "10-24, Friday, 1:39 PM"
-    },
-    {
-      "messageId": 155836937,
-      "direction": "Outbound",
-      "from": "Unknown",
-      "to": "agent@ullrichinsurance.com",
-      "messageBody": "And semi annually",
-      "timestamp": "10-24, Friday, 1:34 PM"
-    },
-    {
-      "messageId": 155836833,
-      "direction": "Outbound",
-      "from": "Unknown",
-      "to": "agent@ullrichinsurance.com",
-      "messageBody": "How much is the ring insurance quarterly yearly",
-      "timestamp": "10-24, Friday, 1:34 PM"
-    },
-    {
-      "messageId": 155808869,
-      "direction": "Outbound",
-      "from": "Unknown",
-      "to": "agent@ullrichinsurance.com",
-      "messageBody": "I have not heard anything for a day or so. I am past my auto insurance due date now. I would rather buy something new, but I can pay them for another month. I will not get a refund, so I will have to wait a whole month. Maybe that is best right now. We REALLY needed the auto ASAP.",
-      "timestamp": "10-24, Friday, 11:53 AM"
-    },
-    {
-      "messageId": 155616775,
-      "direction": "Outbound",
-      "from": "Unknown",
-      "to": "agent@ullrichinsurance.com",
-      "messageBody": "My current auto insurance is due today.  I was wondering how it is coming.",
-      "timestamp": "10-23, Thursday, 12:11 PM"
-    },
-    {
-      "messageId": 155371306,
-      "direction": "Outbound",
-      "from": "Unknown",
-      "to": "agent@ullrichinsurance.com",
-      "messageBody": "Thank you",
-      "timestamp": "10-22, Wednesday, 10:30 AM"
-    },
-    {
-      "messageId": 155805244,
-      "direction": "Outbound",
-      "from": "Unknown",
-      "to": "agent@ullrichinsurance.com",
-      "messageBody": "Hi Jared! Any updates on when we will be receiving our insurance review?",
-      "timestamp": "10-24, Friday, 11:32 AM"
-    },
-    {
-      "messageId": 155379493,
-      "direction": "Outbound",
-      "from": "Unknown",
-      "to": "agent@ullrichinsurance.com",
-      "messageBody": "Hey Jared! That sounds good, thank you!",
-      "timestamp": "10-22, Wednesday, 10:51 AM"
-    },
-    {
-      "messageId": 155796428,
-      "direction": "Outbound",
-      "from": "Unknown",
-      "to": "agent@ullrichinsurance.com",
-      "messageBody": "We filed with Safeco. Thanks",
-      "timestamp": "10-24, Friday, 11:07 AM"
+      "messageBody": "Thank you, Darius! Looking forward to it.",
+      "timestamp": "10-23, Thursday, 11:46 AM"
     }
   ]
 }

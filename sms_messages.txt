@@ -1,162 +1,42 @@
 ================================================================================
 SMS MESSAGES EXPORT
-Generated: 2025-10-24 19:46:19 UTC
-Total Messages: 13
+Generated: 2025-10-24 20:38:33 UTC
+Total Messages: 3
 ================================================================================
 
 MESSAGE #1
 --------------------------------------------------------------------------------
-Date:    10-24, Friday, 1:39 PM
+Date:    10-24, Friday, 1:33 PM
 From:    Unknown
-Contact: Meraiah Davis
-ID:      155837800
+Contact: Cheyenne Morin
+ID:      155836693
 
 Message:
-Let's do quarterly
+Can I call you now?
 
 ================================================================================
 
 MESSAGE #2
 --------------------------------------------------------------------------------
-Date:    10-24, Friday, 1:34 PM
+Date:    10-24, Friday, 1:28 PM
 From:    Unknown
-Contact: Meraiah Davis
-ID:      155836937
+Contact: Cheyenne Morin
+ID:      155835897
 
 Message:
-And semi annually
+Hi Darius, sorry to hear you weren't feeling well, hope you're on the mend. I'm free now until this evening, just let me know when works for you.
 
 ================================================================================
 
 MESSAGE #3
 --------------------------------------------------------------------------------
-Date:    10-24, Friday, 1:34 PM
+Date:    10-23, Thursday, 11:46 AM
 From:    Unknown
-Contact: Meraiah Davis
-ID:      155836833
+Contact: Cheyenne Morin
+ID:      155609649
 
 Message:
-How much is the ring insurance quarterly yearly
-
-================================================================================
-
-MESSAGE #4
---------------------------------------------------------------------------------
-Date:    10-20, Monday, 6:46 PM
-From:    Unknown
-Contact: Meraiah Davis
-ID:      155043491
-
-Message:
-Sorry took so long Jayson was out of town and I had to review with him. Have some questions. Can we set up. Call to review.
-
-================================================================================
-
-MESSAGE #5
---------------------------------------------------------------------------------
-Date:    10-24, Friday, 1:39 PM
-From:    Unknown
-Contact: Meraiah Davis
-ID:      155837800
-
-Message:
-Let's do quarterly
-
-================================================================================
-
-MESSAGE #6
---------------------------------------------------------------------------------
-Date:    10-24, Friday, 1:34 PM
-From:    Unknown
-Contact: Meraiah Davis
-ID:      155836937
-
-Message:
-And semi annually
-
-================================================================================
-
-MESSAGE #7
---------------------------------------------------------------------------------
-Date:    10-24, Friday, 1:34 PM
-From:    Unknown
-Contact: Meraiah Davis
-ID:      155836833
-
-Message:
-How much is the ring insurance quarterly yearly
-
-================================================================================
-
-MESSAGE #8
---------------------------------------------------------------------------------
-Date:    10-24, Friday, 11:53 AM
-From:    Unknown
-Contact: Christine Taylor
-ID:      155808869
-
-Message:
-I have not heard anything for a day or so. I am past my auto insurance due date now. I would rather buy something new, but I can pay them for another month. I will not get a refund, so I will have to wait a whole month. Maybe that is best right now. We REALLY needed the auto ASAP.
-
-================================================================================
-
-MESSAGE #9
---------------------------------------------------------------------------------
-Date:    10-23, Thursday, 12:11 PM
-From:    Unknown
-Contact: Christine Taylor
-ID:      155616775
-
-Message:
-My current auto insurance is due today.  I was wondering how it is coming.
-
-================================================================================
-
-MESSAGE #10
---------------------------------------------------------------------------------
-Date:    10-22, Wednesday, 10:30 AM
-From:    Unknown
-Contact: Christine Taylor
-ID:      155371306
-
-Message:
-Thank you
-
-================================================================================
-
-MESSAGE #11
---------------------------------------------------------------------------------
-Date:    10-24, Friday, 11:32 AM
-From:    Unknown
-Contact: Amanda Sheehan
-ID:      155805244
-
-Message:
-Hi Jared! Any updates on when we will be receiving our insurance review?
-
-================================================================================
-
-MESSAGE #12
---------------------------------------------------------------------------------
-Date:    10-22, Wednesday, 10:51 AM
-From:    Unknown
-Contact: Amanda Sheehan
-ID:      155379493
-
-Message:
-Hey Jared! That sounds good, thank you!
-
-================================================================================
-
-MESSAGE #13
---------------------------------------------------------------------------------
-Date:    10-24, Friday, 11:07 AM
-From:    Unknown
-Contact: (434) 806-0991
-ID:      155796428
-
-Message:
-We filed with Safeco. Thanks
+Thank you, Darius! Looking forward to it.
 
 ================================================================================
 
