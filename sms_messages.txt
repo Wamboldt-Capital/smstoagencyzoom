@@ -1,32 +1,32 @@
 ================================================================================
 SMS MESSAGES EXPORT
-Generated: 2025-10-24 21:28:09 UTC
+Generated: 2025-10-24 21:54:51 UTC
 Total Messages: 2
 ================================================================================
 
 MESSAGE #1
 --------------------------------------------------------------------------------
-Date:    10-24, Friday, 3:01 PM
+Date:    10-22, Wednesday, 8:24 AM
 From:    Unknown
-Contact: Tess Labbe
-ID:      155852455
+Contact: Dean & Julie McVicker
+ID:      155300008
 
 Message:
-Hi Noah,
-Really sorry for the delay! This week and next are so hectic with work. I think I need to shop around a bit more when I have more time to think about this. Thanks for all your help, I appreciate it!
+You're welcome!
 
 ================================================================================
 
 MESSAGE #2
 --------------------------------------------------------------------------------
-Date:    10-17, Friday, 6:37 PM
+Date:    10-22, Wednesday, 8:00 AM
 From:    Unknown
-Contact: Tess Labbe
-ID:      154748124
+Contact: Dean & Julie McVicker
+ID:      155287291
 
 Message:
-Thanks, Noah!
-I will review your email and get back to you early next week.
+Valley Sunset RV Ranch
+1675 co-92
+Delta Co. 81416
 
 ================================================================================
 

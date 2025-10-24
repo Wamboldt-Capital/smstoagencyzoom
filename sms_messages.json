@@ -1,20 +1,20 @@
 {
   "messages": [
     {
-      "messageId": 155852455,
+      "messageId": 155300008,
       "direction": "Outbound",
       "from": "Unknown",
       "to": "agent@ullrichinsurance.com",
-      "messageBody": "Hi Noah,\nReally sorry for the delay! This week and next are so hectic with work. I think I need to shop around a bit more when I have more time to think about this. Thanks for all your help, I appreciate it!",
-      "timestamp": "10-24, Friday, 3:01 PM"
+      "messageBody": "You're welcome!",
+      "timestamp": "10-22, Wednesday, 8:24 AM"
     },
     {
-      "messageId": 154748124,
+      "messageId": 155287291,
       "direction": "Outbound",
       "from": "Unknown",
       "to": "agent@ullrichinsurance.com",
-      "messageBody": "Thanks, Noah!\nI will review your email and get back to you early next week.",
-      "timestamp": "10-17, Friday, 6:37 PM"
+      "messageBody": "Valley Sunset RV Ranch\n1675 co-92\nDelta Co. 81416",
+      "timestamp": "10-22, Wednesday, 8:00 AM"
     }
   ]
 }
