@@ -382,7 +382,7 @@ def main() -> None:
                     debug(f"Including inbound message {message_id}")
 
             date_label = message_date_raw or "unknown date"
-            content = f"SMS on {date_label} from {sender} ({contact_name}): {body}"
+            content = f"{contact_name} | {date_label} | {body}"
             content = content[:990]  # keep under Todoist 1k char limit buffer
             print(f"[task] {content}")
 
