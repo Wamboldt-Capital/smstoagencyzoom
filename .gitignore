@@ -30,7 +30,7 @@ env/
 .env
 
 # Cache files
-.sms_to_todoist_cache.json
+# Note: .sms_to_todoist_cache.json is tracked to prevent duplicate messages across workflow runs
 
 # IDE
 .vscode/
