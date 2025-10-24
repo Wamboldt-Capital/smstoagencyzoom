@@ -310,31 +310,6 @@ def main() -> None:
                 skipped_count += 1
                 continue
 
-            # Filter for inbound messages only if requested
-            if inbound_only:
-                direction = message.get("direction", "").lower()
-                msg_type = message.get("type", "").lower()
-                is_inbound = message.get("inbound") or message.get("incoming") or message.get("fromCustomer")
-
-                # Debug: show what fields we're checking
-                if DEBUG_MODE:
-                    debug(f"Message {message_id}: direction={direction!r}, type={msg_type!r}, inbound={is_inbound!r}")
-                    debug(f"Message fields: {list(message.keys())}")
-
-                # Check multiple possible field formats
-                is_outbound = (
-                    direction in {"outbound", "out", "sent", "send"}
-                    or msg_type in {"outbound", "out", "sent", "send"}
-                    or is_inbound is False
-                )
-
-                if is_outbound:
-                    debug(f"Skipping outbound message {message_id}")
-                    skipped_count += 1
-                    continue
-                else:
-                    debug(f"Including inbound message {message_id}")
-
             message_date_raw = message.get("messageDate") or message.get("sentDate") or ""
             message_dt = parse_iso(message_date_raw)
             if since_dt and message_dt and message_dt < since_dt:
@@ -343,6 +318,50 @@ def main() -> None:
 
             body = (message.get("body") or message.get("message") or "").strip()
             sender = message.get("senderName") or message.get("fromName") or "Unknown"
+
+            # Filter for inbound messages only if requested
+            if inbound_only:
+                direction = message.get("direction", "").lower()
+                msg_type = message.get("type", "").lower()
+                is_inbound = message.get("inbound") or message.get("incoming") or message.get("fromCustomer")
+
+                # Heuristic detection based on message content patterns
+                # Common agent signatures in outbound messages
+                agent_signatures = [
+                    "jared ullrich", "noah", "luke murdoch", "luke",
+                    "ullrich insurance", "- jared", "- noah", "- luke"
+                ]
+                body_lower = body.lower()
+                has_agent_signature = any(sig in body_lower for sig in agent_signatures)
+
+                # Common outbound greeting patterns
+                outbound_patterns = [
+                    "hey " + contact_name.split()[0].lower() if contact_name != "Unknown" else None,
+                    "hi " + contact_name.split()[0].lower() if contact_name != "Unknown" else None,
+                ]
+                has_outbound_greeting = any(pattern and body_lower.startswith(pattern) for pattern in outbound_patterns if pattern)
+
+                # Debug: show what fields we're checking
+                if DEBUG_MODE:
+                    debug(f"Message {message_id}: direction={direction!r}, type={msg_type!r}, inbound={is_inbound!r}")
+                    debug(f"  body preview: {body[:100]!r}")
+                    debug(f"  has_agent_signature={has_agent_signature}, has_outbound_greeting={has_outbound_greeting}")
+
+                # Check multiple possible field formats
+                is_outbound = (
+                    direction in {"outbound", "out", "sent", "send"}
+                    or msg_type in {"outbound", "out", "sent", "send"}
+                    or is_inbound is False
+                    or has_agent_signature  # Fallback: detect by content
+                    or has_outbound_greeting  # Fallback: detect by greeting pattern
+                )
+
+                if is_outbound:
+                    debug(f"Skipping outbound message {message_id}")
+                    skipped_count += 1
+                    continue
+                else:
+                    debug(f"Including inbound message {message_id}")
 
             date_label = message_date_raw or "unknown date"
             content = f"SMS on {date_label} from {sender} ({contact_name}): {body}"
