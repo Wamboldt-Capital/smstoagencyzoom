@@ -15,6 +15,7 @@ from requests.exceptions import HTTPError
 AZ_BASE = (os.getenv("AZ_BASE") or "https://api.agencyzoom.com").rstrip("/")
 AZ_API_BASE = f"{AZ_BASE}/v1"
 CACHE_FILE = ".sms_to_todoist_cache.json"
+OUTPUT_FILE = os.getenv("SMS_OUTPUT_FILE", "sms_messages.txt")
 REQUEST_TIMEOUT = int(os.getenv("REQUEST_TIMEOUT_SECONDS") or "30")
 DEFAULT_ENV_FILE = ".env"
 
@@ -291,6 +292,7 @@ def main() -> None:
     new_seen = set(seen_ids)
     created_count = 0
     skipped_count = 0
+    all_messages = []  # Collect messages for text file export
 
     for thread in threads:
         thread_id = str(thread.get("id") or thread.get("threadId") or "")
@@ -319,6 +321,15 @@ def main() -> None:
             content = content[:990]  # keep under Todoist 1k char limit buffer
             print(f"[task] {content}")
 
+            # Collect message details for text file export
+            all_messages.append({
+                "date": date_label,
+                "sender": sender,
+                "contact": contact_name,
+                "body": body,
+                "message_id": message_id
+            })
+
             if not dry_run:
                 todoist_create_task(todoist_token, content, project_id)
                 created_count += 1
@@ -326,6 +337,31 @@ def main() -> None:
             new_seen.add(message_id)
 
     save_cache(new_seen)
+
+    # Write messages to text file for easy reading
+    if all_messages:
+        try:
+            with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
+                f.write("=" * 80 + "\n")
+                f.write("SMS MESSAGES EXPORT\n")
+                f.write(f"Generated: {datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M:%S UTC')}\n")
+                f.write(f"Total Messages: {len(all_messages)}\n")
+                f.write("=" * 80 + "\n\n")
+
+                for idx, msg in enumerate(all_messages, 1):
+                    f.write(f"MESSAGE #{idx}\n")
+                    f.write("-" * 80 + "\n")
+                    f.write(f"Date:    {msg['date']}\n")
+                    f.write(f"From:    {msg['sender']}\n")
+                    f.write(f"Contact: {msg['contact']}\n")
+                    f.write(f"ID:      {msg['message_id']}\n")
+                    f.write(f"\nMessage:\n{msg['body']}\n")
+                    f.write("\n" + "=" * 80 + "\n\n")
+
+            print(f"[file] exported {len(all_messages)} messages to {OUTPUT_FILE}")
+        except Exception as exc:
+            print(f"[warn] failed to write output file: {exc}")
+
     print(
         f"[done] tasks created={created_count}, "
         f"skipped={skipped_count}, cached_ids={len(new_seen)}"

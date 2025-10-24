@@ -65,15 +65,18 @@ jobs:
           set -euo pipefail
           python sms_to_todoist.py
 
-      - name: Commit cache (if changed)
+      - name: Commit output files (if changed)
         run: |
           set -euo pipefail
-          if ! git diff --quiet -- .sms_to_todoist_cache.json; then
-            git config user.name  "github-actions[bot]"
-            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add .sms_to_todoist_cache.json
-            git commit -m "chore: update sms cache"
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          # Add both cache and output file
+          git add .sms_to_todoist_cache.json sms_messages.txt || true
+
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: update SMS cache and export file"
             git push
           else
-            echo "Cache unchanged."
+            echo "No changes to commit."
           fi
