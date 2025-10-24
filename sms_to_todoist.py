@@ -281,12 +281,15 @@ def main() -> None:
     threads_page = _int_env("AZ_THREADS_PAGE_SIZE", 5)
     msgs_page = _int_env("AZ_MSGS_PAGE_SIZE", 5)
     dry_run = _bool_env("DRY_RUN", False)
+    inbound_only = _bool_env("AZ_INBOUND_ONLY", False)
     since_iso = os.getenv("AZ_SINCE_ISO", "").strip()
     since_dt = parse_iso(since_iso) if since_iso else None
 
     token = az_login(username, password)
     threads = az_get_threads(token, threads_page)
     print(f"[az] threads fetched: {len(threads)}")
+    if inbound_only:
+        print("[filter] inbound messages only (skipping outbound)")
 
     seen_ids = load_cache()
     new_seen = set(seen_ids)
@@ -306,6 +309,23 @@ def main() -> None:
             if message_id in seen_ids:
                 skipped_count += 1
                 continue
+
+            # Filter for inbound messages only if requested
+            if inbound_only:
+                direction = message.get("direction", "").lower()
+                msg_type = message.get("type", "").lower()
+                is_inbound = message.get("inbound") or message.get("incoming") or message.get("fromCustomer")
+
+                # Check multiple possible field formats
+                is_outbound = (
+                    direction in {"outbound", "out", "sent", "send"}
+                    or msg_type in {"outbound", "out", "sent", "send"}
+                    or is_inbound is False
+                )
+
+                if is_outbound:
+                    skipped_count += 1
+                    continue
 
             message_date_raw = message.get("messageDate") or message.get("sentDate") or ""
             message_dt = parse_iso(message_date_raw)
