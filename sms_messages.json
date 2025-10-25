@@ -1,36 +1,12 @@
 {
   "messages": [
     {
-      "messageId": 155872280,
+      "messageId": 155892615,
       "direction": "Outbound",
       "from": "Unknown",
       "to": "agent@ullrichinsurance.com",
-      "messageBody": "Yes I received it. Can you confirm that it is around 188 per month?",
-      "timestamp": "10-24, Friday, 6:58 PM"
-    },
-    {
-      "messageId": 155781378,
-      "direction": "Outbound",
-      "from": "Unknown",
-      "to": "agent@ullrichinsurance.com",
-      "messageBody": "I need this info today",
-      "timestamp": "10-24, Friday, 10:35 AM"
-    },
-    {
-      "messageId": 155505147,
-      "direction": "Outbound",
-      "from": "Unknown",
-      "to": "agent@ullrichinsurance.com",
-      "messageBody": "Ok you can call me earliest ur morning",
-      "timestamp": "10-23, Thursday, 8:34 AM"
-    },
-    {
-      "messageId": 155195839,
-      "direction": "Outbound",
-      "from": "Unknown",
-      "to": "agent@ullrichinsurance.com",
-      "messageBody": "Thanks for the update, this is Danny Gonzalez by the way. Jilhana is my wife",
-      "timestamp": "10-21, Tuesday, 12:21 PM"
+      "messageBody": "I think we just want/need insurance for the highlander right now.  How much is that?",
+      "timestamp": "10-25, Saturday, 9:37 AM"
     }
   ]
 }

@@ -1,54 +1,18 @@
 ================================================================================
 SMS MESSAGES EXPORT
-Generated: 2025-10-25 03:12:23 UTC
-Total Messages: 4
+Generated: 2025-10-25 15:41:10 UTC
+Total Messages: 1
 ================================================================================
 
 MESSAGE #1
 --------------------------------------------------------------------------------
-Date:    10-24, Friday, 6:58 PM
+Date:    10-25, Saturday, 9:37 AM
 From:    Unknown
-Contact: Leily Kohistani
-ID:      155872280
+Contact: Christine Taylor
+ID:      155892615
 
 Message:
-Yes I received it. Can you confirm that it is around 188 per month?
-
-================================================================================
-
-MESSAGE #2
---------------------------------------------------------------------------------
-Date:    10-24, Friday, 10:35 AM
-From:    Unknown
-Contact: Leily Kohistani
-ID:      155781378
-
-Message:
-I need this info today
-
-================================================================================
-
-MESSAGE #3
---------------------------------------------------------------------------------
-Date:    10-23, Thursday, 8:34 AM
-From:    Unknown
-Contact: Leily Kohistani
-ID:      155505147
-
-Message:
-Ok you can call me earliest ur morning
-
-================================================================================
-
-MESSAGE #4
---------------------------------------------------------------------------------
-Date:    10-21, Tuesday, 12:21 PM
-From:    Unknown
-Contact: Daniel Gonzalez
-ID:      155195839
-
-Message:
-Thanks for the update, this is Danny Gonzalez by the way. Jilhana is my wife
+I think we just want/need insurance for the highlander right now.  How much is that?
 
 ================================================================================
 
