@@ -1,28 +1,28 @@
 {
   "messages": [
     {
-      "messageId": 156066816,
+      "messageId": 156088306,
       "direction": "Outbound",
       "from": "Unknown",
       "to": "agent@ullrichinsurance.com",
-      "messageBody": "Thank you Jamie. Everything is on there except for the interested party address so that'll be the only thing.\n\nThat address is:\n7501 S Utica Dr, Littleton, CO 80128\n\nThanks for your help!\nTy Congdon",
-      "timestamp": "10-27, Monday, 10:47 AM"
+      "messageBody": "Greystar is the owner of the property so probably them",
+      "timestamp": "10-27, Monday, 11:32 AM"
     },
     {
-      "messageId": 156060294,
+      "messageId": 156087386,
       "direction": "Outbound",
       "from": "Unknown",
       "to": "agent@ullrichinsurance.com",
-      "messageBody": "Liked “Hey Lauren! We are so close to having this insurance review finished for you.  We are gathering the best insurances option from many companies, and we will have it done soon.  We will be in touch!  Jared Ullrich, Ullrich Insurance”",
-      "timestamp": "10-27, Monday, 10:33 AM"
+      "messageBody": "Thanks. I have your email and will take a look this afternoon",
+      "timestamp": "10-27, Monday, 11:30 AM"
     },
     {
-      "messageId": 155560764,
+      "messageId": 156068205,
       "direction": "Outbound",
       "from": "Unknown",
       "to": "agent@ullrichinsurance.com",
-      "messageBody": "Hi Carl, Justin's license number is 08-189-0630",
-      "timestamp": "10-23, Thursday, 10:16 AM"
+      "messageBody": "Hi there, I am interested in setting up a call but I've already filled out all the paperwork you keep you sending me.",
+      "timestamp": "10-27, Monday, 10:50 AM"
     }
   ]
 }

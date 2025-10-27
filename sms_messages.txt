@@ -1,48 +1,42 @@
 ================================================================================
 SMS MESSAGES EXPORT
-Generated: 2025-10-27 16:49:55 UTC
+Generated: 2025-10-27 17:33:32 UTC
 Total Messages: 3
 ================================================================================
 
 MESSAGE #1
 --------------------------------------------------------------------------------
-Date:    10-27, Monday, 10:47 AM
+Date:    10-27, Monday, 11:32 AM
 From:    Unknown
 Contact: (720) 717-3110
-ID:      156066816
+ID:      156088306
 
 Message:
-Thank you Jamie. Everything is on there except for the interested party address so that'll be the only thing.
-
-That address is:
-7501 S Utica Dr, Littleton, CO 80128
-
-Thanks for your help!
-Ty Congdon
+Greystar is the owner of the property so probably them
 
 ================================================================================
 
 MESSAGE #2
 --------------------------------------------------------------------------------
-Date:    10-27, Monday, 10:33 AM
+Date:    10-27, Monday, 11:30 AM
 From:    Unknown
-Contact: Lauren Forman
-ID:      156060294
+Contact: Laura Wittrup
+ID:      156087386
 
 Message:
-Liked “Hey Lauren! We are so close to having this insurance review finished for you.  We are gathering the best insurances option from many companies, and we will have it done soon.  We will be in touch!  Jared Ullrich, Ullrich Insurance”
+Thanks. I have your email and will take a look this afternoon
 
 ================================================================================
 
 MESSAGE #3
 --------------------------------------------------------------------------------
-Date:    10-23, Thursday, 10:16 AM
+Date:    10-27, Monday, 10:50 AM
 From:    Unknown
-Contact: Lauren Forman
-ID:      155560764
+Contact: Melissa Rosintoski Decker
+ID:      156068205
 
 Message:
-Hi Carl, Justin's license number is 08-189-0630
+Hi there, I am interested in setting up a call but I've already filled out all the paperwork you keep you sending me.
 
 ================================================================================
 
