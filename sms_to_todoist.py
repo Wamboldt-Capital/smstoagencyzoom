@@ -5,13 +5,18 @@ import json
 import os
 import time
 import uuid
-from datetime import datetime, timezone
+from datetime import datetime, timezone, time as dt_time
 from typing import Any, Iterable, Optional
 
 import requests
 from requests import RequestException
 from requests import Response
 from requests.exceptions import HTTPError
+
+try:
+    from zoneinfo import ZoneInfo
+except ImportError:  # pragma: no cover - Python < 3.9 fallback
+    ZoneInfo = None  # type: ignore[assignment]
 
 AZ_BASE = (os.getenv("AZ_BASE") or "https://api.agencyzoom.com").rstrip("/")
 AZ_API_BASE = f"{AZ_BASE}/v1"
@@ -343,6 +348,29 @@ def todoist_batch_create_tasks(
 
 def main() -> None:
     load_env_file()
+
+    tz_name = os.getenv("RUN_TIMEZONE", "").strip()
+    tzinfo = None
+    if tz_name and ZoneInfo:
+        try:
+            tzinfo = ZoneInfo(tz_name)
+        except Exception as exc:  # pragma: no cover - defensive logging
+            print(f"[warn] invalid RUN_TIMEZONE '{tz_name}': {exc}. Using local time.")
+    elif tz_name:
+        print("[warn] zoneinfo module unavailable; using local time.")
+
+    now = datetime.now(tzinfo) if tzinfo else datetime.now()
+    window_start = dt_time(hour=6, minute=30)
+    window_end = dt_time(hour=22, minute=30)
+    current_time = now.time()
+    if not (window_start <= current_time <= window_end):
+        formatted = now.strftime("%Y-%m-%d %H:%M:%S %Z").strip()
+        print(
+            "[skip] current time "
+            f"{formatted or now.strftime('%Y-%m-%d %H:%M:%S')} is outside the allowed window "
+            "(06:30 - 22:30). Exiting without running."
+        )
+        return
 
     username = os.getenv("AGENCY_ZOOM_USERNAME")
     password = os.getenv("AGENCY_ZOOM_PASSWORD")
