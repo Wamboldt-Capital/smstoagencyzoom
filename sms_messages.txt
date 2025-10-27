@@ -1,18 +1,48 @@
 ================================================================================
 SMS MESSAGES EXPORT
-Generated: 2025-10-25 15:41:10 UTC
-Total Messages: 1
+Generated: 2025-10-27 16:49:55 UTC
+Total Messages: 3
 ================================================================================
 
 MESSAGE #1
 --------------------------------------------------------------------------------
-Date:    10-25, Saturday, 9:37 AM
+Date:    10-27, Monday, 10:47 AM
 From:    Unknown
-Contact: Christine Taylor
-ID:      155892615
+Contact: (720) 717-3110
+ID:      156066816
 
 Message:
-I think we just want/need insurance for the highlander right now.  How much is that?
+Thank you Jamie. Everything is on there except for the interested party address so that'll be the only thing.
+
+That address is:
+7501 S Utica Dr, Littleton, CO 80128
+
+Thanks for your help!
+Ty Congdon
+
+================================================================================
+
+MESSAGE #2
+--------------------------------------------------------------------------------
+Date:    10-27, Monday, 10:33 AM
+From:    Unknown
+Contact: Lauren Forman
+ID:      156060294
+
+Message:
+Liked “Hey Lauren! We are so close to having this insurance review finished for you.  We are gathering the best insurances option from many companies, and we will have it done soon.  We will be in touch!  Jared Ullrich, Ullrich Insurance”
+
+================================================================================
+
+MESSAGE #3
+--------------------------------------------------------------------------------
+Date:    10-23, Thursday, 10:16 AM
+From:    Unknown
+Contact: Lauren Forman
+ID:      155560764
+
+Message:
+Hi Carl, Justin's license number is 08-189-0630
 
 ================================================================================
 
