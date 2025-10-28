@@ -1,30 +1,42 @@
 ================================================================================
 SMS MESSAGES EXPORT
-Generated: 2025-10-28 15:59:57 UTC
-Total Messages: 2
+Generated: 2025-10-28 16:53:59 UTC
+Total Messages: 3
 ================================================================================
 
 MESSAGE #1
 --------------------------------------------------------------------------------
-Date:    10-06, Monday, 4:50 PM
+Date:    10-28, Tuesday, 10:02 AM
 From:    Unknown
 Contact: Kristen Williamson
-ID:      152824906
+ID:      156266172
 
 Message:
-Great thank you!
+I just signed the DocuSign. I haven't received anything from travelers except for where you just sent me now.
 
 ================================================================================
 
 MESSAGE #2
 --------------------------------------------------------------------------------
-Date:    10-06, Monday, 3:39 PM
+Date:    10-24, Friday, 10:47 AM
 From:    Unknown
-Contact: Kristen Williamson
-ID:      152816222
+Contact: Brandie Sutton
+ID:      155787821
 
 Message:
-Hi quick question does my car insurance policy cover renting a car through Turo?
+Thanks
+
+================================================================================
+
+MESSAGE #3
+--------------------------------------------------------------------------------
+Date:    10-22, Wednesday, 11:24 AM
+From:    Unknown
+Contact: Brandie Sutton
+ID:      155392335
+
+Message:
+Liked “I will update this right away for my senior agent. Thank you for sending this over Brandie”
 
 ================================================================================
 
