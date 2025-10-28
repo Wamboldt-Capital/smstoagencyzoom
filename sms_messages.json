@@ -1,68 +1,12 @@
 {
   "messages": [
     {
-      "messageId": 156174821,
+      "messageId": 156213449,
       "direction": "Outbound",
       "from": "Unknown",
       "to": "agent@ullrichinsurance.com",
-      "messageBody": "https://www.ourinsuranceportal.com/public/quote?id=7e37e209c2ce46e5ada24893e89ca41d&link=email&type=customer&trackingid=8b27f9b0-5fd2-4d01-9e0f-c56ebd37955a",
-      "timestamp": "10-27, Monday, 6:50 PM"
-    },
-    {
-      "messageId": 156174819,
-      "direction": "Outbound",
-      "from": "Unknown",
-      "to": "agent@ullrichinsurance.com",
-      "messageBody": "My wife got this one from another company. \nWe can discuss tomorrow",
-      "timestamp": "10-27, Monday, 6:50 PM"
-    },
-    {
-      "messageId": 156174593,
-      "direction": "Outbound",
-      "from": "Unknown",
-      "to": "agent@ullrichinsurance.com",
-      "messageBody": "Will check it out tomorrow",
-      "timestamp": "10-27, Monday, 6:46 PM"
-    },
-    {
-      "messageId": 156174290,
-      "direction": "Outbound",
-      "from": "Unknown",
-      "to": "agent@ullrichinsurance.com",
-      "messageBody": "Ok. Just landed and we received it. Thanks",
-      "timestamp": "10-27, Monday, 6:40 PM"
-    },
-    {
-      "messageId": 156165712,
-      "direction": "Outbound",
-      "from": "Unknown",
-      "to": "agent@ullrichinsurance.com",
-      "messageBody": "Got it!  I'll reply with the pics.",
-      "timestamp": "10-27, Monday, 5:14 PM"
-    },
-    {
-      "messageId": 156162611,
-      "direction": "Outbound",
-      "from": "Unknown",
-      "to": "agent@ullrichinsurance.com",
-      "messageBody": "Hi Darius,\n\nI have been checking but still don't see that email.\n\nMy address is:\n\nluke200200@yahoo.com",
-      "timestamp": "10-27, Monday, 5:03 PM"
-    },
-    {
-      "messageId": 156144038,
-      "direction": "Outbound",
-      "from": "Unknown",
-      "to": "agent@ullrichinsurance.com",
-      "messageBody": "Great!",
-      "timestamp": "10-27, Monday, 2:52 PM"
-    },
-    {
-      "messageId": 156158901,
-      "direction": "Outbound",
-      "from": "Unknown",
-      "to": "agent@ullrichinsurance.com",
-      "messageBody": "Received, thanks! I'll take a look tonight or tomorrow",
-      "timestamp": "10-27, Monday, 4:24 PM"
+      "messageBody": "Any update?",
+      "timestamp": "10-28, Tuesday, 8:27 AM"
     }
   ]
 }
