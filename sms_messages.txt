@@ -1,42 +1,109 @@
 ================================================================================
 SMS MESSAGES EXPORT
-Generated: 2025-10-27 17:33:32 UTC
-Total Messages: 3
+Generated: 2025-10-28 06:55:07 UTC
+Total Messages: 8
 ================================================================================
 
 MESSAGE #1
 --------------------------------------------------------------------------------
-Date:    10-27, Monday, 11:32 AM
+Date:    10-27, Monday, 6:50 PM
 From:    Unknown
-Contact: (720) 717-3110
-ID:      156088306
+Contact: Terry O&#039;Shea
+ID:      156174821
 
 Message:
-Greystar is the owner of the property so probably them
+https://www.ourinsuranceportal.com/public/quote?id=7e37e209c2ce46e5ada24893e89ca41d&link=email&type=customer&trackingid=8b27f9b0-5fd2-4d01-9e0f-c56ebd37955a
 
 ================================================================================
 
 MESSAGE #2
 --------------------------------------------------------------------------------
-Date:    10-27, Monday, 11:30 AM
+Date:    10-27, Monday, 6:50 PM
 From:    Unknown
-Contact: Laura Wittrup
-ID:      156087386
+Contact: Terry O&#039;Shea
+ID:      156174819
 
 Message:
-Thanks. I have your email and will take a look this afternoon
+My wife got this one from another company. 
+We can discuss tomorrow
 
 ================================================================================
 
 MESSAGE #3
 --------------------------------------------------------------------------------
-Date:    10-27, Monday, 10:50 AM
+Date:    10-27, Monday, 6:46 PM
 From:    Unknown
-Contact: Melissa Rosintoski Decker
-ID:      156068205
+Contact: Terry O&#039;Shea
+ID:      156174593
 
 Message:
-Hi there, I am interested in setting up a call but I've already filled out all the paperwork you keep you sending me.
+Will check it out tomorrow
+
+================================================================================
+
+MESSAGE #4
+--------------------------------------------------------------------------------
+Date:    10-27, Monday, 6:40 PM
+From:    Unknown
+Contact: Terry O&#039;Shea
+ID:      156174290
+
+Message:
+Ok. Just landed and we received it. Thanks
+
+================================================================================
+
+MESSAGE #5
+--------------------------------------------------------------------------------
+Date:    10-27, Monday, 5:14 PM
+From:    Unknown
+Contact: Luke and Jennifer Osborne
+ID:      156165712
+
+Message:
+Got it!  I'll reply with the pics.
+
+================================================================================
+
+MESSAGE #6
+--------------------------------------------------------------------------------
+Date:    10-27, Monday, 5:03 PM
+From:    Unknown
+Contact: Luke and Jennifer Osborne
+ID:      156162611
+
+Message:
+Hi Darius,
+
+I have been checking but still don't see that email.
+
+My address is:
+
+luke200200@yahoo.com
+
+================================================================================
+
+MESSAGE #7
+--------------------------------------------------------------------------------
+Date:    10-27, Monday, 2:52 PM
+From:    Unknown
+Contact: Luke and Jennifer Osborne
+ID:      156144038
+
+Message:
+Great!
+
+================================================================================
+
+MESSAGE #8
+--------------------------------------------------------------------------------
+Date:    10-27, Monday, 4:24 PM
+From:    Unknown
+Contact: Cheyenne Morin
+ID:      156158901
+
+Message:
+Received, thanks! I'll take a look tonight or tomorrow
 
 ================================================================================
 
