@@ -1,54 +1,18 @@
 ================================================================================
 SMS MESSAGES EXPORT
-Generated: 2025-10-28 18:54:39 UTC
-Total Messages: 4
+Generated: 2025-10-28 19:40:21 UTC
+Total Messages: 1
 ================================================================================
 
 MESSAGE #1
 --------------------------------------------------------------------------------
-Date:    10-28, Tuesday, 12:17 PM
+Date:    10-28, Tuesday, 1:37 PM
 From:    Unknown
-Contact: Dean & Julie McVicker
-ID:      156328621
+Contact: Kyle Moore
+ID:      156349834
 
 Message:
-Stop
-
-================================================================================
-
-MESSAGE #2
---------------------------------------------------------------------------------
-Date:    12-26, Thursday, 2:44 PM
-From:    Unknown
-Contact: (720) 563-9281
-ID:      83888019
-
-Message:
-Happy holidays!
-
-================================================================================
-
-MESSAGE #3
---------------------------------------------------------------------------------
-Date:    12-26, Thursday, 2:44 PM
-From:    Unknown
-Contact: (720) 563-9281
-ID:      83888002
-
-Message:
-Hi lovely I just wanted to confirm that we paid our umbrella insurance to RLI today. Thank you for the follow up.
-
-================================================================================
-
-MESSAGE #4
---------------------------------------------------------------------------------
-Date:    12-18, Wednesday, 3:14 PM
-From:    Unknown
-Contact: (720) 563-9281
-ID:      83036383
-
-Message:
-Thank you lovely we will pay the renewal this week. Thanks.
+Hi there, any update?
 
 ================================================================================
 
