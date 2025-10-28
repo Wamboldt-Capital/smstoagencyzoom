@@ -1,18 +1,30 @@
 ================================================================================
 SMS MESSAGES EXPORT
-Generated: 2025-10-28 14:42:37 UTC
-Total Messages: 1
+Generated: 2025-10-28 15:59:57 UTC
+Total Messages: 2
 ================================================================================
 
 MESSAGE #1
 --------------------------------------------------------------------------------
-Date:    10-28, Tuesday, 8:27 AM
+Date:    10-06, Monday, 4:50 PM
 From:    Unknown
-Contact: Jason Weller
-ID:      156213449
+Contact: Kristen Williamson
+ID:      152824906
 
 Message:
-Any update?
+Great thank you!
+
+================================================================================
+
+MESSAGE #2
+--------------------------------------------------------------------------------
+Date:    10-06, Monday, 3:39 PM
+From:    Unknown
+Contact: Kristen Williamson
+ID:      152816222
+
+Message:
+Hi quick question does my car insurance policy cover renting a car through Turo?
 
 ================================================================================
 

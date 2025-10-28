@@ -1,12 +1,20 @@
 {
   "messages": [
     {
-      "messageId": 156213449,
+      "messageId": 152824906,
       "direction": "Outbound",
       "from": "Unknown",
       "to": "agent@ullrichinsurance.com",
-      "messageBody": "Any update?",
-      "timestamp": "10-28, Tuesday, 8:27 AM"
+      "messageBody": "Great thank you!",
+      "timestamp": "10-06, Monday, 4:50 PM"
+    },
+    {
+      "messageId": 152816222,
+      "direction": "Outbound",
+      "from": "Unknown",
+      "to": "agent@ullrichinsurance.com",
+      "messageBody": "Hi quick question does my car insurance policy cover renting a car through Turo?",
+      "timestamp": "10-06, Monday, 3:39 PM"
     }
   ]
 }
