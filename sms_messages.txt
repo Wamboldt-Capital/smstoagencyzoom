@@ -1,18 +1,54 @@
 ================================================================================
 SMS MESSAGES EXPORT
-Generated: 2025-10-28 17:36:49 UTC
-Total Messages: 1
+Generated: 2025-10-28 18:54:39 UTC
+Total Messages: 4
 ================================================================================
 
 MESSAGE #1
 --------------------------------------------------------------------------------
-Date:    10-28, Tuesday, 11:26 AM
+Date:    10-28, Tuesday, 12:17 PM
 From:    Unknown
-Contact: Brandie Sutton
-ID:      156314846
+Contact: Dean & Julie McVicker
+ID:      156328621
 
 Message:
-Can you please just email me the info
+Stop
+
+================================================================================
+
+MESSAGE #2
+--------------------------------------------------------------------------------
+Date:    12-26, Thursday, 2:44 PM
+From:    Unknown
+Contact: (720) 563-9281
+ID:      83888019
+
+Message:
+Happy holidays!
+
+================================================================================
+
+MESSAGE #3
+--------------------------------------------------------------------------------
+Date:    12-26, Thursday, 2:44 PM
+From:    Unknown
+Contact: (720) 563-9281
+ID:      83888002
+
+Message:
+Hi lovely I just wanted to confirm that we paid our umbrella insurance to RLI today. Thank you for the follow up.
+
+================================================================================
+
+MESSAGE #4
+--------------------------------------------------------------------------------
+Date:    12-18, Wednesday, 3:14 PM
+From:    Unknown
+Contact: (720) 563-9281
+ID:      83036383
+
+Message:
+Thank you lovely we will pay the renewal this week. Thanks.
 
 ================================================================================
 
