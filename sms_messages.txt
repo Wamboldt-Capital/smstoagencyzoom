@@ -1,42 +1,18 @@
 ================================================================================
 SMS MESSAGES EXPORT
-Generated: 2025-10-28 16:53:59 UTC
-Total Messages: 3
+Generated: 2025-10-28 17:36:49 UTC
+Total Messages: 1
 ================================================================================
 
 MESSAGE #1
 --------------------------------------------------------------------------------
-Date:    10-28, Tuesday, 10:02 AM
-From:    Unknown
-Contact: Kristen Williamson
-ID:      156266172
-
-Message:
-I just signed the DocuSign. I haven't received anything from travelers except for where you just sent me now.
-
-================================================================================
-
-MESSAGE #2
---------------------------------------------------------------------------------
-Date:    10-24, Friday, 10:47 AM
+Date:    10-28, Tuesday, 11:26 AM
 From:    Unknown
 Contact: Brandie Sutton
-ID:      155787821
+ID:      156314846
 
 Message:
-Thanks
-
-================================================================================
-
-MESSAGE #3
---------------------------------------------------------------------------------
-Date:    10-22, Wednesday, 11:24 AM
-From:    Unknown
-Contact: Brandie Sutton
-ID:      155392335
-
-Message:
-Liked “I will update this right away for my senior agent. Thank you for sending this over Brandie”
+Can you please just email me the info
 
 ================================================================================
 

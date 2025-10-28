@@ -1,28 +1,12 @@
 {
   "messages": [
     {
-      "messageId": 156266172,
+      "messageId": 156314846,
       "direction": "Outbound",
       "from": "Unknown",
       "to": "agent@ullrichinsurance.com",
-      "messageBody": "I just signed the DocuSign. I haven't received anything from travelers except for where you just sent me now.",
-      "timestamp": "10-28, Tuesday, 10:02 AM"
-    },
-    {
-      "messageId": 155787821,
-      "direction": "Outbound",
-      "from": "Unknown",
-      "to": "agent@ullrichinsurance.com",
-      "messageBody": "Thanks",
-      "timestamp": "10-24, Friday, 10:47 AM"
-    },
-    {
-      "messageId": 155392335,
-      "direction": "Outbound",
-      "from": "Unknown",
-      "to": "agent@ullrichinsurance.com",
-      "messageBody": "Liked “I will update this right away for my senior agent. Thank you for sending this over Brandie”",
-      "timestamp": "10-22, Wednesday, 11:24 AM"
+      "messageBody": "Can you please just email me the info",
+      "timestamp": "10-28, Tuesday, 11:26 AM"
     }
   ]
 }
