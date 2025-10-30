@@ -1,20 +1,12 @@
 {
   "messages": [
     {
-      "messageId": 156706321,
+      "messageId": 156709406,
       "direction": "Outbound",
       "from": "Unknown",
       "to": "agent@ullrichinsurance.com",
-      "messageBody": "Hi, my wife will be evaluating all that tomorrow. We were getting quotes from another place so just wanted to check in on all of that.",
-      "timestamp": "10-30, Thursday, 10:47 AM"
-    },
-    {
-      "messageId": 156699975,
-      "direction": "Outbound",
-      "from": "Unknown",
-      "to": "agent@ullrichinsurance.com",
-      "messageBody": "I'm going in a different direction. I met with a local agent and his prices/coverage were better. I appreciate your time but I'm covered",
-      "timestamp": "10-30, Thursday, 10:33 AM"
+      "messageBody": "Hi Jordan, just replied to your email!",
+      "timestamp": "10-30, Thursday, 10:57 AM"
     }
   ]
 }

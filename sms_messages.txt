@@ -1,30 +1,18 @@
 ================================================================================
 SMS MESSAGES EXPORT
-Generated: 2025-10-30 16:51:44 UTC
-Total Messages: 2
+Generated: 2025-10-30 17:00:50 UTC
+Total Messages: 1
 ================================================================================
 
 MESSAGE #1
 --------------------------------------------------------------------------------
-Date:    10-30, Thursday, 10:47 AM
+Date:    10-30, Thursday, 10:57 AM
 From:    Unknown
-Contact: Terry O&#039;Shea
-ID:      156706321
+Contact: Cheyenne Morin
+ID:      156709406
 
 Message:
-Hi, my wife will be evaluating all that tomorrow. We were getting quotes from another place so just wanted to check in on all of that.
-
-================================================================================
-
-MESSAGE #2
---------------------------------------------------------------------------------
-Date:    10-30, Thursday, 10:33 AM
-From:    Unknown
-Contact: Laura Wittrup
-ID:      156699975
-
-Message:
-I'm going in a different direction. I met with a local agent and his prices/coverage were better. I appreciate your time but I'm covered
+Hi Jordan, just replied to your email!
 
 ================================================================================
 
