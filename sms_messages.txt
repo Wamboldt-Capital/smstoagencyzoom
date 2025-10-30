@@ -1,42 +1,30 @@
 ================================================================================
 SMS MESSAGES EXPORT
-Generated: 2025-10-30 06:52:02 UTC
-Total Messages: 3
+Generated: 2025-10-30 16:51:44 UTC
+Total Messages: 2
 ================================================================================
 
 MESSAGE #1
 --------------------------------------------------------------------------------
-Date:    10-29, Wednesday, 7:41 PM
+Date:    10-30, Thursday, 10:47 AM
 From:    Unknown
-Contact: Noah Wamboldt
-ID:      156594733
+Contact: Terry O&#039;Shea
+ID:      156706321
 
 Message:
-Test again
+Hi, my wife will be evaluating all that tomorrow. We were getting quotes from another place so just wanted to check in on all of that.
 
 ================================================================================
 
 MESSAGE #2
 --------------------------------------------------------------------------------
-Date:    10-29, Wednesday, 7:41 PM
+Date:    10-30, Thursday, 10:33 AM
 From:    Unknown
-Contact: Noah Wamboldt
-ID:      156594723
+Contact: Laura Wittrup
+ID:      156699975
 
 Message:
-Test
-
-================================================================================
-
-MESSAGE #3
---------------------------------------------------------------------------------
-Date:    10-29, Wednesday, 3:43 PM
-From:    Unknown
-Contact: Jon Holdman
-ID:      156578063
-
-Message:
-Yes. I can speak to you now.
+I'm going in a different direction. I met with a local agent and his prices/coverage were better. I appreciate your time but I'm covered
 
 ================================================================================
 
