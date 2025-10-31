@@ -1,12 +1,20 @@
 {
   "messages": [
     {
-      "messageId": 156709406,
+      "messageId": 156723113,
       "direction": "Outbound",
       "from": "Unknown",
       "to": "agent@ullrichinsurance.com",
-      "messageBody": "Hi Jordan, just replied to your email!",
-      "timestamp": "10-30, Thursday, 10:57 AM"
+      "messageBody": "Sure",
+      "timestamp": "10-30, Thursday, 11:40 AM"
+    },
+    {
+      "messageId": 156696909,
+      "direction": "Outbound",
+      "from": "Unknown",
+      "to": "agent@ullrichinsurance.com",
+      "messageBody": "After 5pm maybe\n\nVin is 1C6RR7KT6ES241447",
+      "timestamp": "10-30, Thursday, 10:27 AM"
     }
   ]
 }
