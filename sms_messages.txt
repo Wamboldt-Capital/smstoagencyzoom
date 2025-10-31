@@ -1,18 +1,42 @@
 ================================================================================
 SMS MESSAGES EXPORT
-Generated: 2025-10-31 14:47:38 UTC
-Total Messages: 1
+Generated: 2025-10-31 16:52:42 UTC
+Total Messages: 3
 ================================================================================
 
 MESSAGE #1
 --------------------------------------------------------------------------------
-Date:    10-31, Friday, 8:17 AM
+Date:    10-31, Friday, 10:30 AM
 From:    Unknown
-Contact: Teresa Miller
-ID:      156831357
+Contact: Kyle Moore
+ID:      156896407
 
 Message:
-Thanks
+I would like to lock in those policies. What else do you need from me?
+
+================================================================================
+
+MESSAGE #2
+--------------------------------------------------------------------------------
+Date:    10-31, Friday, 10:06 AM
+From:    Unknown
+Contact: Adam Dominguez
+ID:      156885165
+
+Message:
+Liked “Hey Adam! We are so close to having this insurance review finished for you.  We are gathering the best insurances option from many companies, and we will have it done soon.  We will be in touch!  Jared Ullrich, Ullrich Insurance”
+
+================================================================================
+
+MESSAGE #3
+--------------------------------------------------------------------------------
+Date:    10-31, Friday, 10:08 AM
+From:    Unknown
+Contact: (303) 250-6595
+ID:      156886153
+
+Message:
+Thanks! You guys are awesome!
 
 ================================================================================
 
