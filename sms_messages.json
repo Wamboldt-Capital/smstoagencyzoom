@@ -1,60 +1,36 @@
 {
   "messages": [
     {
-      "messageId": 156941642,
+      "messageId": 156951564,
       "direction": "Outbound",
       "from": "Unknown",
       "to": "agent@ullrichinsurance.com",
-      "messageBody": "No but you guys had quoted us not long ago",
-      "timestamp": "10-31, Friday, 12:49 PM"
+      "messageBody": "Thank you so much!!! We have a long drive ahead of us so crazy 🤪 day today.  It says I linked it all correctly",
+      "timestamp": "10-31, Friday, 1:23 PM"
     },
     {
-      "messageId": 156939168,
+      "messageId": 156950244,
       "direction": "Outbound",
       "from": "Unknown",
       "to": "agent@ullrichinsurance.com",
-      "messageBody": "",
-      "timestamp": "10-31, Friday, 12:35 PM"
+      "messageBody": "No he didn't ask for those documents is the renewal notice acceptable?  I'm trying to get out of town and the app doesn't have anything other than that.  We did express urgency about the van as it is due next week and the rates are ridiculous.",
+      "timestamp": "10-31, Friday, 1:16 PM"
     },
     {
-      "messageId": 156938848,
+      "messageId": 156951564,
       "direction": "Outbound",
       "from": "Unknown",
       "to": "agent@ullrichinsurance.com",
-      "messageBody": "Thank you!  She has her drivers license I will send",
-      "timestamp": "10-31, Friday, 12:33 PM"
+      "messageBody": "Thank you so much!!! We have a long drive ahead of us so crazy 🤪 day today.  It says I linked it all correctly",
+      "timestamp": "10-31, Friday, 1:23 PM"
     },
     {
-      "messageId": 156940585,
+      "messageId": 156950244,
       "direction": "Outbound",
       "from": "Unknown",
       "to": "agent@ullrichinsurance.com",
-      "messageBody": "Call anytime, Nina.",
-      "timestamp": "10-31, Friday, 12:43 PM"
-    },
-    {
-      "messageId": 156941642,
-      "direction": "Outbound",
-      "from": "Unknown",
-      "to": "agent@ullrichinsurance.com",
-      "messageBody": "No but you guys had quoted us not long ago",
-      "timestamp": "10-31, Friday, 12:49 PM"
-    },
-    {
-      "messageId": 156939168,
-      "direction": "Outbound",
-      "from": "Unknown",
-      "to": "agent@ullrichinsurance.com",
-      "messageBody": "",
-      "timestamp": "10-31, Friday, 12:35 PM"
-    },
-    {
-      "messageId": 156938848,
-      "direction": "Outbound",
-      "from": "Unknown",
-      "to": "agent@ullrichinsurance.com",
-      "messageBody": "Thank you!  She has her drivers license I will send",
-      "timestamp": "10-31, Friday, 12:33 PM"
+      "messageBody": "No he didn't ask for those documents is the renewal notice acceptable?  I'm trying to get out of town and the app doesn't have anything other than that.  We did express urgency about the van as it is due next week and the rates are ridiculous.",
+      "timestamp": "10-31, Friday, 1:16 PM"
     }
   ]
 }
