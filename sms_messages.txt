@@ -1,42 +1,42 @@
 ================================================================================
 SMS MESSAGES EXPORT
-Generated: 2025-10-31 21:52:43 UTC
+Generated: 2025-11-01 06:47:48 UTC
 Total Messages: 3
 ================================================================================
 
 MESSAGE #1
 --------------------------------------------------------------------------------
-Date:    10-31, Friday, 3:48 PM
+Date:    10-31, Friday, 10:25 PM
 From:    Unknown
-Contact: (303) 589-9155
-ID:      156978767
+Contact: Christine Taylor
+ID:      156990089
 
 Message:
-Hi Tyler trying to pay insurance but it's only giving me option for ACH I would like to use credit card. Please check your email. Thx
+I do not know what this means
 
 ================================================================================
 
 MESSAGE #2
 --------------------------------------------------------------------------------
-Date:    07-21, Monday, 2:42 PM
+Date:    10-31, Friday, 10:25 PM
 From:    Unknown
-Contact: (303) 589-9155
-ID:      107727663
+Contact: Christine & James Taylor
+ID:      156990089
 
 Message:
-Hi Tyler, happy Monday. I have not had a chance to call USAA just yet , but for the sake of time can move forward with the surplus company you found and I can always drop and switch at anytime correct ?
+I do not know what this means
 
 ================================================================================
 
 MESSAGE #3
 --------------------------------------------------------------------------------
-Date:    07-10, Thursday, 10:42 AM
+Date:    10-31, Friday, 9:05 PM
 From:    Unknown
-Contact: (303) 589-9155
-ID:      106182289
+Contact: Adam Dominguez
+ID:      156989947
 
 Message:
-Ok
+Didn't hear from you guys today. Not sure what happened, but can you give me a call tomorrow
 
 ================================================================================
 

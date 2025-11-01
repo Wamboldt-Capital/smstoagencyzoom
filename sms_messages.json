@@ -1,28 +1,28 @@
 {
   "messages": [
     {
-      "messageId": 156978767,
+      "messageId": 156990089,
       "direction": "Outbound",
       "from": "Unknown",
       "to": "agent@ullrichinsurance.com",
-      "messageBody": "Hi Tyler trying to pay insurance but it's only giving me option for ACH I would like to use credit card. Please check your email. Thx",
-      "timestamp": "10-31, Friday, 3:48 PM"
+      "messageBody": "I do not know what this means",
+      "timestamp": "10-31, Friday, 10:25 PM"
     },
     {
-      "messageId": 107727663,
+      "messageId": 156990089,
       "direction": "Outbound",
       "from": "Unknown",
       "to": "agent@ullrichinsurance.com",
-      "messageBody": "Hi Tyler, happy Monday. I have not had a chance to call USAA just yet , but for the sake of time can move forward with the surplus company you found and I can always drop and switch at anytime correct ?",
-      "timestamp": "07-21, Monday, 2:42 PM"
+      "messageBody": "I do not know what this means",
+      "timestamp": "10-31, Friday, 10:25 PM"
     },
     {
-      "messageId": 106182289,
+      "messageId": 156989947,
       "direction": "Outbound",
       "from": "Unknown",
       "to": "agent@ullrichinsurance.com",
-      "messageBody": "Ok",
-      "timestamp": "07-10, Thursday, 10:42 AM"
+      "messageBody": "Didn't hear from you guys today. Not sure what happened, but can you give me a call tomorrow",
+      "timestamp": "10-31, Friday, 9:05 PM"
     }
   ]
 }
