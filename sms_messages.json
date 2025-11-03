@@ -1,28 +1,20 @@
 {
   "messages": [
     {
-      "messageId": 156990089,
+      "messageId": 157132907,
       "direction": "Outbound",
       "from": "Unknown",
       "to": "agent@ullrichinsurance.com",
-      "messageBody": "I do not know what this means",
-      "timestamp": "10-31, Friday, 10:25 PM"
+      "messageBody": "Good morning - following up on our quotes.  I haven't seen anything. Where did you send them?",
+      "timestamp": "11-03, Monday, 9:45 AM"
     },
     {
-      "messageId": 156990089,
+      "messageId": 157132907,
       "direction": "Outbound",
       "from": "Unknown",
       "to": "agent@ullrichinsurance.com",
-      "messageBody": "I do not know what this means",
-      "timestamp": "10-31, Friday, 10:25 PM"
-    },
-    {
-      "messageId": 156989947,
-      "direction": "Outbound",
-      "from": "Unknown",
-      "to": "agent@ullrichinsurance.com",
-      "messageBody": "Didn't hear from you guys today. Not sure what happened, but can you give me a call tomorrow",
-      "timestamp": "10-31, Friday, 9:05 PM"
+      "messageBody": "Good morning - following up on our quotes.  I haven't seen anything. Where did you send them?",
+      "timestamp": "11-03, Monday, 9:45 AM"
     }
   ]
 }

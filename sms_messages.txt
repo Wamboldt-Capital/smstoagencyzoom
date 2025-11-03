@@ -1,42 +1,30 @@
 ================================================================================
 SMS MESSAGES EXPORT
-Generated: 2025-11-01 06:47:48 UTC
-Total Messages: 3
+Generated: 2025-11-03 16:49:39 UTC
+Total Messages: 2
 ================================================================================
 
 MESSAGE #1
 --------------------------------------------------------------------------------
-Date:    10-31, Friday, 10:25 PM
+Date:    11-03, Monday, 9:45 AM
 From:    Unknown
-Contact: Christine Taylor
-ID:      156990089
+Contact: Tricia Shearer & Josh Palaszewski
+ID:      157132907
 
 Message:
-I do not know what this means
+Good morning - following up on our quotes.  I haven't seen anything. Where did you send them?
 
 ================================================================================
 
 MESSAGE #2
 --------------------------------------------------------------------------------
-Date:    10-31, Friday, 10:25 PM
+Date:    11-03, Monday, 9:45 AM
 From:    Unknown
-Contact: Christine & James Taylor
-ID:      156990089
+Contact: Tricia Shearer &amp; Josh Palaszewski
+ID:      157132907
 
 Message:
-I do not know what this means
-
-================================================================================
-
-MESSAGE #3
---------------------------------------------------------------------------------
-Date:    10-31, Friday, 9:05 PM
-From:    Unknown
-Contact: Adam Dominguez
-ID:      156989947
-
-Message:
-Didn't hear from you guys today. Not sure what happened, but can you give me a call tomorrow
+Good morning - following up on our quotes.  I haven't seen anything. Where did you send them?
 
 ================================================================================
 
