@@ -1,20 +1,12 @@
 {
   "messages": [
     {
-      "messageId": 157213840,
+      "messageId": 157215670,
       "direction": "Outbound",
       "from": "Unknown",
       "to": "agent@ullrichinsurance.com",
-      "messageBody": "They are asking for prior dispute verification or they will cancel my insurance",
-      "timestamp": "11-03, Monday, 12:25 PM"
-    },
-    {
-      "messageId": 157213840,
-      "direction": "Outbound",
-      "from": "Unknown",
-      "to": "agent@ullrichinsurance.com",
-      "messageBody": "They are asking for prior dispute verification or they will cancel my insurance",
-      "timestamp": "11-03, Monday, 12:25 PM"
+      "messageBody": "I'm going to stick with USAA because it is significantly cheaper but thank you!",
+      "timestamp": "11-03, Monday, 12:30 PM"
     }
   ]
 }
