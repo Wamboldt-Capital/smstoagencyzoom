@@ -1,28 +1,36 @@
 {
   "messages": [
     {
-      "messageId": 157153532,
+      "messageId": 157194066,
       "direction": "Outbound",
       "from": "Unknown",
       "to": "agent@ullrichinsurance.com",
-      "messageBody": "Jared, any word on an insurance product for our house?",
-      "timestamp": "11-03, Monday, 10:23 AM"
+      "messageBody": "I'm transferring some funds credit card points not worth the $133 dollar fee. I'll just do ACH and be fine with it. Thx Tyler",
+      "timestamp": "11-03, Monday, 11:42 AM"
     },
     {
-      "messageId": 152047624,
+      "messageId": 157192418,
       "direction": "Outbound",
       "from": "Unknown",
       "to": "agent@ullrichinsurance.com",
-      "messageBody": "Hey Tyler. I would like change car payment plan to yearly can you help with this?",
-      "timestamp": "10-01, Wednesday, 10:51 AM"
+      "messageBody": "Ok thank you.",
+      "timestamp": "11-03, Monday, 11:37 AM"
     },
     {
-      "messageId": 151171910,
+      "messageId": 157176863,
       "direction": "Outbound",
       "from": "Unknown",
       "to": "agent@ullrichinsurance.com",
-      "messageBody": "Thanks so much!",
-      "timestamp": "09-25, Thursday, 10:32 AM"
+      "messageBody": "Tyler the other invoice is much lower it is 3685.50? This new one is like 500 + more?",
+      "timestamp": "11-03, Monday, 11:06 AM"
+    },
+    {
+      "messageId": 157176212,
+      "direction": "Outbound",
+      "from": "Unknown",
+      "to": "agent@ullrichinsurance.com",
+      "messageBody": "No thankyou",
+      "timestamp": "11-03, Monday, 11:05 AM"
     }
   ]
 }

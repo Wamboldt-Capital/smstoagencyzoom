@@ -1,42 +1,54 @@
 ================================================================================
 SMS MESSAGES EXPORT
-Generated: 2025-11-03 17:36:34 UTC
-Total Messages: 3
+Generated: 2025-11-03 18:47:28 UTC
+Total Messages: 4
 ================================================================================
 
 MESSAGE #1
 --------------------------------------------------------------------------------
-Date:    11-03, Monday, 10:23 AM
+Date:    11-03, Monday, 11:42 AM
 From:    Unknown
-Contact: Adam Dominguez
-ID:      157153532
+Contact: (303) 589-9155
+ID:      157194066
 
 Message:
-Jared, any word on an insurance product for our house?
+I'm transferring some funds credit card points not worth the $133 dollar fee. I'll just do ACH and be fine with it. Thx Tyler
 
 ================================================================================
 
 MESSAGE #2
 --------------------------------------------------------------------------------
-Date:    10-01, Wednesday, 10:51 AM
+Date:    11-03, Monday, 11:37 AM
 From:    Unknown
-Contact: Rexene Adkisson
-ID:      152047624
+Contact: (303) 589-9155
+ID:      157192418
 
 Message:
-Hey Tyler. I would like change car payment plan to yearly can you help with this?
+Ok thank you.
 
 ================================================================================
 
 MESSAGE #3
 --------------------------------------------------------------------------------
-Date:    09-25, Thursday, 10:32 AM
+Date:    11-03, Monday, 11:06 AM
 From:    Unknown
-Contact: Rexene Adkisson
-ID:      151171910
+Contact: (303) 589-9155
+ID:      157176863
 
 Message:
-Thanks so much!
+Tyler the other invoice is much lower it is 3685.50? This new one is like 500 + more?
+
+================================================================================
+
+MESSAGE #4
+--------------------------------------------------------------------------------
+Date:    11-03, Monday, 11:05 AM
+From:    Unknown
+Contact: Kelly Starnes
+ID:      157176212
+
+Message:
+No thankyou
 
 ================================================================================
 
