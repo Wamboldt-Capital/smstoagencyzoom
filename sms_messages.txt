@@ -1,30 +1,42 @@
 ================================================================================
 SMS MESSAGES EXPORT
-Generated: 2025-11-03 16:49:39 UTC
-Total Messages: 2
+Generated: 2025-11-03 17:36:34 UTC
+Total Messages: 3
 ================================================================================
 
 MESSAGE #1
 --------------------------------------------------------------------------------
-Date:    11-03, Monday, 9:45 AM
+Date:    11-03, Monday, 10:23 AM
 From:    Unknown
-Contact: Tricia Shearer & Josh Palaszewski
-ID:      157132907
+Contact: Adam Dominguez
+ID:      157153532
 
 Message:
-Good morning - following up on our quotes.  I haven't seen anything. Where did you send them?
+Jared, any word on an insurance product for our house?
 
 ================================================================================
 
 MESSAGE #2
 --------------------------------------------------------------------------------
-Date:    11-03, Monday, 9:45 AM
+Date:    10-01, Wednesday, 10:51 AM
 From:    Unknown
-Contact: Tricia Shearer &amp; Josh Palaszewski
-ID:      157132907
+Contact: Rexene Adkisson
+ID:      152047624
 
 Message:
-Good morning - following up on our quotes.  I haven't seen anything. Where did you send them?
+Hey Tyler. I would like change car payment plan to yearly can you help with this?
+
+================================================================================
+
+MESSAGE #3
+--------------------------------------------------------------------------------
+Date:    09-25, Thursday, 10:32 AM
+From:    Unknown
+Contact: Rexene Adkisson
+ID:      151171910
+
+Message:
+Thanks so much!
 
 ================================================================================
 
