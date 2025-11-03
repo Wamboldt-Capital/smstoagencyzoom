@@ -1,36 +1,20 @@
 {
   "messages": [
     {
-      "messageId": 157194066,
+      "messageId": 157213840,
       "direction": "Outbound",
       "from": "Unknown",
       "to": "agent@ullrichinsurance.com",
-      "messageBody": "I'm transferring some funds credit card points not worth the $133 dollar fee. I'll just do ACH and be fine with it. Thx Tyler",
-      "timestamp": "11-03, Monday, 11:42 AM"
+      "messageBody": "They are asking for prior dispute verification or they will cancel my insurance",
+      "timestamp": "11-03, Monday, 12:25 PM"
     },
     {
-      "messageId": 157192418,
+      "messageId": 157213840,
       "direction": "Outbound",
       "from": "Unknown",
       "to": "agent@ullrichinsurance.com",
-      "messageBody": "Ok thank you.",
-      "timestamp": "11-03, Monday, 11:37 AM"
-    },
-    {
-      "messageId": 157176863,
-      "direction": "Outbound",
-      "from": "Unknown",
-      "to": "agent@ullrichinsurance.com",
-      "messageBody": "Tyler the other invoice is much lower it is 3685.50? This new one is like 500 + more?",
-      "timestamp": "11-03, Monday, 11:06 AM"
-    },
-    {
-      "messageId": 157176212,
-      "direction": "Outbound",
-      "from": "Unknown",
-      "to": "agent@ullrichinsurance.com",
-      "messageBody": "No thankyou",
-      "timestamp": "11-03, Monday, 11:05 AM"
+      "messageBody": "They are asking for prior dispute verification or they will cancel my insurance",
+      "timestamp": "11-03, Monday, 12:25 PM"
     }
   ]
 }
