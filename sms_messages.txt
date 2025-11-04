@@ -1,46 +1,54 @@
 ================================================================================
 SMS MESSAGES EXPORT
-Generated: 2025-11-04 16:51:08 UTC
-Total Messages: 3
+Generated: 2025-11-04 17:33:55 UTC
+Total Messages: 4
 ================================================================================
 
 MESSAGE #1
 --------------------------------------------------------------------------------
-Date:    11-04, Tuesday, 9:40 AM
+Date:    11-04, Tuesday, 10:30 AM
 From:    Unknown
-Contact: Christine Taylor
-ID:      157371145
+Contact: Carole Sewell
+ID:      157396786
 
 Message:
-Hello
+Out of cell range today until about 2Pm.
 
 ================================================================================
 
 MESSAGE #2
 --------------------------------------------------------------------------------
-Date:    11-04, Tuesday, 9:40 AM
+Date:    10-28, Tuesday, 4:45 PM
 From:    Unknown
-Contact: Christine & James Taylor
-ID:      157371145
+Contact: Carole Sewell
+ID:      156381475
 
 Message:
-Hello
+Should work, talk to you then.
 
 ================================================================================
 
 MESSAGE #3
 --------------------------------------------------------------------------------
-Date:    11-04, Tuesday, 8:54 AM
+Date:    11-04, Tuesday, 10:02 AM
 From:    Unknown
-Contact: Terry O&#039;Shea
-ID:      157339341
+Contact: Christine Taylor
+ID:      157380103
 
 Message:
-Good morning can you make a car insurance adjustment for us on your quote. 
-We are bringing our 2019
-Toyota hylander with us 
-Vin#
-5TDDZRFH2KS735104
+Is anyone looking at this
+
+================================================================================
+
+MESSAGE #4
+--------------------------------------------------------------------------------
+Date:    11-04, Tuesday, 10:02 AM
+From:    Unknown
+Contact: Christine & James Taylor
+ID:      157380103
+
+Message:
+Is anyone looking at this
 
 ================================================================================
 
