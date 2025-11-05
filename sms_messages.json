@@ -1,84 +1,12 @@
 {
   "messages": [
     {
-      "messageId": 157502684,
+      "messageId": 157598259,
       "direction": "Outbound",
       "from": "Unknown",
       "to": "agent@ullrichinsurance.com",
-      "messageBody": "",
-      "timestamp": "11-04, Tuesday, 10:15 PM"
-    },
-    {
-      "messageId": 157502422,
-      "direction": "Outbound",
-      "from": "Unknown",
-      "to": "agent@ullrichinsurance.com",
-      "messageBody": "I wish I knew. I don't even have my password saved  to be able to use the link you sent. Since most statements are not mailed anymore, I do not have it, nor will they let me see previous ones online because it is a canceled policy. \n\nI have never had to show proof of previous insurance before",
-      "timestamp": "11-04, Tuesday, 8:27 PM"
-    },
-    {
-      "messageId": 157502394,
-      "direction": "Outbound",
-      "from": "Unknown",
-      "to": "agent@ullrichinsurance.com",
-      "messageBody": "Is this enough proof?",
-      "timestamp": "11-04, Tuesday, 8:21 PM"
-    },
-    {
-      "messageId": 157499788,
-      "direction": "Outbound",
-      "from": "Unknown",
-      "to": "agent@ullrichinsurance.com",
-      "messageBody": "Well, I think i threw them away after I sent them to your office. Please look back at your email or text messages from me.",
-      "timestamp": "11-04, Tuesday, 5:32 PM"
-    },
-    {
-      "messageId": 157502684,
-      "direction": "Outbound",
-      "from": "Unknown",
-      "to": "agent@ullrichinsurance.com",
-      "messageBody": "",
-      "timestamp": "11-04, Tuesday, 10:15 PM"
-    },
-    {
-      "messageId": 157502422,
-      "direction": "Outbound",
-      "from": "Unknown",
-      "to": "agent@ullrichinsurance.com",
-      "messageBody": "I wish I knew. I don't even have my password saved  to be able to use the link you sent. Since most statements are not mailed anymore, I do not have it, nor will they let me see previous ones online because it is a canceled policy. \n\nI have never had to show proof of previous insurance before",
-      "timestamp": "11-04, Tuesday, 8:27 PM"
-    },
-    {
-      "messageId": 157502394,
-      "direction": "Outbound",
-      "from": "Unknown",
-      "to": "agent@ullrichinsurance.com",
-      "messageBody": "Is this enough proof?",
-      "timestamp": "11-04, Tuesday, 8:21 PM"
-    },
-    {
-      "messageId": 157499788,
-      "direction": "Outbound",
-      "from": "Unknown",
-      "to": "agent@ullrichinsurance.com",
-      "messageBody": "Well, I think i threw them away after I sent them to your office. Please look back at your email or text messages from me.",
-      "timestamp": "11-04, Tuesday, 5:32 PM"
-    },
-    {
-      "messageId": 157502403,
-      "direction": "Outbound",
-      "from": "Unknown",
-      "to": "agent@ullrichinsurance.com",
-      "messageBody": "Yes I have received it-will review and touch base tomorrow-thx",
-      "timestamp": "11-04, Tuesday, 8:23 PM"
-    },
-    {
-      "messageId": 157489030,
-      "direction": "Outbound",
-      "from": "Unknown",
-      "to": "agent@ullrichinsurance.com",
-      "messageBody": "I got it but can't watch the video at work",
-      "timestamp": "11-04, Tuesday, 3:25 PM"
+      "messageBody": "No problem, thanks for the updates!",
+      "timestamp": "11-05, Wednesday, 10:14 AM"
     }
   ]
 }
