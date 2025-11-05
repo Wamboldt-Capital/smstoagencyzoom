@@ -1,42 +1,130 @@
 ================================================================================
 SMS MESSAGES EXPORT
-Generated: 2025-11-04 20:51:59 UTC
-Total Messages: 3
+Generated: 2025-11-05 06:53:20 UTC
+Total Messages: 10
 ================================================================================
 
 MESSAGE #1
 --------------------------------------------------------------------------------
-Date:    11-04, Tuesday, 1:32 PM
+Date:    11-04, Tuesday, 10:15 PM
 From:    Unknown
-Contact: Rodney Dieter
-ID:      157465320
+Contact: Christine Taylor
+ID:      157502684
 
 Message:
-Try again please.
+
 
 ================================================================================
 
 MESSAGE #2
 --------------------------------------------------------------------------------
-Date:    11-04, Tuesday, 1:28 PM
+Date:    11-04, Tuesday, 8:27 PM
 From:    Unknown
-Contact: Rodney Dieter
-ID:      157464283
+Contact: Christine Taylor
+ID:      157502422
 
 Message:
-Yes
+I wish I knew. I don't even have my password saved  to be able to use the link you sent. Since most statements are not mailed anymore, I do not have it, nor will they let me see previous ones online because it is a canceled policy. 
+
+I have never had to show proof of previous insurance before
 
 ================================================================================
 
 MESSAGE #3
 --------------------------------------------------------------------------------
-Date:    11-04, Tuesday, 12:10 PM
+Date:    11-04, Tuesday, 8:21 PM
 From:    Unknown
-Contact: Rodney Dieter
-ID:      157437788
+Contact: Christine Taylor
+ID:      157502394
 
 Message:
-How about now
+Is this enough proof?
+
+================================================================================
+
+MESSAGE #4
+--------------------------------------------------------------------------------
+Date:    11-04, Tuesday, 5:32 PM
+From:    Unknown
+Contact: Christine Taylor
+ID:      157499788
+
+Message:
+Well, I think i threw them away after I sent them to your office. Please look back at your email or text messages from me.
+
+================================================================================
+
+MESSAGE #5
+--------------------------------------------------------------------------------
+Date:    11-04, Tuesday, 10:15 PM
+From:    Unknown
+Contact: Christine & James Taylor
+ID:      157502684
+
+Message:
+
+
+================================================================================
+
+MESSAGE #6
+--------------------------------------------------------------------------------
+Date:    11-04, Tuesday, 8:27 PM
+From:    Unknown
+Contact: Christine & James Taylor
+ID:      157502422
+
+Message:
+I wish I knew. I don't even have my password saved  to be able to use the link you sent. Since most statements are not mailed anymore, I do not have it, nor will they let me see previous ones online because it is a canceled policy. 
+
+I have never had to show proof of previous insurance before
+
+================================================================================
+
+MESSAGE #7
+--------------------------------------------------------------------------------
+Date:    11-04, Tuesday, 8:21 PM
+From:    Unknown
+Contact: Christine & James Taylor
+ID:      157502394
+
+Message:
+Is this enough proof?
+
+================================================================================
+
+MESSAGE #8
+--------------------------------------------------------------------------------
+Date:    11-04, Tuesday, 5:32 PM
+From:    Unknown
+Contact: Christine & James Taylor
+ID:      157499788
+
+Message:
+Well, I think i threw them away after I sent them to your office. Please look back at your email or text messages from me.
+
+================================================================================
+
+MESSAGE #9
+--------------------------------------------------------------------------------
+Date:    11-04, Tuesday, 8:23 PM
+From:    Unknown
+Contact: Patty Kiebler
+ID:      157502403
+
+Message:
+Yes I have received it-will review and touch base tomorrow-thx
+
+================================================================================
+
+MESSAGE #10
+--------------------------------------------------------------------------------
+Date:    11-04, Tuesday, 3:25 PM
+From:    Unknown
+Contact: Fred Groth
+ID:      157489030
+
+Message:
+I got it but can't watch the video at work
 
 ================================================================================
 
