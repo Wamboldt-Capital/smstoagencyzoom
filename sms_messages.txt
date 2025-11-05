@@ -1,18 +1,30 @@
 ================================================================================
 SMS MESSAGES EXPORT
-Generated: 2025-11-05 21:31:23 UTC
-Total Messages: 1
+Generated: 2025-11-05 21:55:27 UTC
+Total Messages: 2
 ================================================================================
 
 MESSAGE #1
 --------------------------------------------------------------------------------
-Date:    08-05, Tuesday, 7:05 PM
+Date:    11-05, Wednesday, 2:50 PM
 From:    Unknown
 Contact: Keith Lucero
-ID:      109961195
+ID:      157701523
 
 Message:
-I did. I will be in contact in the very near future!
+It's a common garage so each unit has a spot in the garage.
+
+================================================================================
+
+MESSAGE #2
+--------------------------------------------------------------------------------
+Date:    11-05, Wednesday, 2:49 PM
+From:    Unknown
+Contact: Keith Lucero
+ID:      157701291
+
+Message:
+Yes
 
 ================================================================================
 
