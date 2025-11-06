@@ -1,30 +1,43 @@
 ================================================================================
 SMS MESSAGES EXPORT
-Generated: 2025-11-06 16:54:05 UTC
-Total Messages: 2
+Generated: 2025-11-06 18:54:11 UTC
+Total Messages: 3
 ================================================================================
 
 MESSAGE #1
 --------------------------------------------------------------------------------
-Date:    11-06, Thursday, 9:34 AM
+Date:    11-06, Thursday, 11:50 AM
 From:    Unknown
-Contact: Jesse Taitano
-ID:      157816025
+Contact: Jennifer and Tim  Krueger
+ID:      157882137
 
 Message:
-Were you unable to obtain quotes?
+
 
 ================================================================================
 
 MESSAGE #2
 --------------------------------------------------------------------------------
-Date:    07-18, Thursday, 5:19 PM
+Date:    11-06, Thursday, 10:23 AM
 From:    Unknown
-Contact: Stacey Smith & Lance Niles
-ID:      67282980
+Contact: Jennifer and Tim  Krueger
+ID:      157840622
 
 Message:
-Okay thank you! I will go look for it
+Hi Jordan,
+I'm confused at why we would need the permit. If a company doesn't acknowledge her international driver's license then it would be illegal for her to be driving by herself on just a permit here in the US and the insurance wouldn't cover in the case of an accident.
+
+================================================================================
+
+MESSAGE #3
+--------------------------------------------------------------------------------
+Date:    11-06, Thursday, 11:37 AM
+From:    Unknown
+Contact: Jeffrey Behanna
+ID:      157879047
+
+Message:
+Hey Noah! I was planning on calling you today to complete the process
 
 ================================================================================
 

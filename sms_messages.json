@@ -1,20 +1,28 @@
 {
   "messages": [
     {
-      "messageId": 157816025,
+      "messageId": 157882137,
       "direction": "Outbound",
       "from": "Unknown",
       "to": "agent@ullrichinsurance.com",
-      "messageBody": "Were you unable to obtain quotes?",
-      "timestamp": "11-06, Thursday, 9:34 AM"
+      "messageBody": "",
+      "timestamp": "11-06, Thursday, 11:50 AM"
     },
     {
-      "messageId": 67282980,
+      "messageId": 157840622,
       "direction": "Outbound",
       "from": "Unknown",
       "to": "agent@ullrichinsurance.com",
-      "messageBody": "Okay thank you! I will go look for it",
-      "timestamp": "07-18, Thursday, 5:19 PM"
+      "messageBody": "Hi Jordan,\nI'm confused at why we would need the permit. If a company doesn't acknowledge her international driver's license then it would be illegal for her to be driving by herself on just a permit here in the US and the insurance wouldn't cover in the case of an accident.",
+      "timestamp": "11-06, Thursday, 10:23 AM"
+    },
+    {
+      "messageId": 157879047,
+      "direction": "Outbound",
+      "from": "Unknown",
+      "to": "agent@ullrichinsurance.com",
+      "messageBody": "Hey Noah! I was planning on calling you today to complete the process",
+      "timestamp": "11-06, Thursday, 11:37 AM"
     }
   ]
 }
