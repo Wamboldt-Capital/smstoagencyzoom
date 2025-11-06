@@ -1,20 +1,12 @@
 {
   "messages": [
     {
-      "messageId": 157884556,
+      "messageId": 157913556,
       "direction": "Outbound",
       "from": "Unknown",
       "to": "agent@ullrichinsurance.com",
-      "messageBody": "Thank you!",
-      "timestamp": "11-06, Thursday, 12:01 PM"
-    },
-    {
-      "messageId": 157837040,
-      "direction": "Outbound",
-      "from": "Unknown",
-      "to": "agent@ullrichinsurance.com",
-      "messageBody": "Hey Darius! Sorry for the late reply, my wife wasn't feeling well yesterday so I a spaced getting you the rest of the info. Here's her driver's license number 09-350-0674",
-      "timestamp": "11-06, Thursday, 10:17 AM"
+      "messageBody": "Thank you",
+      "timestamp": "11-06, Thursday, 1:29 PM"
     }
   ]
 }
