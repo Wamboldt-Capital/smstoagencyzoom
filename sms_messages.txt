@@ -1,54 +1,30 @@
 ================================================================================
 SMS MESSAGES EXPORT
-Generated: 2025-11-06 06:53:50 UTC
-Total Messages: 4
+Generated: 2025-11-06 16:54:05 UTC
+Total Messages: 2
 ================================================================================
 
 MESSAGE #1
 --------------------------------------------------------------------------------
-Date:    11-05, Wednesday, 8:21 PM
+Date:    11-06, Thursday, 9:34 AM
 From:    Unknown
 Contact: Jesse Taitano
-ID:      157730546
+ID:      157816025
 
 Message:
-Never heard from you all
+Were you unable to obtain quotes?
 
 ================================================================================
 
 MESSAGE #2
 --------------------------------------------------------------------------------
-Date:    11-05, Wednesday, 3:51 PM
+Date:    07-18, Thursday, 5:19 PM
 From:    Unknown
-Contact: Abby Willard
-ID:      157712810
+Contact: Stacey Smith & Lance Niles
+ID:      67282980
 
 Message:
-3972 Jewell Street, S203, San Diego, CA 92109
-
-================================================================================
-
-MESSAGE #3
---------------------------------------------------------------------------------
-Date:    11-05, Wednesday, 3:50 PM
-From:    Unknown
-Contact: Abby Willard
-ID:      157712687
-
-Message:
-Yep - it is:
-
-================================================================================
-
-MESSAGE #4
---------------------------------------------------------------------------------
-Date:    05-08, Wednesday, 1:57 PM
-From:    Unknown
-Contact: Abby Willard
-ID:      60561147
-
-Message:
-Ok
+Okay thank you! I will go look for it
 
 ================================================================================
 

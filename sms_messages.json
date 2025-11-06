@@ -1,36 +1,20 @@
 {
   "messages": [
     {
-      "messageId": 157730546,
+      "messageId": 157816025,
       "direction": "Outbound",
       "from": "Unknown",
       "to": "agent@ullrichinsurance.com",
-      "messageBody": "Never heard from you all",
-      "timestamp": "11-05, Wednesday, 8:21 PM"
+      "messageBody": "Were you unable to obtain quotes?",
+      "timestamp": "11-06, Thursday, 9:34 AM"
     },
     {
-      "messageId": 157712810,
+      "messageId": 67282980,
       "direction": "Outbound",
       "from": "Unknown",
       "to": "agent@ullrichinsurance.com",
-      "messageBody": "3972 Jewell Street, S203, San Diego, CA 92109",
-      "timestamp": "11-05, Wednesday, 3:51 PM"
-    },
-    {
-      "messageId": 157712687,
-      "direction": "Outbound",
-      "from": "Unknown",
-      "to": "agent@ullrichinsurance.com",
-      "messageBody": "Yep - it is:",
-      "timestamp": "11-05, Wednesday, 3:50 PM"
-    },
-    {
-      "messageId": 60561147,
-      "direction": "Outbound",
-      "from": "Unknown",
-      "to": "agent@ullrichinsurance.com",
-      "messageBody": "Ok",
-      "timestamp": "05-08, Wednesday, 1:57 PM"
+      "messageBody": "Okay thank you! I will go look for it",
+      "timestamp": "07-18, Thursday, 5:19 PM"
     }
   ]
 }
