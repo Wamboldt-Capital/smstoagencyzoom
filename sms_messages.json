@@ -1,12 +1,12 @@
 {
   "messages": [
     {
-      "messageId": 158017263,
+      "messageId": 158071330,
       "direction": "Outbound",
       "from": "Unknown",
       "to": "agent@ullrichinsurance.com",
-      "messageBody": "👍",
-      "timestamp": "11-07, Friday, 9:00 AM"
+      "messageBody": "Sorry, I thought I got back to you guys already. I made it pretty clear that we needed this quickly, and another insurance company got back to me a few days before you guys did. We had to go with them.",
+      "timestamp": "11-07, Friday, 10:31 AM"
     }
   ]
 }
