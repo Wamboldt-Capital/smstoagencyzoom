@@ -1,28 +1,12 @@
 {
   "messages": [
     {
-      "messageId": 157959266,
+      "messageId": 158017263,
       "direction": "Outbound",
       "from": "Unknown",
       "to": "agent@ullrichinsurance.com",
-      "messageBody": "Got the email. I will review in detail tomorrow. Thanks",
-      "timestamp": "11-06, Thursday, 9:02 PM"
-    },
-    {
-      "messageId": 157933166,
-      "direction": "Outbound",
-      "from": "Unknown",
-      "to": "agent@ullrichinsurance.com",
-      "messageBody": "Liked “Hi Stacey, this is Gladys with Ullrich Insurance Agency. I just wanted to reach out and wish you a very Happy Birthday on behalf of the entire Ullrich Team! We hope you have a wonderful day filled with joy and celebration!\r\n\r\nWe sure think you are awesome and appreciate you trusting us with your insurance needs! If there is ever anything we can do for you, please don't hesitate to reach out - we are here for YOU!\r\nHere's to the best year yet! Happy Birthday!”",
-      "timestamp": "11-06, Thursday, 3:01 PM"
-    },
-    {
-      "messageId": 157955167,
-      "direction": "Outbound",
-      "from": "Unknown",
-      "to": "agent@ullrichinsurance.com",
-      "messageBody": "You got it, Noah!",
-      "timestamp": "11-06, Thursday, 5:20 PM"
+      "messageBody": "👍",
+      "timestamp": "11-07, Friday, 9:00 AM"
     }
   ]
 }
