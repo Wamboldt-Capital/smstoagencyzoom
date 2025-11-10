@@ -1,18 +1,30 @@
 ================================================================================
 SMS MESSAGES EXPORT
-Generated: 2025-11-09 17:55:04 UTC
-Total Messages: 1
+Generated: 2025-11-10 18:56:35 UTC
+Total Messages: 2
 ================================================================================
 
 MESSAGE #1
 --------------------------------------------------------------------------------
-Date:    11-09, Sunday, 10:52 AM
+Date:    11-10, Monday, 11:19 AM
 From:    Unknown
-Contact: Amy Sanchez Raaz
-ID:      158219792
+Contact: Leah Huizenga
+ID:      158379521
 
 Message:
-Can you call me tomorrow?
+Liked “Hey Leah! We are so close to having this insurance review finished for you.  We are gathering the best insurances option from many companies, and we will have it done soon.  We will be in touch!  Jared Ullrich, Ullrich Insurance”
+
+================================================================================
+
+MESSAGE #2
+--------------------------------------------------------------------------------
+Date:    11-10, Monday, 11:18 AM
+From:    Unknown
+Contact: Leah Huizenga
+ID:      158379293
+
+Message:
+The vin: JF2SJADCOFH515947
 
 ================================================================================
 
