@@ -1,20 +1,28 @@
 {
   "messages": [
     {
-      "messageId": 158639841,
+      "messageId": 158650853,
       "direction": "Outbound",
       "from": "Unknown",
       "to": "agent@ullrichinsurance.com",
-      "messageBody": "I'm sorry- I'm working until this evening. I'll text it tonight. I apologize I didn't get it to you yesterday!",
-      "timestamp": "11-11, Tuesday, 11:44 AM"
+      "messageBody": "Thank you! I just emailed the current auto policy. It has changed since that document, but that is the most recent.",
+      "timestamp": "11-11, Tuesday, 12:19 PM"
     },
     {
-      "messageId": 158638258,
+      "messageId": 158648452,
       "direction": "Outbound",
       "from": "Unknown",
       "to": "agent@ullrichinsurance.com",
-      "messageBody": "I'm sticking with Allstate, thank you",
-      "timestamp": "11-11, Tuesday, 11:37 AM"
+      "messageBody": "2009 Mazda CX-9 \n\nJM3TB28V690168233\nPurchased July 2019",
+      "timestamp": "11-11, Tuesday, 12:14 PM"
+    },
+    {
+      "messageId": 158651057,
+      "direction": "Outbound",
+      "from": "Unknown",
+      "to": "agent@ullrichinsurance.com",
+      "messageBody": "Yes I got it",
+      "timestamp": "11-11, Tuesday, 12:19 PM"
     }
   ]
 }

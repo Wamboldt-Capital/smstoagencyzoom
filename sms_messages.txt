@@ -1,30 +1,45 @@
 ================================================================================
 SMS MESSAGES EXPORT
-Generated: 2025-11-11 18:50:38 UTC
-Total Messages: 2
+Generated: 2025-11-11 19:27:03 UTC
+Total Messages: 3
 ================================================================================
 
 MESSAGE #1
 --------------------------------------------------------------------------------
-Date:    11-11, Tuesday, 11:44 AM
+Date:    11-11, Tuesday, 12:19 PM
 From:    Unknown
-Contact: (303) 870-7438
-ID:      158639841
+Contact: Paige Ferguson
+ID:      158650853
 
 Message:
-I'm sorry- I'm working until this evening. I'll text it tonight. I apologize I didn't get it to you yesterday!
+Thank you! I just emailed the current auto policy. It has changed since that document, but that is the most recent.
 
 ================================================================================
 
 MESSAGE #2
 --------------------------------------------------------------------------------
-Date:    11-11, Tuesday, 11:37 AM
+Date:    11-11, Tuesday, 12:14 PM
 From:    Unknown
-Contact: Jesse Taitano
-ID:      158638258
+Contact: Paige Ferguson
+ID:      158648452
 
 Message:
-I'm sticking with Allstate, thank you
+2009 Mazda CX-9 
+
+JM3TB28V690168233
+Purchased July 2019
+
+================================================================================
+
+MESSAGE #3
+--------------------------------------------------------------------------------
+Date:    11-11, Tuesday, 12:19 PM
+From:    Unknown
+Contact: Leah Huizenga
+ID:      158651057
+
+Message:
+Yes I got it
 
 ================================================================================
 
