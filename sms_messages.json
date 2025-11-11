@@ -1,52 +1,12 @@
 {
   "messages": [
     {
-      "messageId": 158476640,
+      "messageId": 100538257,
       "direction": "Outbound",
       "from": "Unknown",
       "to": "agent@ullrichinsurance.com",
-      "messageBody": "Hi Noah, can you give me a quick call?",
-      "timestamp": "11-10, Monday, 6:13 PM"
-    },
-    {
-      "messageId": 158475460,
-      "direction": "Outbound",
-      "from": "Unknown",
-      "to": "agent@ullrichinsurance.com",
-      "messageBody": "Got it, thank you",
-      "timestamp": "11-10, Monday, 5:54 PM"
-    },
-    {
-      "messageId": 158448105,
-      "direction": "Outbound",
-      "from": "Unknown",
-      "to": "agent@ullrichinsurance.com",
-      "messageBody": "Thank you very much 👏🏽",
-      "timestamp": "11-10, Monday, 3:05 PM"
-    },
-    {
-      "messageId": 158447686,
-      "direction": "Outbound",
-      "from": "Unknown",
-      "to": "agent@ullrichinsurance.com",
-      "messageBody": "Yeah, I'll call you",
-      "timestamp": "11-10, Monday, 3:03 PM"
-    },
-    {
-      "messageId": 158395272,
-      "direction": "Outbound",
-      "from": "Unknown",
-      "to": "agent@ullrichinsurance.com",
-      "messageBody": "Ok sounds good",
-      "timestamp": "11-10, Monday, 12:07 PM"
-    },
-    {
-      "messageId": 158392948,
-      "direction": "Outbound",
-      "from": "Unknown",
-      "to": "agent@ullrichinsurance.com",
-      "messageBody": "Yeah, could we do later this afternoon - 3?",
-      "timestamp": "11-10, Monday, 12:01 PM"
+      "messageBody": "Craig's is 960800099 \nMine is 992520964\nI'll look at my email soon. Thanks for all your help.",
+      "timestamp": "05-29, Thursday, 12:16 PM"
     }
   ]
 }
