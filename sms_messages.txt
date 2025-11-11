@@ -1,42 +1,30 @@
 ================================================================================
 SMS MESSAGES EXPORT
-Generated: 2025-11-11 17:54:40 UTC
-Total Messages: 3
+Generated: 2025-11-11 18:50:38 UTC
+Total Messages: 2
 ================================================================================
 
 MESSAGE #1
 --------------------------------------------------------------------------------
-Date:    11-11, Tuesday, 10:48 AM
+Date:    11-11, Tuesday, 11:44 AM
 From:    Unknown
-Contact: (970) 302-9912
-ID:      158616700
+Contact: (303) 870-7438
+ID:      158639841
 
 Message:
-Thank*
+I'm sorry- I'm working until this evening. I'll text it tonight. I apologize I didn't get it to you yesterday!
 
 ================================================================================
 
 MESSAGE #2
 --------------------------------------------------------------------------------
-Date:    11-11, Tuesday, 10:48 AM
+Date:    11-11, Tuesday, 11:37 AM
 From:    Unknown
-Contact: (970) 302-9912
-ID:      158616677
+Contact: Jesse Taitano
+ID:      158638258
 
 Message:
-The n you so so much !!!
-
-================================================================================
-
-MESSAGE #3
---------------------------------------------------------------------------------
-Date:    08-25, Monday, 5:31 PM
-From:    Unknown
-Contact: Benjamin Montgomery
-ID:      112838946
-
-Message:
-Yes that is correct
+I'm sticking with Allstate, thank you
 
 ================================================================================
 

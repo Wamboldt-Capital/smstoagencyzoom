@@ -1,28 +1,20 @@
 {
   "messages": [
     {
-      "messageId": 158616700,
+      "messageId": 158639841,
       "direction": "Outbound",
       "from": "Unknown",
       "to": "agent@ullrichinsurance.com",
-      "messageBody": "Thank*",
-      "timestamp": "11-11, Tuesday, 10:48 AM"
+      "messageBody": "I'm sorry- I'm working until this evening. I'll text it tonight. I apologize I didn't get it to you yesterday!",
+      "timestamp": "11-11, Tuesday, 11:44 AM"
     },
     {
-      "messageId": 158616677,
+      "messageId": 158638258,
       "direction": "Outbound",
       "from": "Unknown",
       "to": "agent@ullrichinsurance.com",
-      "messageBody": "The n you so so much !!!",
-      "timestamp": "11-11, Tuesday, 10:48 AM"
-    },
-    {
-      "messageId": 112838946,
-      "direction": "Outbound",
-      "from": "Unknown",
-      "to": "agent@ullrichinsurance.com",
-      "messageBody": "Yes that is correct",
-      "timestamp": "08-25, Monday, 5:31 PM"
+      "messageBody": "I'm sticking with Allstate, thank you",
+      "timestamp": "11-11, Tuesday, 11:37 AM"
     }
   ]
 }
