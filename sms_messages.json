@@ -1,36 +1,12 @@
 {
   "messages": [
     {
-      "messageId": 158707230,
+      "messageId": 158852861,
       "direction": "Outbound",
       "from": "Unknown",
       "to": "agent@ullrichinsurance.com",
-      "messageBody": "Loan number: 0718593395",
-      "timestamp": "11-11, Tuesday, 5:13 PM"
-    },
-    {
-      "messageId": 158707203,
-      "direction": "Outbound",
-      "from": "Unknown",
-      "to": "agent@ullrichinsurance.com",
-      "messageBody": "1662 S. Deframe St.\nB3\nLakewood, CO 80228",
-      "timestamp": "11-11, Tuesday, 5:12 PM"
-    },
-    {
-      "messageId": 158705993,
-      "direction": "Outbound",
-      "from": "Unknown",
-      "to": "agent@ullrichinsurance.com",
-      "messageBody": "Thank you so much Jared. I appreciate you working on this so quickly!!",
-      "timestamp": "11-11, Tuesday, 5:03 PM"
-    },
-    {
-      "messageId": 158695964,
-      "direction": "Outbound",
-      "from": "Unknown",
-      "to": "agent@ullrichinsurance.com",
-      "messageBody": "Hey Tyler. If you could just give me a quick call. I just have a few questions.",
-      "timestamp": "11-11, Tuesday, 3:46 PM"
+      "messageBody": "Brandon this is Michael Shea. I will be discounting my insurance and will be getting my own insurance. Thank you for your time",
+      "timestamp": "11-12, Wednesday, 12:04 PM"
     }
   ]
 }
