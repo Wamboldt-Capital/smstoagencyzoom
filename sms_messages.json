@@ -1,12 +1,12 @@
 {
   "messages": [
     {
-      "messageId": 158852861,
+      "messageId": 158890672,
       "direction": "Outbound",
       "from": "Unknown",
       "to": "agent@ullrichinsurance.com",
-      "messageBody": "Brandon this is Michael Shea. I will be discounting my insurance and will be getting my own insurance. Thank you for your time",
-      "timestamp": "11-12, Wednesday, 12:04 PM"
+      "messageBody": "No thank you.",
+      "timestamp": "11-12, Wednesday, 1:59 PM"
     }
   ]
 }
