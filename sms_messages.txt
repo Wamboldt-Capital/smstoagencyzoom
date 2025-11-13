@@ -1,42 +1,18 @@
 ================================================================================
 SMS MESSAGES EXPORT
-Generated: 2025-11-13 06:54:19 UTC
-Total Messages: 3
+Generated: 2025-11-13 18:52:05 UTC
+Total Messages: 1
 ================================================================================
 
 MESSAGE #1
 --------------------------------------------------------------------------------
-Date:    11-12, Wednesday, 7:06 PM
+Date:    11-13, Thursday, 11:18 AM
 From:    Unknown
-Contact: (303) 870-7438
-ID:      158930953
+Contact: Paige Ferguson
+ID:      159058080
 
 Message:
-It is lost. Trying to locate the permit number
-
-================================================================================
-
-MESSAGE #2
---------------------------------------------------------------------------------
-Date:    11-12, Wednesday, 6:58 PM
-From:    Unknown
-Contact: Vaughan Lynn
-ID:      158930742
-
-Message:
-Hi there, thank you for taking the time to look into this! I am happy with my agent and will follow up with them directly for feedback about my experience. Thanks again
-
-================================================================================
-
-MESSAGE #3
---------------------------------------------------------------------------------
-Date:    11-12, Wednesday, 3:11 PM
-From:    Unknown
-Contact: Lydia & Leah Huizenga
-ID:      158908251
-
-Message:
-Thanks, will do!
+Sounds great. Thanks for the update, Jared.
 
 ================================================================================
 

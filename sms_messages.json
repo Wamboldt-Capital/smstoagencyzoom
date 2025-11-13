@@ -1,28 +1,12 @@
 {
   "messages": [
     {
-      "messageId": 158930953,
+      "messageId": 159058080,
       "direction": "Outbound",
       "from": "Unknown",
       "to": "agent@ullrichinsurance.com",
-      "messageBody": "It is lost. Trying to locate the permit number",
-      "timestamp": "11-12, Wednesday, 7:06 PM"
-    },
-    {
-      "messageId": 158930742,
-      "direction": "Outbound",
-      "from": "Unknown",
-      "to": "agent@ullrichinsurance.com",
-      "messageBody": "Hi there, thank you for taking the time to look into this! I am happy with my agent and will follow up with them directly for feedback about my experience. Thanks again",
-      "timestamp": "11-12, Wednesday, 6:58 PM"
-    },
-    {
-      "messageId": 158908251,
-      "direction": "Outbound",
-      "from": "Unknown",
-      "to": "agent@ullrichinsurance.com",
-      "messageBody": "Thanks, will do!",
-      "timestamp": "11-12, Wednesday, 3:11 PM"
+      "messageBody": "Sounds great. Thanks for the update, Jared.",
+      "timestamp": "11-13, Thursday, 11:18 AM"
     }
   ]
 }
