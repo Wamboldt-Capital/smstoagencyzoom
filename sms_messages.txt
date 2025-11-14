@@ -1,18 +1,31 @@
 ================================================================================
 SMS MESSAGES EXPORT
-Generated: 2025-11-13 21:49:48 UTC
-Total Messages: 1
+Generated: 2025-11-14 06:54:13 UTC
+Total Messages: 2
 ================================================================================
 
 MESSAGE #1
 --------------------------------------------------------------------------------
-Date:    11-13, Thursday, 2:43 PM
+Date:    11-13, Thursday, 4:12 PM
 From:    Unknown
-Contact: Marilyn Talbert
-ID:      159116434
+Contact: Kendra Gilmore
+ID:      159131816
 
 Message:
-Cool!!! Thank you Jared!!! I'll be home soon!!
+Liked “Will do! I will go work on submitting your Condo insurance. - Noah”
+
+================================================================================
+
+MESSAGE #2
+--------------------------------------------------------------------------------
+Date:    11-13, Thursday, 3:08 PM
+From:    Unknown
+Contact: Kendra Gilmore
+ID:      159121586
+
+Message:
+I am OK regarding the jewelry. I appreciate you. 
+So no added  stuff
 
 ================================================================================
 
