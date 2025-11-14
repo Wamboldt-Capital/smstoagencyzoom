@@ -1,31 +1,42 @@
 ================================================================================
 SMS MESSAGES EXPORT
-Generated: 2025-11-14 06:54:13 UTC
-Total Messages: 2
+Generated: 2025-11-14 16:51:24 UTC
+Total Messages: 3
 ================================================================================
 
 MESSAGE #1
 --------------------------------------------------------------------------------
-Date:    11-13, Thursday, 4:12 PM
+Date:    11-14, Friday, 9:32 AM
 From:    Unknown
-Contact: Kendra Gilmore
-ID:      159131816
+Contact: (720) 435-5159
+ID:      159225334
 
 Message:
-Liked “Will do! I will go work on submitting your Condo insurance. - Noah”
+Thank you
 
 ================================================================================
 
 MESSAGE #2
 --------------------------------------------------------------------------------
-Date:    11-13, Thursday, 3:08 PM
+Date:    07-02, Tuesday, 3:26 PM
 From:    Unknown
-Contact: Kendra Gilmore
-ID:      159121586
+Contact: Colleen Ruppe & Mark Stephenson
+ID:      65777287
 
 Message:
-I am OK regarding the jewelry. I appreciate you. 
-So no added  stuff
+I don't need to renew anything. I'm all set. Thanks!
+
+================================================================================
+
+MESSAGE #3
+--------------------------------------------------------------------------------
+Date:    11-14, Friday, 9:03 AM
+From:    Unknown
+Contact: (720) 537-4011
+ID:      159205572
+
+Message:
+Hi Brady, thanks for following up. We're interested in switching to Travelers. What info do I need to get to you to move forward?
 
 ================================================================================
 
