@@ -1,28 +1,12 @@
 {
   "messages": [
     {
-      "messageId": 159225334,
+      "messageId": 159234007,
       "direction": "Outbound",
       "from": "Unknown",
       "to": "agent@ullrichinsurance.com",
-      "messageBody": "Thank you",
-      "timestamp": "11-14, Friday, 9:32 AM"
-    },
-    {
-      "messageId": 65777287,
-      "direction": "Outbound",
-      "from": "Unknown",
-      "to": "agent@ullrichinsurance.com",
-      "messageBody": "I don't need to renew anything. I'm all set. Thanks!",
-      "timestamp": "07-02, Tuesday, 3:26 PM"
-    },
-    {
-      "messageId": 159205572,
-      "direction": "Outbound",
-      "from": "Unknown",
-      "to": "agent@ullrichinsurance.com",
-      "messageBody": "Hi Brady, thanks for following up. We're interested in switching to Travelers. What info do I need to get to you to move forward?",
-      "timestamp": "11-14, Friday, 9:03 AM"
+      "messageBody": "Thank you!",
+      "timestamp": "11-14, Friday, 9:55 AM"
     }
   ]
 }
