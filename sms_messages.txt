@@ -1,42 +1,32 @@
 ================================================================================
 SMS MESSAGES EXPORT
-Generated: 2025-11-15 06:49:13 UTC
-Total Messages: 3
+Generated: 2025-11-17 20:35:48 UTC
+Total Messages: 2
 ================================================================================
 
 MESSAGE #1
 --------------------------------------------------------------------------------
-Date:    11-14, Friday, 3:32 PM
+Date:    11-17, Monday, 12:58 PM
 From:    Unknown
-Contact: (720) 537-4011
-ID:      159339023
+Contact: Abby Willard
+ID:      159589094
 
 Message:
-Mazda is financed through Mazda financial services
+Thank you!
 
 ================================================================================
 
 MESSAGE #2
 --------------------------------------------------------------------------------
-Date:    11-14, Friday, 3:27 PM
+Date:    11-17, Monday, 12:58 PM
 From:    Unknown
-Contact: (720) 537-4011
-ID:      159338010
+Contact: Abby Willard
+ID:      159589061
 
 Message:
-The Toyota is fully paid off
+Liked “Hi Abby! Hailey here with Ullrich Insurance Agency! Just wanted to give you a quick update. As suspected, it was a timing issue - the $186.99 refund has already been initiated and will be back in your account 11.21.2025 per Travelers billing. 
 
-================================================================================
-
-MESSAGE #3
---------------------------------------------------------------------------------
-Date:    11-14, Friday, 3:26 PM
-From:    Unknown
-Contact: (720) 537-4011
-ID:      159337975
-
-Message:
-Mr. Cooper acquired my mortgage recently and is now the mortgage company. Mortgage #0751694985.
+Let me know if you have any further questions! I hope you have a wonderful rest of your day!”
 
 ================================================================================
 

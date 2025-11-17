@@ -1,28 +1,20 @@
 {
   "messages": [
     {
-      "messageId": 159339023,
+      "messageId": 159589094,
       "direction": "Outbound",
       "from": "Unknown",
       "to": "agent@ullrichinsurance.com",
-      "messageBody": "Mazda is financed through Mazda financial services",
-      "timestamp": "11-14, Friday, 3:32 PM"
+      "messageBody": "Thank you!",
+      "timestamp": "11-17, Monday, 12:58 PM"
     },
     {
-      "messageId": 159338010,
+      "messageId": 159589061,
       "direction": "Outbound",
       "from": "Unknown",
       "to": "agent@ullrichinsurance.com",
-      "messageBody": "The Toyota is fully paid off",
-      "timestamp": "11-14, Friday, 3:27 PM"
-    },
-    {
-      "messageId": 159337975,
-      "direction": "Outbound",
-      "from": "Unknown",
-      "to": "agent@ullrichinsurance.com",
-      "messageBody": "Mr. Cooper acquired my mortgage recently and is now the mortgage company. Mortgage #0751694985.",
-      "timestamp": "11-14, Friday, 3:26 PM"
+      "messageBody": "Liked “Hi Abby! Hailey here with Ullrich Insurance Agency! Just wanted to give you a quick update. As suspected, it was a timing issue - the $186.99 refund has already been initiated and will be back in your account 11.21.2025 per Travelers billing. \r\n\r\nLet me know if you have any further questions! I hope you have a wonderful rest of your day!”",
+      "timestamp": "11-17, Monday, 12:58 PM"
     }
   ]
 }
