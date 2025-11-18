@@ -1,12 +1,12 @@
 {
   "messages": [
     {
-      "messageId": 159738961,
+      "messageId": 159531013,
       "direction": "Outbound",
       "from": "Unknown",
       "to": "agent@ullrichinsurance.com",
-      "messageBody": "Hi Jared!  Marilyn Talbert here. I'm just checking with you on the insurance quotes. Just wanted to make sure I didn't miss them somehow. Thanks!!!",
-      "timestamp": "11-18, Tuesday, 9:59 AM"
+      "messageBody": "Hey Jared, just checking bc it was not an option as I started this- can you give me a quote for a motor home?",
+      "timestamp": "11-17, Monday, 10:55 AM"
     }
   ]
 }

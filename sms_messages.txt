@@ -1,18 +1,18 @@
 ================================================================================
 SMS MESSAGES EXPORT
-Generated: 2025-11-18 17:38:18 UTC
+Generated: 2025-11-18 19:27:08 UTC
 Total Messages: 1
 ================================================================================
 
 MESSAGE #1
 --------------------------------------------------------------------------------
-Date:    11-18, Tuesday, 9:59 AM
+Date:    11-17, Monday, 10:55 AM
 From:    Unknown
-Contact: Marilyn Talbert
-ID:      159738961
+Contact: Janet Sheridan
+ID:      159531013
 
 Message:
-Hi Jared!  Marilyn Talbert here. I'm just checking with you on the insurance quotes. Just wanted to make sure I didn't miss them somehow. Thanks!!!
+Hey Jared, just checking bc it was not an option as I started this- can you give me a quote for a motor home?
 
 ================================================================================
 
