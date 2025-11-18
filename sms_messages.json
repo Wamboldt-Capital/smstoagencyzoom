@@ -1,20 +1,12 @@
 {
   "messages": [
     {
-      "messageId": 159589094,
+      "messageId": 159738961,
       "direction": "Outbound",
       "from": "Unknown",
       "to": "agent@ullrichinsurance.com",
-      "messageBody": "Thank you!",
-      "timestamp": "11-17, Monday, 12:58 PM"
-    },
-    {
-      "messageId": 159589061,
-      "direction": "Outbound",
-      "from": "Unknown",
-      "to": "agent@ullrichinsurance.com",
-      "messageBody": "Liked “Hi Abby! Hailey here with Ullrich Insurance Agency! Just wanted to give you a quick update. As suspected, it was a timing issue - the $186.99 refund has already been initiated and will be back in your account 11.21.2025 per Travelers billing. \r\n\r\nLet me know if you have any further questions! I hope you have a wonderful rest of your day!”",
-      "timestamp": "11-17, Monday, 12:58 PM"
+      "messageBody": "Hi Jared!  Marilyn Talbert here. I'm just checking with you on the insurance quotes. Just wanted to make sure I didn't miss them somehow. Thanks!!!",
+      "timestamp": "11-18, Tuesday, 9:59 AM"
     }
   ]
 }

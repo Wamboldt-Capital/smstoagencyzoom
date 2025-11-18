@@ -1,32 +1,18 @@
 ================================================================================
 SMS MESSAGES EXPORT
-Generated: 2025-11-17 20:35:48 UTC
-Total Messages: 2
+Generated: 2025-11-18 17:38:18 UTC
+Total Messages: 1
 ================================================================================
 
 MESSAGE #1
 --------------------------------------------------------------------------------
-Date:    11-17, Monday, 12:58 PM
+Date:    11-18, Tuesday, 9:59 AM
 From:    Unknown
-Contact: Abby Willard
-ID:      159589094
+Contact: Marilyn Talbert
+ID:      159738961
 
 Message:
-Thank you!
-
-================================================================================
-
-MESSAGE #2
---------------------------------------------------------------------------------
-Date:    11-17, Monday, 12:58 PM
-From:    Unknown
-Contact: Abby Willard
-ID:      159589061
-
-Message:
-Liked “Hi Abby! Hailey here with Ullrich Insurance Agency! Just wanted to give you a quick update. As suspected, it was a timing issue - the $186.99 refund has already been initiated and will be back in your account 11.21.2025 per Travelers billing. 
-
-Let me know if you have any further questions! I hope you have a wonderful rest of your day!”
+Hi Jared!  Marilyn Talbert here. I'm just checking with you on the insurance quotes. Just wanted to make sure I didn't miss them somehow. Thanks!!!
 
 ================================================================================
 
