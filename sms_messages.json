@@ -1,12 +1,12 @@
 {
   "messages": [
     {
-      "messageId": 160183114,
+      "messageId": 160204915,
       "direction": "Outbound",
       "from": "Unknown",
       "to": "agent@ullrichinsurance.com",
-      "messageBody": "I'm available now until noon or after 1:30",
-      "timestamp": "11-20, Thursday, 11:17 AM"
+      "messageBody": "Hi Darius, would you have time to talk this afternoon?",
+      "timestamp": "11-20, Thursday, 12:28 PM"
     }
   ]
 }
