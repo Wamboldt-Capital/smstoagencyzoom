@@ -1,36 +1,20 @@
 {
   "messages": [
     {
-      "messageId": 160256438,
+      "messageId": 160428589,
       "direction": "Outbound",
       "from": "Unknown",
       "to": "agent@ullrichinsurance.com",
-      "messageBody": "I watched the video. I will look it over with my husband tonight. A couple questions:\n1) Our home doesn't back up to water and we have a sump pump. Flooding in basements or otherwise is unheard of in our neighborhood. Do we need that?\n\n2) why the early signing seven day? We absolutely want to have this in place no later than 11/28 so I'm concerned about that and want to know more about the seven day delay. \n\nThank you! I love the video and communication so far.",
-      "timestamp": "11-20, Thursday, 8:09 PM"
+      "messageBody": "We'd like to get this signed today or tomorrow I think .",
+      "timestamp": "11-21, Friday, 2:05 PM"
     },
     {
-      "messageId": 160256183,
+      "messageId": 160427605,
       "direction": "Outbound",
       "from": "Unknown",
       "to": "agent@ullrichinsurance.com",
-      "messageBody": "Sorry it was a very busy day at work. I missed your call.",
-      "timestamp": "11-20, Thursday, 7:46 PM"
-    },
-    {
-      "messageId": 160256180,
-      "direction": "Outbound",
-      "from": "Unknown",
-      "to": "agent@ullrichinsurance.com",
-      "messageBody": "Yes I'll check now thank you!",
-      "timestamp": "11-20, Thursday, 7:46 PM"
-    },
-    {
-      "messageId": 160255562,
-      "direction": "Outbound",
-      "from": "Unknown",
-      "to": "agent@ullrichinsurance.com",
-      "messageBody": "I just received it. Thank you",
-      "timestamp": "11-20, Thursday, 6:50 PM"
+      "messageBody": "OK, I'll be waiting",
+      "timestamp": "11-21, Friday, 2:03 PM"
     }
   ]
 }
