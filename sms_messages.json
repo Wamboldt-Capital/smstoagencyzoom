@@ -1,20 +1,12 @@
 {
   "messages": [
     {
-      "messageId": 160428589,
+      "messageId": 160486991,
       "direction": "Outbound",
       "from": "Unknown",
       "to": "agent@ullrichinsurance.com",
-      "messageBody": "We'd like to get this signed today or tomorrow I think .",
-      "timestamp": "11-21, Friday, 2:05 PM"
-    },
-    {
-      "messageId": 160427605,
-      "direction": "Outbound",
-      "from": "Unknown",
-      "to": "agent@ullrichinsurance.com",
-      "messageBody": "OK, I'll be waiting",
-      "timestamp": "11-21, Friday, 2:03 PM"
+      "messageBody": "We would like to move forward with the next steps. How soon can that happen?",
+      "timestamp": "11-22, Saturday, 12:37 PM"
     }
   ]
 }
