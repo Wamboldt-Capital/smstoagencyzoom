@@ -1,12 +1,20 @@
 {
   "messages": [
     {
-      "messageId": 160849617,
+      "messageId": 160870786,
       "direction": "Outbound",
       "from": "Unknown",
       "to": "agent@ullrichinsurance.com",
-      "messageBody": "Sure, I’ll do it. Noah, I'm having trouble accessing my Allstate account. Can you help me with this? It continues to say this:",
-      "timestamp": "11-25, Tuesday, 10:02 AM"
+      "messageBody": "Hey Noah -\nThank you so much for that insurance presentation video. So helpful! i'd like to move forward with the auto insurance. I'm going to wait on the contents for now. Let me know what you need from me!",
+      "timestamp": "11-25, Tuesday, 10:38 AM"
+    },
+    {
+      "messageId": 98934460,
+      "direction": "Outbound",
+      "from": "Unknown",
+      "to": "agent@ullrichinsurance.com",
+      "messageBody": "Loved “Thanks! I think you will be very happy about the review. Looks like we can save you around $2k between you home and auto insurance :)”",
+      "timestamp": "05-15, Thursday, 2:26 PM"
     }
   ]
 }

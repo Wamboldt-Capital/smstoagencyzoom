@@ -1,18 +1,31 @@
 ================================================================================
 SMS MESSAGES EXPORT
-Generated: 2025-11-25 17:10:07 UTC
-Total Messages: 1
+Generated: 2025-11-25 17:45:51 UTC
+Total Messages: 2
 ================================================================================
 
 MESSAGE #1
 --------------------------------------------------------------------------------
-Date:    11-25, Tuesday, 10:02 AM
+Date:    11-25, Tuesday, 10:38 AM
 From:    Unknown
-Contact: Marisa Vasquez & Brian Edwards
-ID:      160849617
+Contact: Paige Ferguson
+ID:      160870786
 
 Message:
-Sure, I’ll do it. Noah, I'm having trouble accessing my Allstate account. Can you help me with this? It continues to say this:
+Hey Noah -
+Thank you so much for that insurance presentation video. So helpful! i'd like to move forward with the auto insurance. I'm going to wait on the contents for now. Let me know what you need from me!
+
+================================================================================
+
+MESSAGE #2
+--------------------------------------------------------------------------------
+Date:    05-15, Thursday, 2:26 PM
+From:    Unknown
+Contact: Shelby & Andrew  Landsman
+ID:      98934460
+
+Message:
+Loved “Thanks! I think you will be very happy about the review. Looks like we can save you around $2k between you home and auto insurance :)”
 
 ================================================================================
 
