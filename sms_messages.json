@@ -1,20 +1,20 @@
 {
   "messages": [
     {
-      "messageId": 160637996,
+      "messageId": 70302182,
       "direction": "Outbound",
       "from": "Unknown",
       "to": "agent@ullrichinsurance.com",
-      "messageBody": "Thank you.",
-      "timestamp": "11-24, Monday, 10:17 AM"
+      "messageBody": "Liked “Hey Justin! This is Noah with Ullrich Insurance. I…”",
+      "timestamp": "08-16, Friday, 5:25 PM"
     },
     {
-      "messageId": 160450207,
+      "messageId": 70302019,
       "direction": "Outbound",
       "from": "Unknown",
       "to": "agent@ullrichinsurance.com",
-      "messageBody": "Hi Darius...my apologies I have been away and was not able to get to the trailer. Here is the boat trailer info.",
-      "timestamp": "11-21, Friday, 4:31 PM"
+      "messageBody": "ok thanks",
+      "timestamp": "08-16, Friday, 5:18 PM"
     }
   ]
 }

@@ -1,30 +1,30 @@
 ================================================================================
 SMS MESSAGES EXPORT
-Generated: 2025-11-24 21:20:31 UTC
+Generated: 2025-11-25 15:23:14 UTC
 Total Messages: 2
 ================================================================================
 
 MESSAGE #1
 --------------------------------------------------------------------------------
-Date:    11-24, Monday, 10:17 AM
+Date:    08-16, Friday, 5:25 PM
 From:    Unknown
-Contact: Donna Wood
-ID:      160637996
+Contact: Justin Woollacott
+ID:      70302182
 
 Message:
-Thank you.
+Liked “Hey Justin! This is Noah with Ullrich Insurance. I…”
 
 ================================================================================
 
 MESSAGE #2
 --------------------------------------------------------------------------------
-Date:    11-21, Friday, 4:31 PM
+Date:    08-16, Friday, 5:18 PM
 From:    Unknown
-Contact: Donna Wood
-ID:      160450207
+Contact: Justin Woollacott
+ID:      70302019
 
 Message:
-Hi Darius...my apologies I have been away and was not able to get to the trailer. Here is the boat trailer info.
+ok thanks
 
 ================================================================================
 
