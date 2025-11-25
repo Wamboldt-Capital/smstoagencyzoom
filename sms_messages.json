@@ -1,20 +1,12 @@
 {
   "messages": [
     {
-      "messageId": 70302182,
+      "messageId": 160849617,
       "direction": "Outbound",
       "from": "Unknown",
       "to": "agent@ullrichinsurance.com",
-      "messageBody": "Liked “Hey Justin! This is Noah with Ullrich Insurance. I…”",
-      "timestamp": "08-16, Friday, 5:25 PM"
-    },
-    {
-      "messageId": 70302019,
-      "direction": "Outbound",
-      "from": "Unknown",
-      "to": "agent@ullrichinsurance.com",
-      "messageBody": "ok thanks",
-      "timestamp": "08-16, Friday, 5:18 PM"
+      "messageBody": "Sure, I’ll do it. Noah, I'm having trouble accessing my Allstate account. Can you help me with this? It continues to say this:",
+      "timestamp": "11-25, Tuesday, 10:02 AM"
     }
   ]
 }
