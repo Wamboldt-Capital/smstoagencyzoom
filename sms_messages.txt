@@ -1,18 +1,20 @@
 ================================================================================
 SMS MESSAGES EXPORT
-Generated: 2025-11-26 21:55:21 UTC
+Generated: 2025-11-27 18:20:42 UTC
 Total Messages: 1
 ================================================================================
 
 MESSAGE #1
 --------------------------------------------------------------------------------
-Date:    11-26, Wednesday, 2:48 PM
+Date:    11-27, Thursday, 11:16 AM
 From:    Unknown
-Contact: (720) 404-5309
-ID:      161140777
+Contact: (720) 799-7978
+ID:      161178167
 
 Message:
-
+Loved “Hi Erin, Happy Birthday! The entire Ullrich Insurance Agency is wishing you a wonderful day filled with celebration!
+We think you're awesome and truly appreciate you trusting us with your insurance needs. We're here for you if you ever need us!
+Here's to the best year yet!”
 
 ================================================================================
 
