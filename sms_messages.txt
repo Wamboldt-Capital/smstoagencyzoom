@@ -1,20 +1,18 @@
 ================================================================================
 SMS MESSAGES EXPORT
-Generated: 2025-11-27 18:20:42 UTC
+Generated: 2025-11-28 06:49:36 UTC
 Total Messages: 1
 ================================================================================
 
 MESSAGE #1
 --------------------------------------------------------------------------------
-Date:    11-27, Thursday, 11:16 AM
+Date:    11-27, Thursday, 8:27 PM
 From:    Unknown
-Contact: (720) 799-7978
-ID:      161178167
+Contact: Rob MacLean
+ID:      161210832
 
 Message:
-Loved “Hi Erin, Happy Birthday! The entire Ullrich Insurance Agency is wishing you a wonderful day filled with celebration!
-We think you're awesome and truly appreciate you trusting us with your insurance needs. We're here for you if you ever need us!
-Here's to the best year yet!”
+We are all set now.  I found a good deal for home insurance that was about 2K cheaper.
 
 ================================================================================
 
