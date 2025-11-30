@@ -1,18 +1,20 @@
 ================================================================================
 SMS MESSAGES EXPORT
-Generated: 2025-11-28 06:49:36 UTC
+Generated: 2025-11-30 15:29:57 UTC
 Total Messages: 1
 ================================================================================
 
 MESSAGE #1
 --------------------------------------------------------------------------------
-Date:    11-27, Thursday, 8:27 PM
+Date:    11-30, Sunday, 8:21 AM
 From:    Unknown
-Contact: Rob MacLean
-ID:      161210832
+Contact: Kandace & Roy Meisinger
+ID:      161416606
 
 Message:
-We are all set now.  I found a good deal for home insurance that was about 2K cheaper.
+Hey Noah, sorry to bother you on a Sunday. I need our insurance information sent over to the lean holder on our 2022 F250. It is Red River Credit Union in Texarkana. The number is (903) 793-7681
+
+They charged us a CPI for lack of insurance coverage I guess which no contact was made prior to the charge.
 
 ================================================================================
 
