@@ -1,42 +1,18 @@
 ================================================================================
 SMS MESSAGES EXPORT
-Generated: 2025-12-01 21:17:32 UTC
-Total Messages: 3
+Generated: 2025-12-01 21:58:13 UTC
+Total Messages: 1
 ================================================================================
 
 MESSAGE #1
 --------------------------------------------------------------------------------
-Date:    12-01, Monday, 12:41 PM
+Date:    12-01, Monday, 2:57 PM
 From:    Unknown
-Contact: Dominique Alhambra
-ID:      161592205
+Contact: Kandace & Roy Meisinger
+ID:      161626108
 
 Message:
-Sure
 
-================================================================================
-
-MESSAGE #2
---------------------------------------------------------------------------------
-Date:    12-01, Monday, 12:40 PM
-From:    Unknown
-Contact: Dominique Alhambra
-ID:      161591926
-
-Message:
-Okay I'm on hold with Reyna right now can I talk to someone on the phone please
-
-================================================================================
-
-MESSAGE #3
---------------------------------------------------------------------------------
-Date:    12-01, Monday, 11:47 AM
-From:    Unknown
-Contact: Dominique Alhambra
-ID:      161576358
-
-Message:
-Yes
 
 ================================================================================
 

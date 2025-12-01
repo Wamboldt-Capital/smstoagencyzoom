@@ -1,28 +1,12 @@
 {
   "messages": [
     {
-      "messageId": 161592205,
+      "messageId": 161626108,
       "direction": "Outbound",
       "from": "Unknown",
       "to": "agent@ullrichinsurance.com",
-      "messageBody": "Sure",
-      "timestamp": "12-01, Monday, 12:41 PM"
-    },
-    {
-      "messageId": 161591926,
-      "direction": "Outbound",
-      "from": "Unknown",
-      "to": "agent@ullrichinsurance.com",
-      "messageBody": "Okay I'm on hold with Reyna right now can I talk to someone on the phone please",
-      "timestamp": "12-01, Monday, 12:40 PM"
-    },
-    {
-      "messageId": 161576358,
-      "direction": "Outbound",
-      "from": "Unknown",
-      "to": "agent@ullrichinsurance.com",
-      "messageBody": "Yes",
-      "timestamp": "12-01, Monday, 11:47 AM"
+      "messageBody": "",
+      "timestamp": "12-01, Monday, 2:57 PM"
     }
   ]
 }
