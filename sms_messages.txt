@@ -1,42 +1,42 @@
 ================================================================================
 SMS MESSAGES EXPORT
-Generated: 2025-12-03 17:20:00 UTC
+Generated: 2025-12-03 20:10:27 UTC
 Total Messages: 3
 ================================================================================
 
 MESSAGE #1
 --------------------------------------------------------------------------------
-Date:    12-03, Wednesday, 10:09 AM
+Date:    12-03, Wednesday, 10:29 AM
 From:    Unknown
-Contact: Rebecca Atencio
-ID:      161946426
+Contact: Harlan &amp; Delores Stutzman
+ID:      161957527
 
 Message:
-Okay thank you
+
 
 ================================================================================
 
 MESSAGE #2
 --------------------------------------------------------------------------------
-Date:    11-25, Tuesday, 12:48 PM
+Date:    12-03, Wednesday, 10:29 AM
 From:    Unknown
-Contact: Rebecca Atencio
-ID:      160914948
+Contact: Harlan &amp; Delores Stutzman
+ID:      161957443
 
 Message:
-Perfect
+2001 silverado vin# 2gcek19t011295528
 
 ================================================================================
 
 MESSAGE #3
 --------------------------------------------------------------------------------
-Date:    11-25, Tuesday, 12:47 PM
+Date:    12-03, Wednesday, 9:00 AM
 From:    Unknown
-Contact: Rebecca Atencio
-ID:      160914691
+Contact: Harlan &amp; Delores Stutzman
+ID:      161904022
 
 Message:
-Can you email over what you have? Tomorrow at noon works best, can you do that?
+Thanx for the response. Keep us informed.
 
 ================================================================================
 

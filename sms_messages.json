@@ -1,28 +1,28 @@
 {
   "messages": [
     {
-      "messageId": 161946426,
+      "messageId": 161957527,
       "direction": "Outbound",
       "from": "Unknown",
       "to": "agent@ullrichinsurance.com",
-      "messageBody": "Okay thank you",
-      "timestamp": "12-03, Wednesday, 10:09 AM"
+      "messageBody": "",
+      "timestamp": "12-03, Wednesday, 10:29 AM"
     },
     {
-      "messageId": 160914948,
+      "messageId": 161957443,
       "direction": "Outbound",
       "from": "Unknown",
       "to": "agent@ullrichinsurance.com",
-      "messageBody": "Perfect",
-      "timestamp": "11-25, Tuesday, 12:48 PM"
+      "messageBody": "2001 silverado vin# 2gcek19t011295528",
+      "timestamp": "12-03, Wednesday, 10:29 AM"
     },
     {
-      "messageId": 160914691,
+      "messageId": 161904022,
       "direction": "Outbound",
       "from": "Unknown",
       "to": "agent@ullrichinsurance.com",
-      "messageBody": "Can you email over what you have? Tomorrow at noon works best, can you do that?",
-      "timestamp": "11-25, Tuesday, 12:47 PM"
+      "messageBody": "Thanx for the response. Keep us informed.",
+      "timestamp": "12-03, Wednesday, 9:00 AM"
     }
   ]
 }
