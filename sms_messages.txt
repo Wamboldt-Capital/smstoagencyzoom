@@ -1,42 +1,20 @@
 ================================================================================
 SMS MESSAGES EXPORT
-Generated: 2025-12-03 20:10:27 UTC
-Total Messages: 3
+Generated: 2025-12-04 16:33:34 UTC
+Total Messages: 1
 ================================================================================
 
 MESSAGE #1
 --------------------------------------------------------------------------------
-Date:    12-03, Wednesday, 10:29 AM
+Date:    12-04, Thursday, 9:14 AM
 From:    Unknown
-Contact: Harlan &amp; Delores Stutzman
-ID:      161957527
+Contact: (720) 705-1720
+ID:      162136982
 
 Message:
-
-
-================================================================================
-
-MESSAGE #2
---------------------------------------------------------------------------------
-Date:    12-03, Wednesday, 10:29 AM
-From:    Unknown
-Contact: Harlan &amp; Delores Stutzman
-ID:      161957443
-
-Message:
-2001 silverado vin# 2gcek19t011295528
-
-================================================================================
-
-MESSAGE #3
---------------------------------------------------------------------------------
-Date:    12-03, Wednesday, 9:00 AM
-From:    Unknown
-Contact: Harlan &amp; Delores Stutzman
-ID:      161904022
-
-Message:
-Thanx for the response. Keep us informed.
+Loved “Hi Catarina, Happy Birthday! The entire Ullrich Insurance Agency is wishing you a wonderful day filled with celebration!
+We think you're awesome and truly appreciate you trusting us with your insurance needs. We're here for you if you ever need us!
+Here's to the best year yet!”
 
 ================================================================================
 

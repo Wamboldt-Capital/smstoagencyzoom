@@ -1,28 +1,12 @@
 {
   "messages": [
     {
-      "messageId": 161957527,
+      "messageId": 162136982,
       "direction": "Outbound",
       "from": "Unknown",
       "to": "agent@ullrichinsurance.com",
-      "messageBody": "",
-      "timestamp": "12-03, Wednesday, 10:29 AM"
-    },
-    {
-      "messageId": 161957443,
-      "direction": "Outbound",
-      "from": "Unknown",
-      "to": "agent@ullrichinsurance.com",
-      "messageBody": "2001 silverado vin# 2gcek19t011295528",
-      "timestamp": "12-03, Wednesday, 10:29 AM"
-    },
-    {
-      "messageId": 161904022,
-      "direction": "Outbound",
-      "from": "Unknown",
-      "to": "agent@ullrichinsurance.com",
-      "messageBody": "Thanx for the response. Keep us informed.",
-      "timestamp": "12-03, Wednesday, 9:00 AM"
+      "messageBody": "Loved “Hi Catarina, Happy Birthday! The entire Ullrich Insurance Agency is wishing you a wonderful day filled with celebration!\r\nWe think you're awesome and truly appreciate you trusting us with your insurance needs. We're here for you if you ever need us!\r\nHere's to the best year yet!”",
+      "timestamp": "12-04, Thursday, 9:14 AM"
     }
   ]
 }
