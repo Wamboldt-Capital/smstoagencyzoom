@@ -1,20 +1,18 @@
 ================================================================================
 SMS MESSAGES EXPORT
-Generated: 2025-12-04 16:33:34 UTC
+Generated: 2025-12-04 17:16:43 UTC
 Total Messages: 1
 ================================================================================
 
 MESSAGE #1
 --------------------------------------------------------------------------------
-Date:    12-04, Thursday, 9:14 AM
+Date:    12-04, Thursday, 10:13 AM
 From:    Unknown
-Contact: (720) 705-1720
-ID:      162136982
+Contact: Harlan &amp; Delores Stutzman
+ID:      162168189
 
 Message:
-Loved “Hi Catarina, Happy Birthday! The entire Ullrich Insurance Agency is wishing you a wonderful day filled with celebration!
-We think you're awesome and truly appreciate you trusting us with your insurance needs. We're here for you if you ever need us!
-Here's to the best year yet!”
+Appreciate the come back
 
 ================================================================================
 
