@@ -1,28 +1,20 @@
 {
   "messages": [
     {
-      "messageId": 162425802,
+      "messageId": 162433245,
       "direction": "Outbound",
       "from": "Unknown",
       "to": "agent@ullrichinsurance.com",
-      "messageBody": "Thank you for the birthday wishes. And a very happy holidays to all of you.",
-      "timestamp": "12-05, Friday, 1:15 PM"
+      "messageBody": "You can call me now",
+      "timestamp": "12-05, Friday, 1:56 PM"
     },
     {
-      "messageId": 162422044,
+      "messageId": 74811493,
       "direction": "Outbound",
       "from": "Unknown",
       "to": "agent@ullrichinsurance.com",
-      "messageBody": "Thanks !",
-      "timestamp": "12-05, Friday, 1:07 PM"
-    },
-    {
-      "messageId": 162421835,
-      "direction": "Outbound",
-      "from": "Unknown",
-      "to": "agent@ullrichinsurance.com",
-      "messageBody": "Sweet, thanks!",
-      "timestamp": "12-05, Friday, 1:07 PM"
+      "messageBody": "Yes.  I'm getting my windshield fixed on Wednesday and then we will pull the trigger on Thursday",
+      "timestamp": "09-30, Monday, 9:25 AM"
     }
   ]
 }

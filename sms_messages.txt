@@ -1,42 +1,30 @@
 ================================================================================
 SMS MESSAGES EXPORT
-Generated: 2025-12-05 20:24:26 UTC
-Total Messages: 3
+Generated: 2025-12-05 20:58:11 UTC
+Total Messages: 2
 ================================================================================
 
 MESSAGE #1
 --------------------------------------------------------------------------------
-Date:    12-05, Friday, 1:15 PM
+Date:    12-05, Friday, 1:56 PM
 From:    Unknown
-Contact: (720) 369-8333
-ID:      162425802
+Contact: Andrew Cohen
+ID:      162433245
 
 Message:
-Thank you for the birthday wishes. And a very happy holidays to all of you.
+You can call me now
 
 ================================================================================
 
 MESSAGE #2
 --------------------------------------------------------------------------------
-Date:    12-05, Friday, 1:07 PM
+Date:    09-30, Monday, 9:25 AM
 From:    Unknown
-Contact: charlotte Jacobsen
-ID:      162422044
+Contact: Andrew Cohen
+ID:      74811493
 
 Message:
-Thanks !
-
-================================================================================
-
-MESSAGE #3
---------------------------------------------------------------------------------
-Date:    12-05, Friday, 1:07 PM
-From:    Unknown
-Contact: (720) 717-3155
-ID:      162421835
-
-Message:
-Sweet, thanks!
+Yes.  I'm getting my windshield fixed on Wednesday and then we will pull the trigger on Thursday
 
 ================================================================================
 
