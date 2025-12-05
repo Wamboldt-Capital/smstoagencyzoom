@@ -1,12 +1,28 @@
 {
   "messages": [
     {
-      "messageId": 162168189,
+      "messageId": 162425802,
       "direction": "Outbound",
       "from": "Unknown",
       "to": "agent@ullrichinsurance.com",
-      "messageBody": "Appreciate the come back",
-      "timestamp": "12-04, Thursday, 10:13 AM"
+      "messageBody": "Thank you for the birthday wishes. And a very happy holidays to all of you.",
+      "timestamp": "12-05, Friday, 1:15 PM"
+    },
+    {
+      "messageId": 162422044,
+      "direction": "Outbound",
+      "from": "Unknown",
+      "to": "agent@ullrichinsurance.com",
+      "messageBody": "Thanks !",
+      "timestamp": "12-05, Friday, 1:07 PM"
+    },
+    {
+      "messageId": 162421835,
+      "direction": "Outbound",
+      "from": "Unknown",
+      "to": "agent@ullrichinsurance.com",
+      "messageBody": "Sweet, thanks!",
+      "timestamp": "12-05, Friday, 1:07 PM"
     }
   ]
 }
