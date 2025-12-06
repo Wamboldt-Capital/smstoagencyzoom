@@ -1,20 +1,12 @@
 {
   "messages": [
     {
-      "messageId": 162433245,
+      "messageId": 162443415,
       "direction": "Outbound",
       "from": "Unknown",
       "to": "agent@ullrichinsurance.com",
-      "messageBody": "You can call me now",
-      "timestamp": "12-05, Friday, 1:56 PM"
-    },
-    {
-      "messageId": 74811493,
-      "direction": "Outbound",
-      "from": "Unknown",
-      "to": "agent@ullrichinsurance.com",
-      "messageBody": "Yes.  I'm getting my windshield fixed on Wednesday and then we will pull the trigger on Thursday",
-      "timestamp": "09-30, Monday, 9:25 AM"
+      "messageBody": "Hello, I'm free now if you are. Otherwise, I can avaliable around lunch hour or after 4 next week",
+      "timestamp": "12-05, Friday, 2:48 PM"
     }
   ]
 }
