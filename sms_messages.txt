@@ -1,18 +1,42 @@
 ================================================================================
 SMS MESSAGES EXPORT
-Generated: 2025-12-06 06:46:20 UTC
-Total Messages: 1
+Generated: 2025-12-06 20:21:41 UTC
+Total Messages: 3
 ================================================================================
 
 MESSAGE #1
 --------------------------------------------------------------------------------
-Date:    12-05, Friday, 2:48 PM
+Date:    12-06, Saturday, 1:01 PM
 From:    Unknown
-Contact: James Keyes
-ID:      162443415
+Contact: Brian & Tiffany Cano
+ID:      162490672
 
 Message:
-Hello, I'm free now if you are. Otherwise, I can avaliable around lunch hour or after 4 next week
+Hey Noah. Can I please get liability insurance for a recently purchased vehicle asap? Or can you guide me to the right place to get that done today.
+
+================================================================================
+
+MESSAGE #2
+--------------------------------------------------------------------------------
+Date:    08-28, Thursday, 7:53 AM
+From:    Unknown
+Contact: Brian & Tiffany Cano
+ID:      113246519
+
+Message:
+Good morning. Where do I sent a copy of the title of my Buick?
+
+================================================================================
+
+MESSAGE #3
+--------------------------------------------------------------------------------
+Date:    08-27, Wednesday, 3:01 PM
+From:    Unknown
+Contact: Brian & Tiffany Cano
+ID:      113202851
+
+Message:
+Does that mean the Buick?
 
 ================================================================================
 
