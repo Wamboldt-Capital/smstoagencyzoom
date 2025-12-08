@@ -1,28 +1,12 @@
 {
   "messages": [
     {
-      "messageId": 162490672,
+      "messageId": 162694085,
       "direction": "Outbound",
       "from": "Unknown",
       "to": "agent@ullrichinsurance.com",
-      "messageBody": "Hey Noah. Can I please get liability insurance for a recently purchased vehicle asap? Or can you guide me to the right place to get that done today.",
-      "timestamp": "12-06, Saturday, 1:01 PM"
-    },
-    {
-      "messageId": 113246519,
-      "direction": "Outbound",
-      "from": "Unknown",
-      "to": "agent@ullrichinsurance.com",
-      "messageBody": "Good morning. Where do I sent a copy of the title of my Buick?",
-      "timestamp": "08-28, Thursday, 7:53 AM"
-    },
-    {
-      "messageId": 113202851,
-      "direction": "Outbound",
-      "from": "Unknown",
-      "to": "agent@ullrichinsurance.com",
-      "messageBody": "Does that mean the Buick?",
-      "timestamp": "08-27, Wednesday, 3:01 PM"
+      "messageBody": "Yes I did",
+      "timestamp": "12-08, Monday, 12:44 PM"
     }
   ]
 }
