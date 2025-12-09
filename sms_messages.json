@@ -1,12 +1,12 @@
 {
   "messages": [
     {
-      "messageId": 162789194,
+      "messageId": 162755382,
       "direction": "Outbound",
       "from": "Unknown",
       "to": "agent@ullrichinsurance.com",
-      "messageBody": "I am currently in the air, on the way to San Diego. I will try calling you once I have landed. Thank you so much!",
-      "timestamp": "12-09, Tuesday, 8:12 AM"
+      "messageBody": "Tomorrow at 9 is fine",
+      "timestamp": "12-08, Monday, 7:57 PM"
     }
   ]
 }
