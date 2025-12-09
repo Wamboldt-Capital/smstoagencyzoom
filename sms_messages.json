@@ -1,28 +1,12 @@
 {
   "messages": [
     {
-      "messageId": 162749021,
+      "messageId": 162789194,
       "direction": "Outbound",
       "from": "Unknown",
       "to": "agent@ullrichinsurance.com",
-      "messageBody": "Tons of people seem to drive unregistered cars around here but I want to be on the up and up",
-      "timestamp": "12-08, Monday, 5:08 PM"
-    },
-    {
-      "messageId": 162748963,
-      "direction": "Outbound",
-      "from": "Unknown",
-      "to": "agent@ullrichinsurance.com",
-      "messageBody": "The reason for my urgency is also that the registration for my car expired in October",
-      "timestamp": "12-08, Monday, 5:08 PM"
-    },
-    {
-      "messageId": 162747884,
-      "direction": "Outbound",
-      "from": "Unknown",
-      "to": "agent@ullrichinsurance.com",
-      "messageBody": "Thank you!",
-      "timestamp": "12-08, Monday, 5:02 PM"
+      "messageBody": "I am currently in the air, on the way to San Diego. I will try calling you once I have landed. Thank you so much!",
+      "timestamp": "12-09, Tuesday, 8:12 AM"
     }
   ]
 }
