@@ -1,54 +1,18 @@
 ================================================================================
 SMS MESSAGES EXPORT
-Generated: 2025-12-10 06:36:17 UTC
-Total Messages: 4
+Generated: 2025-12-10 22:10:57 UTC
+Total Messages: 1
 ================================================================================
 
 MESSAGE #1
 --------------------------------------------------------------------------------
-Date:    12-09, Tuesday, 3:39 PM
+Date:    12-10, Wednesday, 3:08 PM
 From:    Unknown
-Contact: Geronimo Aldana
-ID:      162967252
+Contact: Rebecca Atencio
+ID:      163173319
 
 Message:
-Sure, I'll make sure to leave one👍
-
-================================================================================
-
-MESSAGE #2
---------------------------------------------------------------------------------
-Date:    12-03, Wednesday, 2:41 PM
-From:    Unknown
-Contact: Eric Baylor
-ID:      162037650
-
-Message:
-It's been a week. Just let us know what the cost is with the other companies.
-
-================================================================================
-
-MESSAGE #3
---------------------------------------------------------------------------------
-Date:    11-25, Tuesday, 6:13 PM
-From:    Unknown
-Contact: Eric Baylor
-ID:      160961910
-
-Message:
-No open claims. So you don't have tell us what companies you have totals from and what they are?
-
-================================================================================
-
-MESSAGE #4
---------------------------------------------------------------------------------
-Date:    12-09, Tuesday, 6:11 PM
-From:    Unknown
-Contact: John Sheely
-ID:      162980907
-
-Message:
-Got it thanks. Let me review
+Hi Dean are you finished with our insurance quotes? I have received 5 calls today from different companies saying I reached out to them about insurance. Does it normally take this long?
 
 ================================================================================
 

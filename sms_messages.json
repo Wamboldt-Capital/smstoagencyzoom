@@ -1,36 +1,12 @@
 {
   "messages": [
     {
-      "messageId": 162967252,
+      "messageId": 163173319,
       "direction": "Outbound",
       "from": "Unknown",
       "to": "agent@ullrichinsurance.com",
-      "messageBody": "Sure, I'll make sure to leave one👍",
-      "timestamp": "12-09, Tuesday, 3:39 PM"
-    },
-    {
-      "messageId": 162037650,
-      "direction": "Outbound",
-      "from": "Unknown",
-      "to": "agent@ullrichinsurance.com",
-      "messageBody": "It's been a week. Just let us know what the cost is with the other companies.",
-      "timestamp": "12-03, Wednesday, 2:41 PM"
-    },
-    {
-      "messageId": 160961910,
-      "direction": "Outbound",
-      "from": "Unknown",
-      "to": "agent@ullrichinsurance.com",
-      "messageBody": "No open claims. So you don't have tell us what companies you have totals from and what they are?",
-      "timestamp": "11-25, Tuesday, 6:13 PM"
-    },
-    {
-      "messageId": 162980907,
-      "direction": "Outbound",
-      "from": "Unknown",
-      "to": "agent@ullrichinsurance.com",
-      "messageBody": "Got it thanks. Let me review",
-      "timestamp": "12-09, Tuesday, 6:11 PM"
+      "messageBody": "Hi Dean are you finished with our insurance quotes? I have received 5 calls today from different companies saying I reached out to them about insurance. Does it normally take this long?",
+      "timestamp": "12-10, Wednesday, 3:08 PM"
     }
   ]
 }
