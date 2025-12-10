@@ -1,18 +1,54 @@
 ================================================================================
 SMS MESSAGES EXPORT
-Generated: 2025-12-09 18:28:06 UTC
-Total Messages: 1
+Generated: 2025-12-10 06:36:17 UTC
+Total Messages: 4
 ================================================================================
 
 MESSAGE #1
 --------------------------------------------------------------------------------
-Date:    12-09, Tuesday, 11:01 AM
+Date:    12-09, Tuesday, 3:39 PM
 From:    Unknown
-Contact: Bryan Mcclaskey
-ID:      162881412
+Contact: Geronimo Aldana
+ID:      162967252
 
 Message:
-👍🏼
+Sure, I'll make sure to leave one👍
+
+================================================================================
+
+MESSAGE #2
+--------------------------------------------------------------------------------
+Date:    12-03, Wednesday, 2:41 PM
+From:    Unknown
+Contact: Eric Baylor
+ID:      162037650
+
+Message:
+It's been a week. Just let us know what the cost is with the other companies.
+
+================================================================================
+
+MESSAGE #3
+--------------------------------------------------------------------------------
+Date:    11-25, Tuesday, 6:13 PM
+From:    Unknown
+Contact: Eric Baylor
+ID:      160961910
+
+Message:
+No open claims. So you don't have tell us what companies you have totals from and what they are?
+
+================================================================================
+
+MESSAGE #4
+--------------------------------------------------------------------------------
+Date:    12-09, Tuesday, 6:11 PM
+From:    Unknown
+Contact: John Sheely
+ID:      162980907
+
+Message:
+Got it thanks. Let me review
 
 ================================================================================
 
