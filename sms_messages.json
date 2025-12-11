@@ -1,12 +1,12 @@
 {
   "messages": [
     {
-      "messageId": 163173319,
+      "messageId": 163187735,
       "direction": "Outbound",
       "from": "Unknown",
       "to": "agent@ullrichinsurance.com",
-      "messageBody": "Hi Dean are you finished with our insurance quotes? I have received 5 calls today from different companies saying I reached out to them about insurance. Does it normally take this long?",
-      "timestamp": "12-10, Wednesday, 3:08 PM"
+      "messageBody": "",
+      "timestamp": "12-10, Wednesday, 5:23 PM"
     }
   ]
 }
