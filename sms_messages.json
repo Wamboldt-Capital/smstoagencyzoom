@@ -1,20 +1,12 @@
 {
   "messages": [
     {
-      "messageId": 163518691,
+      "messageId": 163557969,
       "direction": "Outbound",
       "from": "Unknown",
       "to": "agent@ullrichinsurance.com",
-      "messageBody": "Thank you !",
-      "timestamp": "12-12, Friday, 10:32 AM"
-    },
-    {
-      "messageId": 161755576,
-      "direction": "Outbound",
-      "from": "Unknown",
-      "to": "agent@ullrichinsurance.com",
-      "messageBody": "Jared, Yes good morning,  I'll get into that link and fill out that form today.  I am trying to find what coverage our insurance policy has",
-      "timestamp": "12-02, Tuesday, 10:30 AM"
+      "messageBody": "Thanks, I did call your office and left a message. I look forward to talking with someone from your firm.",
+      "timestamp": "12-12, Friday, 12:33 PM"
     }
   ]
 }
