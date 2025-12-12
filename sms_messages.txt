@@ -1,22 +1,18 @@
 ================================================================================
 SMS MESSAGES EXPORT
-Generated: 2025-12-11 20:55:29 UTC
+Generated: 2025-12-12 06:34:23 UTC
 Total Messages: 1
 ================================================================================
 
 MESSAGE #1
 --------------------------------------------------------------------------------
-Date:    12-11, Thursday, 1:51 PM
+Date:    12-11, Thursday, 5:03 PM
 From:    Unknown
-Contact: (303) 746-2641
-ID:      163368355
+Contact: Harlan &amp; Delores Stutzman
+ID:      163398891
 
 Message:
-Yes that is correct 
-
-But my bad it's a Chevy Silverado 1500 
-
-1GCUYDED1KZ135435
+I called your office today and left a message received no response.
 
 ================================================================================
 
