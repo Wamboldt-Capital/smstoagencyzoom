@@ -1,12 +1,20 @@
 {
   "messages": [
     {
-      "messageId": 163398891,
+      "messageId": 163503996,
       "direction": "Outbound",
       "from": "Unknown",
       "to": "agent@ullrichinsurance.com",
-      "messageBody": "I called your office today and left a message received no response.",
-      "timestamp": "12-11, Thursday, 5:03 PM"
+      "messageBody": "Thank you!",
+      "timestamp": "12-12, Friday, 10:05 AM"
+    },
+    {
+      "messageId": 72900053,
+      "direction": "Outbound",
+      "from": "Unknown",
+      "to": "agent@ullrichinsurance.com",
+      "messageBody": "Hi Nina, thank you for reaching out. What info should I have ready for the call? I just want to make sure I'm prepared ahead of time.",
+      "timestamp": "09-11, Wednesday, 1:45 PM"
     }
   ]
 }

@@ -1,18 +1,30 @@
 ================================================================================
 SMS MESSAGES EXPORT
-Generated: 2025-12-12 06:34:23 UTC
-Total Messages: 1
+Generated: 2025-12-12 17:20:33 UTC
+Total Messages: 2
 ================================================================================
 
 MESSAGE #1
 --------------------------------------------------------------------------------
-Date:    12-11, Thursday, 5:03 PM
+Date:    12-12, Friday, 10:05 AM
 From:    Unknown
-Contact: Harlan &amp; Delores Stutzman
-ID:      163398891
+Contact: (415) 425-8953
+ID:      163503996
 
 Message:
-I called your office today and left a message received no response.
+Thank you!
+
+================================================================================
+
+MESSAGE #2
+--------------------------------------------------------------------------------
+Date:    09-11, Wednesday, 1:45 PM
+From:    Unknown
+Contact: (415) 425-8953
+ID:      72900053
+
+Message:
+Hi Nina, thank you for reaching out. What info should I have ready for the call? I just want to make sure I'm prepared ahead of time.
 
 ================================================================================
 
