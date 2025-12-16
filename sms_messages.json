@@ -1,28 +1,12 @@
 {
   "messages": [
     {
-      "messageId": 164087445,
+      "messageId": 164148393,
       "direction": "Outbound",
       "from": "Unknown",
       "to": "agent@ullrichinsurance.com",
-      "messageBody": "Hi, I'm in a meeting. I meant 1PM MT, thanks!",
-      "timestamp": "12-16, Tuesday, 12:02 PM"
-    },
-    {
-      "messageId": 164031681,
-      "direction": "Outbound",
-      "from": "Unknown",
-      "to": "agent@ullrichinsurance.com",
-      "messageBody": "Thanks!",
-      "timestamp": "12-16, Tuesday, 10:04 AM"
-    },
-    {
-      "messageId": 164027229,
-      "direction": "Outbound",
-      "from": "Unknown",
-      "to": "agent@ullrichinsurance.com",
-      "messageBody": "Hi! I'm free at 1PM today if that works for you.",
-      "timestamp": "12-16, Tuesday, 9:59 AM"
+      "messageBody": "I got it, would you mind including a few of the other quotes you received ? I've not heard good things about travelers insurance.",
+      "timestamp": "12-16, Tuesday, 3:15 PM"
     }
   ]
 }
