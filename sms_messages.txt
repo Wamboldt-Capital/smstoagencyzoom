@@ -1,18 +1,42 @@
 ================================================================================
 SMS MESSAGES EXPORT
-Generated: 2025-12-16 06:52:06 UTC
-Total Messages: 1
+Generated: 2025-12-16 21:11:40 UTC
+Total Messages: 3
 ================================================================================
 
 MESSAGE #1
 --------------------------------------------------------------------------------
-Date:    12-15, Monday, 5:58 PM
+Date:    12-16, Tuesday, 12:02 PM
 From:    Unknown
-Contact: Daniel Waite
-ID:      163919130
+Contact: Kristin Slaughter &amp; Parker Deloye
+ID:      164087445
 
 Message:
-Thank you, I emailed back
+Hi, I'm in a meeting. I meant 1PM MT, thanks!
+
+================================================================================
+
+MESSAGE #2
+--------------------------------------------------------------------------------
+Date:    12-16, Tuesday, 10:04 AM
+From:    Unknown
+Contact: Kristin Slaughter &amp; Parker Deloye
+ID:      164031681
+
+Message:
+Thanks!
+
+================================================================================
+
+MESSAGE #3
+--------------------------------------------------------------------------------
+Date:    12-16, Tuesday, 9:59 AM
+From:    Unknown
+Contact: Kristin Slaughter &amp; Parker Deloye
+ID:      164027229
+
+Message:
+Hi! I'm free at 1PM today if that works for you.
 
 ================================================================================
 
