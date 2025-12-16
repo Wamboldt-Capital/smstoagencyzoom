@@ -1,20 +1,12 @@
 {
   "messages": [
     {
-      "messageId": 163811374,
+      "messageId": 163919130,
       "direction": "Outbound",
       "from": "Unknown",
       "to": "agent@ullrichinsurance.com",
-      "messageBody": "Hello, yes I am still interested. I was sent the link to fill out the form about my current insurance and my preferences but I already filled that out. Is that on file for me? I might still need to send in some documents about current coverages, but I'll need to update those anyway",
-      "timestamp": "12-15, Monday, 10:52 AM"
-    },
-    {
-      "messageId": 161341498,
-      "direction": "Outbound",
-      "from": "Unknown",
-      "to": "agent@ullrichinsurance.com",
-      "messageBody": "Hello! Sorry I've been away for a while to see family but I'd love to setup an appointment to shop around for insurance. I know I need to send in some more detailed documents about my coverages",
-      "timestamp": "11-28, Friday, 11:23 AM"
+      "messageBody": "Thank you, I emailed back",
+      "timestamp": "12-15, Monday, 5:58 PM"
     }
   ]
 }

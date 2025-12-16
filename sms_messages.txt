@@ -1,30 +1,18 @@
 ================================================================================
 SMS MESSAGES EXPORT
-Generated: 2025-12-15 19:46:00 UTC
-Total Messages: 2
+Generated: 2025-12-16 06:52:06 UTC
+Total Messages: 1
 ================================================================================
 
 MESSAGE #1
 --------------------------------------------------------------------------------
-Date:    12-15, Monday, 10:52 AM
+Date:    12-15, Monday, 5:58 PM
 From:    Unknown
-Contact: Preston Frise
-ID:      163811374
+Contact: Daniel Waite
+ID:      163919130
 
 Message:
-Hello, yes I am still interested. I was sent the link to fill out the form about my current insurance and my preferences but I already filled that out. Is that on file for me? I might still need to send in some documents about current coverages, but I'll need to update those anyway
-
-================================================================================
-
-MESSAGE #2
---------------------------------------------------------------------------------
-Date:    11-28, Friday, 11:23 AM
-From:    Unknown
-Contact: Preston Frise
-ID:      161341498
-
-Message:
-Hello! Sorry I've been away for a while to see family but I'd love to setup an appointment to shop around for insurance. I know I need to send in some more detailed documents about my coverages
+Thank you, I emailed back
 
 ================================================================================
 
