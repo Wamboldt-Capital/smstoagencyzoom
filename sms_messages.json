@@ -1,12 +1,12 @@
 {
   "messages": [
     {
-      "messageId": 164148393,
+      "messageId": 164159081,
       "direction": "Outbound",
       "from": "Unknown",
       "to": "agent@ullrichinsurance.com",
-      "messageBody": "I got it, would you mind including a few of the other quotes you received ? I've not heard good things about travelers insurance.",
-      "timestamp": "12-16, Tuesday, 3:15 PM"
+      "messageBody": "Ok thank you",
+      "timestamp": "12-16, Tuesday, 4:18 PM"
     }
   ]
 }
