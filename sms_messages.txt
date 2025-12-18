@@ -1,18 +1,54 @@
 ================================================================================
 SMS MESSAGES EXPORT
-Generated: 2025-12-17 20:12:59 UTC
-Total Messages: 1
+Generated: 2025-12-18 06:49:39 UTC
+Total Messages: 4
 ================================================================================
 
 MESSAGE #1
 --------------------------------------------------------------------------------
-Date:    12-17, Wednesday, 1:10 PM
+Date:    12-17, Wednesday, 5:39 PM
 From:    Unknown
-Contact: Kristin Slaughter &amp; Parker Deloye
-ID:      164335765
+Contact: Preston Frise
+ID:      164369877
 
 Message:
-Thanks for reaching back out and letting me know. Appreciate you looking into it and sounds good to reconnect in a year!
+Hi Noah, thanks for reaching out. I saw your email, and I replied to it, thank you!
+
+================================================================================
+
+MESSAGE #2
+--------------------------------------------------------------------------------
+Date:    12-17, Wednesday, 4:11 PM
+From:    Unknown
+Contact: Justin Woollacott
+ID:      164364752
+
+Message:
+I just had a meeting canceled so I was able to take a look. I wrote you back via email. It looks like the auto policy was able to be reduced significantly. Almost $4000. I'm just wondering if that's accurate and what I'm missing? I don't see that the coverage has changed at all. If you have time for a call, let me know.
+
+================================================================================
+
+MESSAGE #3
+--------------------------------------------------------------------------------
+Date:    12-17, Wednesday, 4:02 PM
+From:    Unknown
+Contact: Justin Woollacott
+ID:      164362940
+
+Message:
+Sorry, Tyler not Tylor
+
+================================================================================
+
+MESSAGE #4
+--------------------------------------------------------------------------------
+Date:    12-17, Wednesday, 4:01 PM
+From:    Unknown
+Contact: Justin Woollacott
+ID:      164362913
+
+Message:
+Thanks, Tylor. I will take a look in a little while and get back to you. Once I have a chance to look at it, I will schedule some time to discuss.
 
 ================================================================================
 
