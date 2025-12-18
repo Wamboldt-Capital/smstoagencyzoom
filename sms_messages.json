@@ -1,36 +1,20 @@
 {
   "messages": [
     {
-      "messageId": 164369877,
+      "messageId": 164481623,
       "direction": "Outbound",
       "from": "Unknown",
       "to": "agent@ullrichinsurance.com",
-      "messageBody": "Hi Noah, thanks for reaching out. I saw your email, and I replied to it, thank you!",
-      "timestamp": "12-17, Wednesday, 5:39 PM"
+      "messageBody": "Morning, Just waiting for a couple questions to get answered then we'll make a decision",
+      "timestamp": "12-18, Thursday, 10:13 AM"
     },
     {
-      "messageId": 164364752,
+      "messageId": 164480157,
       "direction": "Outbound",
       "from": "Unknown",
       "to": "agent@ullrichinsurance.com",
-      "messageBody": "I just had a meeting canceled so I was able to take a look. I wrote you back via email. It looks like the auto policy was able to be reduced significantly. Almost $4000. I'm just wondering if that's accurate and what I'm missing? I don't see that the coverage has changed at all. If you have time for a call, let me know.",
-      "timestamp": "12-17, Wednesday, 4:11 PM"
-    },
-    {
-      "messageId": 164362940,
-      "direction": "Outbound",
-      "from": "Unknown",
-      "to": "agent@ullrichinsurance.com",
-      "messageBody": "Sorry, Tyler not Tylor",
-      "timestamp": "12-17, Wednesday, 4:02 PM"
-    },
-    {
-      "messageId": 164362913,
-      "direction": "Outbound",
-      "from": "Unknown",
-      "to": "agent@ullrichinsurance.com",
-      "messageBody": "Thanks, Tylor. I will take a look in a little while and get back to you. Once I have a chance to look at it, I will schedule some time to discuss.",
-      "timestamp": "12-17, Wednesday, 4:01 PM"
+      "messageBody": "You know what, I'm so sorry, somebody called me yesterday evening when I was working out and I totally forgot to call them back, I believe his name was Travis. Totally my bad! \n\nThis power outage and 4 kids home from school has our household all turned upside down. \nPlease have him call me today if he still needs me.",
+      "timestamp": "12-18, Thursday, 10:11 AM"
     }
   ]
 }
