@@ -1,20 +1,20 @@
 {
   "messages": [
     {
-      "messageId": 164481623,
+      "messageId": 164563372,
       "direction": "Outbound",
       "from": "Unknown",
       "to": "agent@ullrichinsurance.com",
-      "messageBody": "Morning, Just waiting for a couple questions to get answered then we'll make a decision",
-      "timestamp": "12-18, Thursday, 10:13 AM"
+      "messageBody": "Hey sorry for the delay here, I'm traveling for the holidays now and for the next two weeks. Can I follow up after new years and pick back up?",
+      "timestamp": "12-18, Thursday, 2:23 PM"
     },
     {
-      "messageId": 164480157,
+      "messageId": 164512756,
       "direction": "Outbound",
       "from": "Unknown",
       "to": "agent@ullrichinsurance.com",
-      "messageBody": "You know what, I'm so sorry, somebody called me yesterday evening when I was working out and I totally forgot to call them back, I believe his name was Travis. Totally my bad! \n\nThis power outage and 4 kids home from school has our household all turned upside down. \nPlease have him call me today if he still needs me.",
-      "timestamp": "12-18, Thursday, 10:11 AM"
+      "messageBody": "I am available now if you want to give me a call.",
+      "timestamp": "12-18, Thursday, 11:27 AM"
     }
   ]
 }
