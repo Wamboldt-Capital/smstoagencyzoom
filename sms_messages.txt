@@ -1,42 +1,18 @@
 ================================================================================
 SMS MESSAGES EXPORT
-Generated: 2025-12-19 20:47:12 UTC
-Total Messages: 3
+Generated: 2025-12-19 20:55:33 UTC
+Total Messages: 1
 ================================================================================
 
 MESSAGE #1
 --------------------------------------------------------------------------------
-Date:    12-19, Friday, 1:45 PM
+Date:    12-19, Friday, 1:47 PM
 From:    Unknown
 Contact: Eric Stewart
-ID:      164754480
+ID:      164754728
 
 Message:
-Hi Gabriel, I think I was calling you at the same time you called me. I just spoke to Reyna and said I would reach out to you again. Let me know when you are available and I will call you.
-
-================================================================================
-
-MESSAGE #2
---------------------------------------------------------------------------------
-Date:    12-19, Friday, 1:38 PM
-From:    Unknown
-Contact: Eric Stewart
-ID:      164753300
-
-Message:
-I am available to speak now if you are.
-
-================================================================================
-
-MESSAGE #3
---------------------------------------------------------------------------------
-Date:    12-19, Friday, 1:35 PM
-From:    Unknown
-Contact: Preston Frise
-ID:      164752881
-
-Message:
-Hey Noah I'm sorry give me a few minutes and I'll call you right back!
+Will do.
 
 ================================================================================
 
