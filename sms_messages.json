@@ -1,28 +1,12 @@
 {
   "messages": [
     {
-      "messageId": 164689820,
+      "messageId": 164703852,
       "direction": "Outbound",
       "from": "Unknown",
       "to": "agent@ullrichinsurance.com",
-      "messageBody": "Ok",
-      "timestamp": "12-19, Friday, 10:11 AM"
-    },
-    {
-      "messageId": 164352422,
-      "direction": "Outbound",
-      "from": "Unknown",
-      "to": "agent@ullrichinsurance.com",
-      "messageBody": "Tomorrow at noon",
-      "timestamp": "12-17, Wednesday, 2:39 PM"
-    },
-    {
-      "messageId": 164592988,
-      "direction": "Outbound",
-      "from": "Unknown",
-      "to": "agent@ullrichinsurance.com",
-      "messageBody": "Completed this!",
-      "timestamp": "12-18, Thursday, 8:56 PM"
+      "messageBody": "We also want to add the 2014 Volkswagen Golf. What other cars are on the list? I am sorry, I do not have the declaration pages with me.",
+      "timestamp": "12-19, Friday, 10:45 AM"
     }
   ]
 }
