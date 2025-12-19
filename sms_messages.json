@@ -1,20 +1,12 @@
 {
   "messages": [
     {
-      "messageId": 164563372,
+      "messageId": 164592387,
       "direction": "Outbound",
       "from": "Unknown",
       "to": "agent@ullrichinsurance.com",
-      "messageBody": "Hey sorry for the delay here, I'm traveling for the holidays now and for the next two weeks. Can I follow up after new years and pick back up?",
-      "timestamp": "12-18, Thursday, 2:23 PM"
-    },
-    {
-      "messageId": 164512756,
-      "direction": "Outbound",
-      "from": "Unknown",
-      "to": "agent@ullrichinsurance.com",
-      "messageBody": "I am available now if you want to give me a call.",
-      "timestamp": "12-18, Thursday, 11:27 AM"
+      "messageBody": "I did",
+      "timestamp": "12-18, Thursday, 7:37 PM"
     }
   ]
 }
