@@ -1,18 +1,66 @@
 ================================================================================
 SMS MESSAGES EXPORT
-Generated: 2025-12-20 06:48:09 UTC
-Total Messages: 1
+Generated: 2025-12-23 06:55:05 UTC
+Total Messages: 5
 ================================================================================
 
 MESSAGE #1
 --------------------------------------------------------------------------------
-Date:    12-19, Friday, 5:25 PM
+Date:    12-22, Monday, 8:11 PM
 From:    Unknown
-Contact: (719) 213-9242
-ID:      164777714
+Contact: Galina & Michael Miller
+ID:      165076028
 
 Message:
-Thank you for the email and text message. we vaguely had time to review your video but will do some more in depth this weekend. More than likely will move the auto to Safeco. Will let you know for sure. Thank you again.
+Hi Noah it's Galena I've been in the hospital. I rolled my car on Thursday and I broke my neck. We have already contacted acuity for that but I wanted to contact you could you give me a call tomorrow thank you
+
+================================================================================
+
+MESSAGE #2
+--------------------------------------------------------------------------------
+Date:    12-22, Monday, 3:39 PM
+From:    Unknown
+Contact: Daniel & Jessica Waite
+ID:      165064707
+
+Message:
+Ok thank you
+
+================================================================================
+
+MESSAGE #3
+--------------------------------------------------------------------------------
+Date:    12-22, Monday, 4:11 PM
+From:    Unknown
+Contact: (720) 774-9195
+ID:      165068008
+
+Message:
+Liked “Merry Christmas to you too. By the way, as I have previously mentioned, we are an insurance agency, and we take good care of our insureds. If you are ever looking for home and auto insurance, please let us know. Enjoy the holidays!”
+
+================================================================================
+
+MESSAGE #4
+--------------------------------------------------------------------------------
+Date:    12-22, Monday, 11:41 AM
+From:    Unknown
+Contact: (720) 774-9195
+ID:      165003808
+
+Message:
+No worries, Gladys.  Just wanted to make sure the right person got the message.  Merry Christmas
+
+================================================================================
+
+MESSAGE #5
+--------------------------------------------------------------------------------
+Date:    12-17, Wednesday, 3:10 PM
+From:    Unknown
+Contact: (720) 774-9195
+ID:      164357620
+
+Message:
+Wrong number.    Not Josh
 
 ================================================================================
 
