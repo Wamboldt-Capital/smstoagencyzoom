@@ -1,20 +1,12 @@
 {
   "messages": [
     {
-      "messageId": 165305312,
+      "messageId": 165356788,
       "direction": "Outbound",
       "from": "Unknown",
       "to": "agent@ullrichinsurance.com",
-      "messageBody": "For auto",
-      "timestamp": "12-23, Tuesday, 11:50 AM"
-    },
-    {
-      "messageId": 165305141,
-      "direction": "Outbound",
-      "from": "Unknown",
-      "to": "agent@ullrichinsurance.com",
-      "messageBody": "Our next policy payment is due today. If we switch Will I need to pay double coverage?",
-      "timestamp": "12-23, Tuesday, 11:49 AM"
+      "messageBody": "Thank you.",
+      "timestamp": "12-23, Tuesday, 1:19 PM"
     }
   ]
 }
