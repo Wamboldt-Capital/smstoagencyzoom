@@ -1,44 +1,20 @@
 {
   "messages": [
     {
-      "messageId": 165076028,
+      "messageId": 165305312,
       "direction": "Outbound",
       "from": "Unknown",
       "to": "agent@ullrichinsurance.com",
-      "messageBody": "Hi Noah it's Galena I've been in the hospital. I rolled my car on Thursday and I broke my neck. We have already contacted acuity for that but I wanted to contact you could you give me a call tomorrow thank you",
-      "timestamp": "12-22, Monday, 8:11 PM"
+      "messageBody": "For auto",
+      "timestamp": "12-23, Tuesday, 11:50 AM"
     },
     {
-      "messageId": 165064707,
+      "messageId": 165305141,
       "direction": "Outbound",
       "from": "Unknown",
       "to": "agent@ullrichinsurance.com",
-      "messageBody": "Ok thank you",
-      "timestamp": "12-22, Monday, 3:39 PM"
-    },
-    {
-      "messageId": 165068008,
-      "direction": "Outbound",
-      "from": "Unknown",
-      "to": "agent@ullrichinsurance.com",
-      "messageBody": "Liked “Merry Christmas to you too. By the way, as I have previously mentioned, we are an insurance agency, and we take good care of our insureds. If you are ever looking for home and auto insurance, please let us know. Enjoy the holidays!”",
-      "timestamp": "12-22, Monday, 4:11 PM"
-    },
-    {
-      "messageId": 165003808,
-      "direction": "Outbound",
-      "from": "Unknown",
-      "to": "agent@ullrichinsurance.com",
-      "messageBody": "No worries, Gladys.  Just wanted to make sure the right person got the message.  Merry Christmas",
-      "timestamp": "12-22, Monday, 11:41 AM"
-    },
-    {
-      "messageId": 164357620,
-      "direction": "Outbound",
-      "from": "Unknown",
-      "to": "agent@ullrichinsurance.com",
-      "messageBody": "Wrong number.    Not Josh",
-      "timestamp": "12-17, Wednesday, 3:10 PM"
+      "messageBody": "Our next policy payment is due today. If we switch Will I need to pay double coverage?",
+      "timestamp": "12-23, Tuesday, 11:49 AM"
     }
   ]
 }
