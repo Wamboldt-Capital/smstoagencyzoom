@@ -1,12 +1,12 @@
 {
   "messages": [
     {
-      "messageId": 165356788,
+      "messageId": 165504747,
       "direction": "Outbound",
       "from": "Unknown",
       "to": "agent@ullrichinsurance.com",
-      "messageBody": "Thank you.",
-      "timestamp": "12-23, Tuesday, 1:19 PM"
+      "messageBody": "Hi Dean; Jared said the current coverage we have is good but will evaluate again in June. Thank you",
+      "timestamp": "12-24, Wednesday, 10:08 AM"
     }
   ]
 }
