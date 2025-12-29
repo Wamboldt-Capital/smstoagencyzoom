@@ -1,12 +1,20 @@
 {
   "messages": [
     {
-      "messageId": 165514588,
+      "messageId": 165524501,
       "direction": "Outbound",
       "from": "Unknown",
       "to": "agent@ullrichinsurance.com",
-      "messageBody": "Thanks!",
-      "timestamp": "12-24, Wednesday, 10:35 AM"
+      "messageBody": "Yes",
+      "timestamp": "12-24, Wednesday, 11:21 AM"
+    },
+    {
+      "messageId": 165513019,
+      "direction": "Outbound",
+      "from": "Unknown",
+      "to": "agent@ullrichinsurance.com",
+      "messageBody": "Monday would be great! Mid morning.",
+      "timestamp": "12-24, Wednesday, 10:30 AM"
     }
   ]
 }
