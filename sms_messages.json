@@ -1,20 +1,12 @@
 {
   "messages": [
     {
-      "messageId": 165524501,
+      "messageId": 166106773,
       "direction": "Outbound",
       "from": "Unknown",
       "to": "agent@ullrichinsurance.com",
-      "messageBody": "Yes",
-      "timestamp": "12-24, Wednesday, 11:21 AM"
-    },
-    {
-      "messageId": 165513019,
-      "direction": "Outbound",
-      "from": "Unknown",
-      "to": "agent@ullrichinsurance.com",
-      "messageBody": "Monday would be great! Mid morning.",
-      "timestamp": "12-24, Wednesday, 10:30 AM"
+      "messageBody": "Can you beat $209/month? That's my current plan",
+      "timestamp": "12-30, Tuesday, 10:32 AM"
     }
   ]
 }

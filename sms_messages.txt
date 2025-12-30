@@ -1,30 +1,18 @@
 ================================================================================
 SMS MESSAGES EXPORT
-Generated: 2025-12-29 20:24:26 UTC
-Total Messages: 2
+Generated: 2025-12-30 17:41:03 UTC
+Total Messages: 1
 ================================================================================
 
 MESSAGE #1
 --------------------------------------------------------------------------------
-Date:    12-24, Wednesday, 11:21 AM
+Date:    12-30, Tuesday, 10:32 AM
 From:    Unknown
-Contact: Sarah &amp; Robert Cook
-ID:      165524501
+Contact: Zachary McGuire
+ID:      166106773
 
 Message:
-Yes
-
-================================================================================
-
-MESSAGE #2
---------------------------------------------------------------------------------
-Date:    12-24, Wednesday, 10:30 AM
-From:    Unknown
-Contact: Sarah &amp; Robert Cook
-ID:      165513019
-
-Message:
-Monday would be great! Mid morning.
+Can you beat $209/month? That's my current plan
 
 ================================================================================
 
