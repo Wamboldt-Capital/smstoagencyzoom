@@ -1,18 +1,42 @@
 ================================================================================
 SMS MESSAGES EXPORT
-Generated: 2025-12-31 17:35:48 UTC
-Total Messages: 1
+Generated: 2025-12-31 20:26:54 UTC
+Total Messages: 3
 ================================================================================
 
 MESSAGE #1
 --------------------------------------------------------------------------------
-Date:    12-31, Wednesday, 10:24 AM
+Date:    12-31, Wednesday, 1:13 PM
 From:    Unknown
-Contact: Scott Carbaugh
-ID:      166356271
+Contact: Gian Visciano
+ID:      166426947
 
 Message:
-Liked “Hey Scott! We are so close to having this insurance review finished for you.  We are gathering the best insurances option from many companies, and we will have it done soon.  We will be in touch!  Jared Ullrich, Ullrich Insurance”
+Got it now. I'll take a look
+
+================================================================================
+
+MESSAGE #2
+--------------------------------------------------------------------------------
+Date:    12-31, Wednesday, 1:11 PM
+From:    Unknown
+Contact: Gian Visciano
+ID:      166425691
+
+Message:
+gian.visciano@gmail.com
+
+================================================================================
+
+MESSAGE #3
+--------------------------------------------------------------------------------
+Date:    12-31, Wednesday, 1:11 PM
+From:    Unknown
+Contact: Gian Visciano
+ID:      166425580
+
+Message:
+I don't think I got it.
 
 ================================================================================
 
