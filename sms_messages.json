@@ -1,28 +1,12 @@
 {
   "messages": [
     {
-      "messageId": 166426947,
+      "messageId": 166420807,
       "direction": "Outbound",
       "from": "Unknown",
       "to": "agent@ullrichinsurance.com",
-      "messageBody": "Got it now. I'll take a look",
-      "timestamp": "12-31, Wednesday, 1:13 PM"
-    },
-    {
-      "messageId": 166425691,
-      "direction": "Outbound",
-      "from": "Unknown",
-      "to": "agent@ullrichinsurance.com",
-      "messageBody": "gian.visciano@gmail.com",
-      "timestamp": "12-31, Wednesday, 1:11 PM"
-    },
-    {
-      "messageId": 166425580,
-      "direction": "Outbound",
-      "from": "Unknown",
-      "to": "agent@ullrichinsurance.com",
-      "messageBody": "I don't think I got it.",
-      "timestamp": "12-31, Wednesday, 1:11 PM"
+      "messageBody": "Would 2:00 today work?",
+      "timestamp": "12-31, Wednesday, 12:59 PM"
     }
   ]
 }
