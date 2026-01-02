@@ -1,21 +1,42 @@
 ================================================================================
 SMS MESSAGES EXPORT
-Generated: 2026-01-02 20:39:43 UTC
-Total Messages: 1
+Generated: 2026-01-02 20:50:50 UTC
+Total Messages: 3
 ================================================================================
 
 MESSAGE #1
 --------------------------------------------------------------------------------
-Date:    01-02, Friday, 1:37 PM
+Date:    01-02, Friday, 1:32 PM
 From:    Unknown
-Contact: Scott Carbaugh
-ID:      166679007
+Contact: Friederich Boetzelen
+ID:      166678215
 
 Message:
-Will you be communicating with me today with a quote?
+I did confirm that it's liberty mutual on the house too.  I'll try and find the details.
 
+================================================================================
 
-Scott CARBAUGH
+MESSAGE #2
+--------------------------------------------------------------------------------
+Date:    01-02, Friday, 12:17 PM
+From:    Unknown
+Contact: Friederich Boetzelen
+ID:      166659048
+
+Message:
+I just filled out the paperwork. Let me know if you still have time to talk today. Thank you.
+
+================================================================================
+
+MESSAGE #3
+--------------------------------------------------------------------------------
+Date:    12-31, Wednesday, 3:42 PM
+From:    Unknown
+Contact: Friederich Boetzelen
+ID:      166463505
+
+Message:
+I'm pretty open that day.  What works for you?
 
 ================================================================================
 
