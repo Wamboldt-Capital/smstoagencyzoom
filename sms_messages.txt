@@ -1,18 +1,22 @@
 ================================================================================
 SMS MESSAGES EXPORT
-Generated: 2026-01-02 18:29:17 UTC
+Generated: 2026-01-02 19:00:22 UTC
 Total Messages: 1
 ================================================================================
 
 MESSAGE #1
 --------------------------------------------------------------------------------
-Date:    01-02, Friday, 10:59 AM
+Date:    01-02, Friday, 11:55 AM
 From:    Unknown
-Contact: Tim Porch
-ID:      166633479
+Contact: (720) 219-2033
+ID:      166651830
 
 Message:
-Liked “Hey Tim!  This is Jared Ullrich with Ullrich Insurance.  Thank you for allowing us to find your best insurance option.  We represent MANY insurance companies.  We are in the process of going to ALL of them to find your best insurance option.  We will let you know when we have an update.  Learn more about us at facebook.com/ullrichinsurance.  Thank you!!”
+​❤️​ to “ Hi Madelaine, this is Gladys with Ullrich Insurance Agency! We noticed that you would have a birthday over the weekend, so we just wanted to reach out and wish you a very Happy (early) Birthday on behalf of the entire Ullrich Team! We sure think you are awesome, and we hope that you are surrounded by people who celebrate you, especially this weekend!
+ 
+We are grateful that you trust us with your insurance needs and hope you know that we are here for you! Let us know if there is anything we can do for you!
+ 
+Here’s to the best year yet! Happy (early) Birthday! ”
 
 ================================================================================
 
